@@ -15,19 +15,19 @@ html,body{
 
 /* Scoll bar */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #555555;
+    background: #838383;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #000000;
-    border-radius: 15px;
+    background: #626262;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: #313131;
-    border-radius: 15px;
+    border-radius: 10px;
 }

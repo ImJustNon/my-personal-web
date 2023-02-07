@@ -10,7 +10,7 @@ const config = require("../configs/config.js");
 
 router.get('/projects', urlEncoded, async(req, res) =>{
     res.render("index", {
-        title: "PROJECT",
+        title: "PROJECTS",
         path: "/projects",
         platform: req.useragent,
         error: null,

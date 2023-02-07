@@ -1,46 +1,4 @@
- /* Carousel styling */
- #introCarousel,
- .carousel-inner,
- .carousel-item,
- .carousel-item.active {
-   height: 50vh;
- }
 
- .carousel-item:nth-child(1) {
-   background-image: url('../assets/images/portfolio/Picture18.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
- }
- .carousel-item:nth-child(2) {
-   background-image: url('../assets/images/portfolio/Picture15.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
- }
- .carousel-item:nth-child(3) {
-   background-image: url('../assets/images/portfolio/Picture16.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
- }
-
- /* Height for devices larger than 576px (Desktop) */
- @media (min-width: 992px) {
-   #introCarousel {
-     margin-top: -58.59px;
-   }
-   #introCarousel,
-   .carousel-inner,
-   .carousel-item,
-   .carousel-item.active {
-        margin-left: auto;
-        margin-right: auto;
-        height: 40vh;
-        width: 120vh;
-   }
- }
-
- .navbar .nav-link {
-   color: #000000 !important;
- }
+.navbar .nav-link {
+    color: #000000 !important;
+  }
