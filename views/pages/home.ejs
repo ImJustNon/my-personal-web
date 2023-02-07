@@ -1,0 +1,141 @@
+<main class="mt-5" >
+    <div class="container">
+        <!--Section: Content-->
+        <section >
+        
+        <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="display: flex;justify-content: center;">
+                <img src="assets/images/najimi.jpg" class="img-fluid" style="width: 45%;border-radius: 50%;"/>
+                <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+            </div>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4" style="padding-top: 1.5%;">
+            <h4><strong>" สวัสดีคร้าบบ ท่านผู้เจริญ "</strong></h4>
+            <p class="text-muted">
+                สวัสดีครับผมชื่อ นาย คณกร ไทยประโคน ครับ หรือจะเรียก นนท์ ก็ได้ครับ<br>
+                เกิดวันที่ 4 กันยายน พ.ศ.2549 ตอนนี้ก็อายุ <span id="my_age"></span> ขวบเเล้วครับ<br>
+                ชอบทางด้าน Web Application เเละ Backend web development ครับ<br><br>
+                ปัจจุบันศึกษาอยู่ที่ วิทยาลัยอาชีวศึกษาเทคโนโลยีฐานวิทยาศาสตร์ (ชลบุรี) <br>
+                สาขา เทคโนโลยีสารสนเทศ ครับ
+            </p>
+            </div>
+        </div>
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5" />
+
+        <!--Section: Content-->
+        <section class="text-center">
+            <h4 class="mb-5"><strong>😆 มาทำความรู้จักกันเถอะ 😆</strong></h4>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-12 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">ชื่อจริง</h5>
+                    <p class="card-text">
+                        คณกร ไทยประโคน
+                    </p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">ชื่อเล่น</h5>
+                    <p class="card-text">
+                        นนท์ , นน , ณณฑ์ 🤣
+                    </p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 mb-3">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">วันเกิด</h5>
+                        <p class="card-text">
+                        วันจันทร์ที่ 4 เดือนกันยายน พ.ศ.2549
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 mb-3">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">อาศัยอยู่ที่</h5>
+                        <p class="card-text">
+                        สมุทรปราการ ประเทศไทย
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 mb-3">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">สถานะ</h5>
+                        <p class="card-text">
+                        โสด (มาทั้งชีวิต 😭)
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 mb-3">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">กำลังศึกษาอยู่ที่</h5>
+                        <p class="card-text">
+                        วิทยาลัยอาชีวศึกษาเทคโนโลยี<br>ฐานวิทยาศาสตร์ (ชลบุรี)
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 mb-3">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">สิ่งที่ชอบ / สนใจ</h5>
+                        <p class="card-text">
+                        Web Application
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 mb-3">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">อาหารที่ชอบ</h5>
+                        <p class="card-text">
+                        ทุกอย่างที่กินได้ ยกเว้น 🥦
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5" />
+
+    </div>
+</main>
+
+<!-- Age Calculator -->
+<script>
+    let dob = new Date("<%= data.birthDate %>");
+    let month_diff = Date.now() - dob.getTime();
+    let age_dt = new Date(month_diff); 
+    let year = age_dt.getUTCFullYear();
+    let age = Math.abs(year - 1970);
+    document.getElementById("my_age").innerHTML = age;
+</script>

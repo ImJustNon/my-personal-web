@@ -1,0 +1,95 @@
+<!-- เลือกเเสดงผลหน้า -->
+<% 
+  let Title = title;
+  let Url = path;
+  if(title === "HOME"){
+    Title = "หน้าเเรก";
+  }
+  else if(title === "PROFILE"){
+    Title = "ประวัติส่วนตัว";
+  }
+  else if(title === "PROJECT"){
+    Title = "ผลงาน";
+  }
+%>
+
+
+<!-- ปิดการเเสดงผลเมื่อขนาดจอมีขนาดมากกว่า 900px -->
+<style>
+    @media (min-width: 900px){
+        .navbar{
+            display: none !important;
+        }
+    }
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark d-lg-block" style="z-index: 2000;">
+    <div class="container-fluid text-dark">
+      <!-- Navbar brand -->
+      <a class="navbar-brand nav-link" href="<%= Url %>">
+        <strong><%= Title %></strong>
+      </a>
+
+      <button id="menu_btn" class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/home">
+              <i class="fa-solid fa-house"></i> หน้าเเรก</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/profile">
+              <i class="fa-solid fa-address-card"></i> ประวัติส่วนตัว</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">
+              <i class="fa-solid fa-graduation-cap"></i> ผลงาน</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav d-flex flex-row">
+          <!-- bottom Icons -->
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://github.com/ImJustNon" rel="nofollow" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCCAlDdKswolIsOERlt0QWbw" rel="nofollow" target="_blank">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.facebook.com/imjustnon" rel="nofollow" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://twitter.com/NoNnYhA55" rel="nofollow" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://non-want-aungpao.cyclic.app/" rel="nofollow" target="_blank">
+              <i class="fa-solid fa-wallet"></i>
+            </a>
+          </li>
+          <!-- bottom Icons -->
+        </ul>
+      </div>
+    </div>
+</nav>
+
+
+<script>
+    document.getElementById("menu_btn").addEventListener('click',async function(e) {
+        let menu_btn_value = document.getElementById("menu_btn").innerHTML;
+        if(menu_btn_value == '<i class="fas fa-bars"></i>'){
+            document.getElementById("menu_btn").innerHTML = '<i class="fa-solid fa-x"></i>';
+        }
+        else if(menu_btn_value == '<i class="fa-solid fa-x"></i>'){
+            document.getElementById("menu_btn").innerHTML = '<i class="fas fa-bars"></i>';
+        }
+    });
+</script>

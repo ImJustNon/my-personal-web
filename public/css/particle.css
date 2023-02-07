@@ -1,0 +1,13 @@
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(ellipse, rgba(250, 250, 250, 1) 0%, rgba(165, 168, 172, 1) 100%);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+}
