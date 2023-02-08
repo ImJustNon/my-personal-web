@@ -16,5 +16,4 @@
 2) `yarn install`
 3) `yarn start` หรือ `yarn dev` สำหรับ Nodemon
 
-
 ้<h1>🎃 LOL 🎃</h1>
