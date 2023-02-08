@@ -1,4 +1,4 @@
-# fly.toml file generated for i-nonkanakorn on 2023-02-08T18:59:56+07:00
+# fly.toml file generated for i-nonkanakorn on 2023-02-08T20:25:07+07:00
 
 app = "i-nonkanakorn"
 kill_signal = "SIGINT"
@@ -12,7 +12,7 @@ processes = []
 
 [[services]]
   http_checks = []
-  internal_port = 8080
+  internal_port = 9999
   processes = ["app"]
   protocol = "tcp"
   script_checks = []
