@@ -6,6 +6,7 @@
     <br>
     <br>
 
+    <!----------------------------------------- Slide Image ---------------------------------------------------->
     <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -65,114 +66,42 @@
           <span class="sr-only">Next</span>
         </a>
     </div>
-
-
+    <!----------------------------------------- Slide Image ---------------------------------------------------->
+    <!----------------------------------------- Main content ---------------------------------------------------->
     <div class="container">
         <hr class="my-5" />
         <section class="text-center">
-            <h4 class="mb-5"><strong><i class="fa-solid fa-graduation-cap"></i> เกียรติบัตร <i class="fa-solid fa-graduation-cap"></i></strong></h4>
+            <h4 class="mb-5"><strong><i class="fa-solid fa-briefcase"></i> กิจกรรม <i class="fa-solid fa-briefcase"></i></strong></h4>
             <div class="row">
 
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img
-                        src="assets/images/activity/Picture2-crop.jpg"
-                        class="img-fluid"
-                        />
-                        <a href="#!">
-                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">เข้าร่วมการอบรมออกเเบบหุ่นยนต์ <br>(GW Advance Engineering)</h5>
-                        <p class="card-text">
-                            ชั้น : ปวช.1
-                        </p>
-                    </div>
-                    </div>
-                </div>
+                <!-- Loop รา้ง Element ทั้งหมดตามที ส่งมา -->
+                <% for(let i = 0; i < data.activity.length; i++){ %>
 
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img
-                        src="assets/images/activity/Picture3.jpg"
-                        class="img-fluid"
-                        />
-                        <a href="#!">
-                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img
+                            src="<%= data.activity[i].img %>"
+                            class="img-fluid"
+                            />
+                            <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <!-- Loop สร้าง เเต่ล่ำบรรทัด Title -->
+                            <% for(let ii = 0; ii < data.activity[i].title.length; ii++){ %>
+                                <h5 class="card-title m-1"><%= data.activity[i].title[ii] %></h5>
+                            <% } %>
+                            <!-- Loop สร้าง เเต่ล่ำบรรทัด description -->
+                            <% for(let ii = 0; ii < data.activity[i].description.length; ii++){ %>
+                                <p class="card-text m-1"><%= data.activity[i].description[ii] %></p>
+                            <% } %>
+                        </div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">เข้าร่วมการเเข่งขันตอบคำถามวิชาการ</h5>
-                        <p class="card-text">
-                            ได้รับรางวัลระดับเหรีญทองรองชนะเลิญอันดับที่ 1 <br>
-                            ชั้น : ปวช.1
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img
-                        src="assets/images/activity/Picture1.jpg"
-                        class="img-fluid"
-                        />
-                        <a href="#!">
-                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">เข้าร่วมการอบรมการดูเเลรักษาคอมพิวเตอร์ด้วยตัวเอง</h5>
-                        <p class="card-text">
-                            ชั้น : ปวช.1
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img
-                        src="assets/images/activity/Picture11.jpg"
-                        class="img-fluid"
-                        />
-                        <a href="#!">
-                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">เข้าร่วมการอบรมการเขียนแผนธุรกิจ</h5>
-                        <p class="card-text">
-                            ชั้น : ปวช.1
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img
-                        src="assets/images/activity/Picture9.jpg"
-                        class="img-fluid"
-                        />
-                        <a href="#!">
-                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">เข้าร่วมการอบรมภาษาญีปุ่น</h5>
-                        <p class="card-text">
-                            ชั้น : ปวช.1
-                        </p>
-                    </div>
-                    </div>
-                </div>
+                
+                <% } %>
 
             </div>
         </section>

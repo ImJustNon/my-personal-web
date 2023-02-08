@@ -13,101 +13,38 @@
             <h4 class="mb-5"><i class="fa-solid fa-code"></i> Projects <i class="fa-solid fa-code"></i></strong></h4>
 
             <div class="row">
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="assets/images/projects/kwan_bot-crop.jpg" class="img-fluid" />
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">✨ Kwan 💕#0111</h5>
-                        <p class="card-text">
-                            บอทดิสคอร์ดสารพัดประโยชน์ ทั้งสามารถเล่นเพลง<br>จัดการเซิฟเวอร์ หรือมอบความบรรเทิงได้ เเละ อีกหลากหลายคำสั่งกว่า <strong> 400+ คำสั่ง </strong> ให้ใช้งาน 😮 <br>
-                            - Discordjs V.12.5.3 -
-                        </p>
-                        <a href="https://github.com/ImJustNon/Kwan-Bot-Project" class="btn btn-primary"><i class="fa-brands fa-github"></i> Github</a>
-                      </div>
-                    </div>
-                </div>
+
+              <!-- Loop รา้ง Element ทั้งหมดตามที ส่งมา -->
+              <% for(let i = 0; i < data.m3.length; i++){ %>
 
                 <div class="col-lg-4 col-md-12 mb-4">
                     <div class="card">
-                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="assets/images/projects/Music-bot-with-request-channel-bot.jpg" class="img-fluid" />
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Music-bot-with-request-channel</h5>
-                        <p class="card-text">
-                            บอทเวอร์ชั่นต้นเเบบ สร้างห้องเล่นเพลงอัตโนมัติ โดยไม่จำเป็นต้องใช้ Prefix <br>
-                            - Discordjs V.12.5.3 -
-                        </p>
-                        <a href="https://github.com/ImJustNon/Music-bot-with-request-channel" class="btn btn-primary"><i class="fa-brands fa-github"></i> Github</a>
-                      </div>
+						<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+							<img src="<%= data.m3[i].img %>" class="img-fluid" />
+							<a href="#!">
+							<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+							</a>
+						</div>
+						<div class="card-body">
+							<!-- Loop สร้าง เเต่ล่ำบรรทัด Title -->
+							<% for(let ii = 0; ii < data.m3[i].title.length; ii++){ %>
+								<h5 class="card-title m-1"><%= data.m3[i].title[ii] %></h5>
+							<% } %>
+							<!-- Loop สร้าง เเต่ล่ำบรรทัด description -->
+							<% for(let ii = 0; ii < data.m3[i].description.length; ii++){ %>
+								<p class="card-text m-1"><%= data.m3[i].description[ii] %></p>
+							<% } %>
+							<!-- Loop สร้าง ปุ่ม -->
+							<% for(let ii = 0; ii < data.m3[i].button.length; ii++){ %>
+								<a href="<%= data.m3[i].button[ii].url %>" class="btn <%=data.m3[i].button[ii].color%>"><i class="fa-brands fa-github"></i><%= data.m3[i].button[ii].name %></a>
+							<% } %>
+						</div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="assets/images/projects/aiko_bot-crop.jpg" class="img-fluid" />
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">A i K o #6265</h5>
-                        <p class="card-text">
-                            บอทเวอร์ชั่นต่อยอดมาจาก ✨ Kwan 💕#0111 โดยเพิ่มระบบ เล่นเพลงโดยไม่ใช้ Prefix เเละ Update เวอร์ชัน Discordjs ให้รองรับฟังค์ชันใหม่ๆได้มากขึ้น<br>
-                            - Discordjs V.13.6.0 -
-                        </p>
-                        <a href="https://github.com/ImJustNon/Aiko-discordv13-project" class="btn btn-primary"><i class="fa-brands fa-github"></i> Github</a>
-                      </div>
-                    </div>
-                </div>
+              <% } %>
 
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="assets/images/projects/miku_bot-crop.jpg" class="img-fluid" />
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">✨ M i K U 💙#1031</h5>
-                        <p class="card-text">
-                            บอทเพลงตัวเเรกตอนที่พึ่งเริ่มทำ ระบบค่อนข้างเก่า เเละจัดการยาก ทำให้ ✨ Kwan 💕#0111 เกิดขึ้นมาเเทน <br>
-                            - Discordjs V.12.5.1 -
-                        </p>
-                        <a href="https://github.com/ImJustNon/MiKU-Music-Bot-Project" class="btn btn-primary"><i class="fa-brands fa-github"></i> V.1</a>
-                        <a href="https://github.com/ImJustNon/MiKU-Bot-Final" class="btn btn-primary"><i class="fa-brands fa-github"></i> V.2</a>
-                      </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
-                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="assets/images/projects/activity_bot-crop.png" class="img-fluid" />
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Discord-Activity-Bot</h5>
-                        <p class="card-text">
-                            โปรดเจคเกิดขึ้นจาก Discord ประกาศว่าจะสามารถเล่นเกมบน Discord ได้ เเต่จำเป็นต้องสร้าง Client มาเองเพื่อสร้างลิ้งค์เข้าเกม เลยเกิดโปรเจคบอทตัวนี้ขึ้น <br>
-                            - Discordjs V.12.5.3 -
-                        </p>
-                        <a href="https://github.com/ImJustNon/Discord-Activity-Bot" class="btn btn-primary"><i class="fa-brands fa-github"></i> Github</a>
-                      </div>
-                    </div>
-                </div>
 
             </div>
         </section>

@@ -7,6 +7,7 @@ const urlEncoded = bodyParser.urlencoded({
 });
 
 const config = require("../configs/config.js");
+const { m3 } = require("../configs/data/projects.js");
 
 router.get('/projects', urlEncoded, async(req, res) =>{
     res.render("index", {
@@ -15,7 +16,7 @@ router.get('/projects', urlEncoded, async(req, res) =>{
         platform: req.useragent,
         error: null,
         data: {
-            
+            m3: m3,
         },
     });
 });
