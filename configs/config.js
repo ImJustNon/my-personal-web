@@ -1,14 +1,14 @@
+const env = require('dotenv').config()
+
+
 module.exports = {
     database: {
-        mySQL: {
-            host: '127.0.0.1',                                   
-            user: 'root',                                 
-            port: 3306,                                           
-            database: '',                                           
-            // password: '',                                        
-        },
         mongoDB: {
-            URI: "",
+            URI: env.parsed.mongo_uri || "",
+            options: {
+                useNewUrlParser: true,
+                useUnifiedTopology: true,
+            },
         },
     },
     app: {
