@@ -1,7 +1,6 @@
 <main class="mt-2" >
     <div id="intro" class="p-5 text-center bg-transparent">
         <h1 class="mb-3 h2">โปรเจค (Projects)</h1>
-        <p class="mb-3">😅 มีเเต่บอท Discord ทั้งนั้น 555+ 😅</p>
     </div>
 
     <br>
@@ -10,7 +9,9 @@
     <div class="container">
         <section class="text-center">
 
-            <h4 class="mb-5"><i class="fa-solid fa-code"></i> Projects <i class="fa-solid fa-code"></i></strong></h4>
+			<hr class="my-5">
+            <h4 class="mb-3"><i class="fa-solid fa-code"></i> ม. 3 <i class="fa-solid fa-code"></i></strong></h4>
+			<p class="mb-5">😅 มีเเต่บอท Discord ทั้งนั้น 555+ 😅</p>
 
             <div class="row">
 
@@ -44,9 +45,45 @@
 
               <% } %>
 
-
-
             </div>
-        </section>
+
+			<hr class="my-5">
+			<h4 class="mb-3"><i class="fa-solid fa-code"></i> ปวช. 1 <i class="fa-solid fa-code"></i></strong></h4>
+			<p class="mb-5">😅 มีเเต่เว็ป ไม่ก็ API ทั้งนั้น 555+ 😅</p>
+
+			<div class="row">
+
+				<!-- Loop รา้ง Element ทั้งหมดตามที ส่งมา -->
+				<% for(let i = 0; i < data.voc_cert.length; i++){ %>
+					<div class="col-lg-4 col-md-12 mb-4">
+						<div class="card">
+							<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+								<img src="<%= data.voc_cert[i].img %>" class="img-fluid" />
+								<a href="#!">
+								<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+								</a>
+							</div>
+							<div class="card-body">
+								<!-- Loop สร้าง เเต่ล่ำบรรทัด Title -->
+								<% for(let ii = 0; ii < data.voc_cert[i].title.length; ii++){ %>
+									<h5 class="card-title m-1"><%= data.voc_cert[i].title[ii] %></h5>
+								<% } %>
+								<!-- Loop สร้าง เเต่ล่ำบรรทัด description -->
+								<% for(let ii = 0; ii < data.voc_cert[i].description.length; ii++){ %>
+									<p class="card-text m-1"><%= data.voc_cert[i].description[ii] %></p>
+								<% } %>
+								<!-- Loop สร้าง ปุ่ม -->
+								<% for(let ii = 0; ii < data.voc_cert[i].button.length; ii++){ %>
+									<a href="<%= data.voc_cert[i].button[ii].url %>" class="my-1 btn <%=data.voc_cert[i].button[ii].color%>"><i class="fa-brands fa-github"></i><%= data.voc_cert[i].button[ii].name %></a>
+								<% } %>
+							</div>
+						</div>
+					</div>
+
+				<% } %>
+
+			</div>
+		
+		</section>
     </div>
 </main>

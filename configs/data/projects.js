@@ -1,4 +1,5 @@
 module.exports = {
+    // ม3
     m3: [
         {
             img: `assets/images/projects/kwan_bot-crop.jpg`,
@@ -14,7 +15,7 @@ module.exports = {
                 {
                     name: ` Github`,
                     url: `https://github.com/ImJustNon/Kwan-Bot-Project`,
-                    color: `btn-primary`,
+                    color: `btn-dark`,
                 },
             ],
         },
@@ -31,7 +32,7 @@ module.exports = {
                 {
                     name: ` Github`,
                     url: `https://github.com/ImJustNon/Music-bot-with-request-channel`,
-                    color: `btn-primary`,
+                    color: `btn-dark`,
                 },
             ],
         },
@@ -48,7 +49,7 @@ module.exports = {
                 {
                     name: ` Github`,
                     url: `https://github.com/ImJustNon/Aiko-discordv13-project`,
-                    color: `btn-primary`,
+                    color: `btn-dark`,
                 },
             ],
         },
@@ -65,12 +66,12 @@ module.exports = {
                 {
                     name: ` V.1`,
                     url: `https://github.com/ImJustNon/MiKU-Music-Bot-Project`,
-                    color: `btn-primary`,
+                    color: `btn-dark`,
                 },
                 {
                     name: ` V.2`,
                     url: `https://github.com/ImJustNon/MiKU-Bot-Final`,
-                    color: `btn-primary`,
+                    color: `btn-dark`,
                 },
             ],
         },
@@ -87,9 +88,83 @@ module.exports = {
                 {
                     name: ` Github`,
                     url: `https://github.com/ImJustNon/Discord-Activity-Bot`,
-                    color: `btn-primary`,
+                    color: `btn-dark`,
                 },
             ],
+        },
+    ],
+
+    //ปวช.1
+    voc_cert: [
+        {
+            img: `assets/images/projects/upload_api.jpg`,
+            title: [
+                `Image Upload API`,
+            ],
+            description: [
+                `API อัปโหลดรูปภาพ`,
+                `สามารถนำไปใช้ในเว็ปไซต์ที่ต้องการการจัดเก็บรูปภาพ`,
+                `หรือเป็นที่สำรองภาพนั้นๆได้`,
+            ],
+            button: [
+                {
+                    name: ` MySQL Version (V.2)`,
+                    url: `https://github.com/ImJustNon/upload-api-mysql-version`,
+                    color: `btn-dark`,
+                },
+                {
+                    name: ` PostgreSQL Version (V.1)`,
+                    url: `https://github.com/ImJustNon/Upload-API`,
+                    color: `btn-dark`,
+                },
+            ],
+        },
+        {
+            img: `assets/images/projects/useless_api-crop.png`,
+            title: [
+                `Useless API`,
+                `(ก็ไม่ได้ไรประโยชน์ซ่ะที่เดียวอ่ะน่ะ)`,
+            ],
+            description: [
+                `เกิดจากชอบมีคนส่งลิ้ง หรือ QR ที่มีโฆษณาคั่น`,
+                `- สามารถทำให้ URL ที่ยาวๆ ให่สั้นลงได้ 💨`,
+                `- สามารถสร้าง QR จากข้อความหรือ URL ได้ 💨`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/upload-api-mysql-version`,
+                    color: `btn-dark`,
+                },
+            ],
+        },
+        {
+            img: `assets/images/projects/give_me_aungpao.jpg`,
+            title: [
+                `🧧 เว็ปรับอั่งเปาของผมเอง 🧧`,
+            ],
+            description: [
+                `สร้าง Link อั่งเปาที่ True Wallet`,
+                `เเล้วสามารถส่งให้ในนี้ได้เลย`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/give-me-aungpao`,
+                    color: `btn-dark`,
+                },
+            ],
+        },
+        {
+            img: `assets/images/projects/my_portfolio.jpg`,
+            title: [
+                `📊 เว็ปไซต์ส่วนตัวของผมเอง 📊`,
+            ],
+            description: [
+                `มีข้อมูลต่างๆของผมเช่น`,
+                `ประวัติส่วนตัว | เกียรติบัตร | กิจกรรมที่เข้าร่วม | โปรเจค`,
+            ],
+            button: [],
         },
     ],
 }
