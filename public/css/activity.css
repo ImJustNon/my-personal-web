@@ -34,10 +34,7 @@
    .carousel-inner,
    .carousel-item,
    .carousel-item.active {
-        margin-left: auto;
-        margin-right: auto;
         height: 40vh;
-        width: 120vh;
    }
  }
 
