@@ -7,10 +7,10 @@
   }
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-dark d-lg-block" style="z-index: 2000;">
+<nav class="navbar navbar-expand-lg navbar-dark d-lg-block animate__animated animate__fadeInDown" style="z-index: 2000;">
     <div class="container-fluid text-dark">
       <!-- Navbar brand -->
-      <a class="navbar-brand nav-link" href="/">
+      <a class="navbar-brand nav-link animate__animated" href="/" id="nav_item">
         <strong><i class="fa-solid fa-house"></i> หน้าเเรก</strong>
       </a>
       <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
@@ -20,19 +20,19 @@
       <div class="collapse navbar-collapse" id="navbarExample01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="/profile">
+            <a class="nav-link" href="/profile" id="nav_item">
               <i class="fa-solid fa-address-card"></i> ประวัติส่วนตัว</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/certificate">
+            <a class="nav-link" href="/certificate"  id="nav_item">
               <i class="fa-solid fa-graduation-cap"></i> เกียรติบัตร</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/activity">
+            <a class="nav-link" href="/activity"  id="nav_item">
               <i class="fa-solid fa-chart-line"></i> กิจกรรม</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/projects">
+            <a class="nav-link" href="/projects"  id="nav_item">
               <i class="fa-solid fa-code"></i> โปรเจค</a>
           </li>
         </ul>
@@ -69,3 +69,12 @@
       </div>
     </div>
 </nav>
+
+<script>
+  document.getElementById("nav_item").addEventListener("mouseover", function(e) {
+    document.getElementById("nav_item").classList.add("animate__fadeIn");
+  });
+  document.getElementById("nav_item").addEventListener("mouseout", function(e) {
+    document.getElementById("nav_item").classList.remove("animate__fadeIn");
+  });
+</script>
