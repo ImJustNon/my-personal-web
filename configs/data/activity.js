@@ -1,7 +1,8 @@
 module.exports = {
-    activity: [
+    voc_cert: [
         {
             img: `assets/images/activity/Picture2-crop.jpg`,
+            url: `#!`,
             title: [
                 `เข้าร่วมการอบรมออกเเบบหุ่นยนต์`,
                 `(GW Advance Engineering)`,
@@ -12,6 +13,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/Picture3.jpg`,
+            url: `#!`,
             title: [
                 `เข้าร่วมการเเข่งขันตอบคำถามวิชาการ`,
             ],
@@ -22,6 +24,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/Picture1.jpg`,
+            url: `#!`,
             title: [
                 `เข้าร่วมการอบรมการดูเเลรักษาคอมพิวเตอร์ด้วยตัวเอง`,
             ],
@@ -31,6 +34,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/Picture11.jpg`,
+            url: `#!`,
             title: [
                 `เข้าร่วมการอบรมการเขียนแผนธุรกิจ`,
             ],
@@ -40,6 +44,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/Picture9.jpg`,
+            url: `#!`,
             title: [
                 `เข้าร่วมการอบรมภาษาญีปุ่น`,
             ],

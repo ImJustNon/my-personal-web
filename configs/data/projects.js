@@ -3,6 +3,7 @@ module.exports = {
     m3: [
         {
             img: `assets/images/projects/kwan_bot-crop.jpg`,
+            url: `#!`,
             title: [
                 `✨ Kwan 💕#0111`,
             ],
@@ -20,7 +21,8 @@ module.exports = {
             ],
         },
         {
-            img: `assets/images/projects/Music-bot-with-request-channel-bot.jpg`,
+            img: `assets/images/projects/Music-bot-with-request-channel-bot-2.jpg`,
+            url: `#!`,
             title: [
                 `Music-bot-with-request-channel`,
             ],
@@ -38,6 +40,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/aiko_bot-crop.jpg`,
+            url: `#!`,
             title: [
                 `A i K o #6265`,
             ],
@@ -55,6 +58,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/miku_bot-crop.jpg`,
+            url: `#!`,
             title: [
                 `✨ M i K U 💙#1031`,
             ],
@@ -77,6 +81,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/activity_bot-crop.png`,
+            url: `#!`,
             title: [
                 `Discord-Activity-Bot`,
             ],
@@ -98,6 +103,7 @@ module.exports = {
     voc_cert: [
         {
             img: `assets/images/projects/upload_api.jpg`,
+            url: `#!`,
             title: [
                 `Image Upload API`,
             ],
@@ -121,6 +127,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/useless_api-crop.png`,
+            url: `#!`,
             title: [
                 `Useless API`,
                 `(ก็ไม่ได้ไรประโยชน์ซ่ะที่เดียวอ่ะน่ะ)`,
@@ -140,6 +147,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/give_me_aungpao.jpg`,
+            url: `#!`,
             title: [
                 `🧧 เว็ปรับอั่งเปาของผมเอง 🧧`,
             ],
@@ -157,6 +165,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/my_portfolio.jpg`,
+            url: `#!`,
             title: [
                 `📊 เว็ปไซต์ส่วนตัวของผมเอง 📊`,
             ],
@@ -165,6 +174,104 @@ module.exports = {
                 `ประวัติส่วนตัว | เกียรติบัตร | กิจกรรมที่เข้าร่วม | โปรเจค`,
             ],
             button: [],
+        },
+    ],
+    // เครื่องมือที่ใช้
+    tools: [
+        {
+            title: 'Bootstrap 5',
+            img: `assets/images/projects/tools/bootstrap.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'Bulma',
+            img: `assets/images/projects/tools/bulma.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'CSS3',
+            img: `assets/images/projects/tools/css3.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'Express',
+            img: `assets/images/projects/tools/express.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'HTML5',
+            img: `assets/images/projects/tools/html5.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'MongoDB',
+            img: `assets/images/projects/tools/mongodb.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'MySQL',
+            img: `assets/images/projects/tools/mysql.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'Nginx',
+            img: `assets/images/projects/tools/nginx.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'Nodejs',
+            img: `assets/images/projects/tools/nodejs.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'PostgresQL',
+            img: `assets/images/projects/tools/postgresql.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'EJS',
+            img: `assets/images/projects/tools/ejs.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'Github',
+            img: `assets/images/projects/tools/github.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'JSON',
+            img: `assets/images/projects/tools/json.png`,
+            url: `#!`,
+        },
+        {
+            title: 'NPM',
+            img: `assets/images/projects/tools/npm.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'SQL',
+            img: `assets/images/projects/tools/sql.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'Visual Studio Code',
+            img: `assets/images/projects/tools/vscode.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'Xampp',
+            img: `assets/images/projects/tools/xampp.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'Yarn',
+            img: `assets/images/projects/tools/yarn.svg`,
+            url: `#!`,
+        },
+        {
+            title: 'JavaScript',
+            img: `assets/images/projects/tools/javascript.svg`,
+            url: `#!`,
         },
     ],
 }

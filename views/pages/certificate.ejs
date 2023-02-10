@@ -2,8 +2,8 @@
 
 <main class="mt-2" >
     <div id="intro" class="p-5 text-center bg-transparent">
-        <h1 class="mb-3 h2">เกียรติบัตร</h1>
-        <p class="mb-3">😅 น่าจะพอมีเอามาลงอยู่บ้างเเหละ 555+ 😅</p>
+        <h1 class="mb-3 h2 animate__animated animate__zoomIn">เกียรติบัตร</h1>
+        <p class="mb-3 animate__animated animate__fadeInUp">😅 น่าจะพอมีเอามาลงอยู่บ้างเเหละ 555+ 😅</p>
     </div>
 
     <br>
@@ -12,34 +12,34 @@
     
     <div class="container">
         <section class="text-center">
-
+            <!--------------------------------------------------------------- มัธยมต้น  -------------------------------------------------------->
             <hr class="my-0">
-            <h4 class="my-5"><strong><i class="fa-solid fa-graduation-cap"></i> เกียรติบัตร <i class="fa-solid fa-graduation-cap"></i></strong></h4>
+            <h4 class="my-5 animate__animated animate__fadeInDown"><strong><i class="fa-solid fa-graduation-cap"></i> มัธยมต้น <i class="fa-solid fa-graduation-cap"></i></strong></h4>
   
             <div class="row">  
 
                 <!-- Loop รา้ง Element ทั้งหมดตามที ส่งมา -->
-                <% for(let i = 0; i < data.certificate.length; i++){ %>
+                <% for(let i = 0; i < data.middle_School.length; i++){ %>
                     
                     <div class="col-lg-4 col-md-12 mb-4">
-                        <div class="card">
+                        <div class="card animate__animated animate__flipInX">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img
-                            src="<%= data.certificate[i].img %>"
+                            src="<%= data.middle_School[i].img %>"
                             class="img-fluid"
                             />
-                            <a href="#!">
+                            <a href="<%= data.middle_School[i].url %>">
                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                             </a>
                         </div>
                         <div class="card-body">
                             <!-- Loop สร้าง เเต่ล่ำบรรทัด Title -->
-                            <% for(let ii = 0; ii < data.certificate[i].title.length; ii++){ %>
-                                <h5 class="card-title m-1"><%= data.certificate[i].title[ii] %></h5>
+                            <% for(let ii = 0; ii < data.middle_School[i].title.length; ii++){ %>
+                                <h5 class="card-title m-1"><%= data.middle_School[i].title[ii] %></h5>
                             <% } %>
                             <!-- Loop สร้าง เเต่ล่ำบรรทัด description -->
-                            <% for(let ii = 0; ii < data.certificate[i].description.length; ii++){ %>
-                                <p class="card-text m-1"><%= data.certificate[i].description[ii] %></p>
+                            <% for(let ii = 0; ii < data.middle_School[i].description.length; ii++){ %>
+                                <p class="card-text m-1"><%= data.middle_School[i].description[ii] %></p>
                             <% } %>
                         </div>
                         </div>
@@ -49,6 +49,38 @@
 
             </div>
 
+            <!--------------------------------------------------------------- ปวช 1  -------------------------------------------------------->
+            <hr class="my-5">
+            <h4 class="my-5 animate__animated animate__fadeInDown"><strong><i class="fa-solid fa-graduation-cap"></i> ปวช. 1 <i class="fa-solid fa-graduation-cap"></i></strong></h4>
+
+            <div class="row">
+                <!-- Loop รา้ง Element ทั้งหมดตามที ส่งมา -->
+                <% for(let i = 0; i < data.voc_cert.length; i++){ %>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="card animate__animated animate__flipInX">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img
+                            src="<%= data.voc_cert[i].img %>"
+                            class="img-fluid"
+                            />
+                            <a href="<%= data.voc_cert[i].url %>">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <!-- Loop สร้าง เเต่ล่ำบรรทัด Title -->
+                            <% for(let ii = 0; ii < data.voc_cert[i].title.length; ii++){ %>
+                                <h5 class="card-title m-1"><%= data.voc_cert[i].title[ii] %></h5>
+                            <% } %>
+                            <!-- Loop สร้าง เเต่ล่ำบรรทัด description -->
+                            <% for(let ii = 0; ii < data.voc_cert[i].description.length; ii++){ %>
+                                <p class="card-text m-1"><%= data.voc_cert[i].description[ii] %></p>
+                            <% } %>
+                        </div>
+                        </div>
+                    </div>
+                <% } %>
+            </div>
         </section>
     </div>
 </main>

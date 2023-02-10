@@ -1,6 +1,6 @@
 <main class="mt-2" >
     <div id="intro" class="p-5 text-center bg-transparent">
-        <h1 class="mb-3 h2">โปรเจค (Projects)</h1>
+        <h1 class="mb-3 h2 animate__animated animate__zoomIn">โปรเจค / ผลงาน</h1>
     </div>
 
     <br>
@@ -8,10 +8,11 @@
 
     <div class="container">
         <section class="text-center">
-
+			
+			<!------------------------------------------ M3 -------------------------------------------->
 			<hr class="my-5">
-            <h4 class="mb-3"><i class="fa-solid fa-code"></i> ม. 3 <i class="fa-solid fa-code"></i></strong></h4>
-			<p class="mb-5">😅 มีเเต่บอท Discord ทั้งนั้น 555+ 😅</p>
+            <h4 class="mb-3 animate__animated animate__fadeInDown"><i class="fa-solid fa-code"></i> ม. 3 <i class="fa-solid fa-code"></i></strong></h4>
+			<p class="mb-5 animate__animated animate__fadeInDown">😅 มีเเต่บอท Discord ทั้งนั้น 555+ 😅</p>
 
             <div class="row">
 
@@ -19,10 +20,10 @@
               <% for(let i = 0; i < data.m3.length; i++){ %>
 
                 <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card">
+                    <div class="card animate__animated animate__flipInX">
 						<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
 							<img src="<%= data.m3[i].img %>" class="img-fluid" />
-							<a href="#!">
+							<a href="<%= data.m3[i].url %>">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 							</a>
 						</div>
@@ -47,19 +48,20 @@
 
             </div>
 
+			<!------------------------------------------ ปวช1 -------------------------------------------->
 			<hr class="my-5">
-			<h4 class="mb-3"><i class="fa-solid fa-code"></i> ปวช. 1 <i class="fa-solid fa-code"></i></strong></h4>
-			<p class="mb-5">😅 มีเเต่เว็ป ไม่ก็ API ทั้งนั้น 555+ 😅</p>
+			<h4 class="mb-3 animate__animated animate__fadeInDown"><i class="fa-solid fa-code"></i> ปวช. 1 <i class="fa-solid fa-code"></i></strong></h4>
+			<p class="mb-5 animate__animated animate__fadeInDown">😅 มีเเต่เว็ป ไม่ก็ API ทั้งนั้น 555+ 😅</p>
 
 			<div class="row">
 
 				<!-- Loop รา้ง Element ทั้งหมดตามที ส่งมา -->
 				<% for(let i = 0; i < data.voc_cert.length; i++){ %>
 					<div class="col-lg-4 col-md-12 mb-4">
-						<div class="card">
+						<div class="card animate__animated animate__flipInX">
 							<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
 								<img src="<%= data.voc_cert[i].img %>" class="img-fluid" />
-								<a href="#!">
+								<a href="<%= data.voc_cert[i].url %>">
 								<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 								</a>
 							</div>
@@ -80,6 +82,22 @@
 						</div>
 					</div>
 
+				<% } %>
+
+			</div>
+
+			<!------------------------------------------ Tools -------------------------------------------->
+			<hr class="my-5">
+            <h4 class="mb-3 animate__animated animate__fadeInDown"><i class="fa-solid fa-code"></i> ภาษาเเละเครื่องมือที่ใช้ <i class="fa-solid fa-code"></i></strong></h4>
+
+			<div class="rows mb-4">
+
+				<% for(let i = 0; i < data.tools.length; i++){ %>
+					<div class="m-2 d-inline">
+						<a href="<%= data.tools[i].url %>">
+							<img class="animate__animated animate__zoomIn" src="<%= data.tools[i].img %>" width="5%" alt="<%= data.tools[i].title %>">
+						</a>
+					</div>
 				<% } %>
 
 			</div>

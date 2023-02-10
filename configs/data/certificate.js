@@ -1,7 +1,9 @@
 module.exports = {
-    certificate: [
+    // ม.ต้น
+    middle_School: [
         {
             img: `assets/images/portfolio/Picture1.png`,
+            url: `#!`,
             title: [
                 `Math With Python by Hamster Hub`,
             ],
@@ -12,6 +14,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture2.png`,
+            url: `#!`,
             title: [
                 `Samsung Innovation Campus`,
             ],
@@ -22,6 +25,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture3.png`,
+            url: `#!`,
             title: [
                 `เข้าร่วมอบรมกับ`,
                 `สถาบันการจัดการปัญญาภิวัฒน์`
@@ -33,6 +37,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture4.png`,
+            url: `#!`,
             title: [
                 `การแข่งขันโครงงานวิทยาศาสตร์ประเภท`,
                 `สิ่งประดิษฐ์ในงานการแข่งขันทักษะวิชาการและการประกวดสิ่งประดิษฐ์โรงเรียนเอกชน`,
@@ -45,6 +50,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture5.png`,
+            url: `#!`,
             title: [
                 `เข้าร่วมงานมหิดลวิชาการ เปิดบ้านมหิดล ประจำปี 2563`
             ],
@@ -55,6 +61,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture6.png`,
+            url: `#!`,
             title: [
                 `อบรมออนไลน์กับ สำนักงาน สวทช.NSTDA`,
                 `หัวข้อ Creative thinking`
@@ -66,6 +73,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture8.png`,
+            url: `#!`,
             title: [
                 `เข้าร่วมโครงการ มหาวิทยาลัยเด็ก ครั้งที่ 11`,
                 `ที่มหาวิทยาลัยพระจอมเกล้าธนบุรี`,
@@ -78,6 +86,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture9.png`,
+            url: `#!`,
             title: [
                 `เข้าร่วมโครงการ มหาวิทยาลัยเด็ก ครั้งที่ 11`,
                 `ที่มหาวิทยาลัยพระจอมเกล้าธนบุรี`,
@@ -90,6 +99,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture10.png`,
+            url: `#!`,
             title: [
                 `เข้าร่วมแข่งขันโครงงานวิทยาศาสตร์ประเภท`,
                 `สิ่งประดิษฐ์ในงานการแข่งขันทักษะวิชาการและ`,
@@ -102,6 +112,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture11.png`,
+            url: `#!`,
             title: [
                 `เข้าร่วมงานศิลปะหัตถกรรมนักเรียน`,
                 `ครั้งที่ 69 ระดับเขตพื้นที่การศึกษา`,
@@ -114,6 +125,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture12.png`,
+            url: ``,
             title: [
                 `การแข่งขันประดิษฐ์ร่มพยุงไข่`,
                 `ระดับมัธยมศึกษาตอนต้น ประจำปี 2562`,
@@ -124,4 +136,6 @@ module.exports = {
             ],
         },
     ],
+    //ปวช.1
+    voc_cert: [],
 }

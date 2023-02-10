@@ -10,7 +10,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark d-lg-block animate__animated animate__fadeInDown" style="z-index: 2000;">
     <div class="container-fluid text-dark">
       <!-- Navbar brand -->
-      <a class="navbar-brand nav-link animate__animated" href="/" id="nav_item">
+      <a class="navbar-brand nav-link animate__animated" href="/" id="nav_item_1" onmouseover="mouseOnItem('1')" onmouseout="mouseOffItem('1')">
         <strong><i class="fa-solid fa-house"></i> หน้าเเรก</strong>
       </a>
       <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
@@ -20,47 +20,47 @@
       <div class="collapse navbar-collapse" id="navbarExample01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="/profile" id="nav_item">
+            <a class="nav-link animate__animated" href="/profile" id="nav_sub_item_1" onmouseover="mouseOnSubItem('1')" onmouseout="mouseOffSubItem('1')">
               <i class="fa-solid fa-address-card"></i> ประวัติส่วนตัว</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/certificate"  id="nav_item">
+            <a class="nav-link animate__animated" href="/certificate" id="nav_sub_item_2" onmouseover="mouseOnSubItem('2')" onmouseout="mouseOffSubItem('2')">
               <i class="fa-solid fa-graduation-cap"></i> เกียรติบัตร</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/activity"  id="nav_item">
+            <a class="nav-link animate__animated" href="/activity" id="nav_sub_item_3" onmouseover="mouseOnSubItem('3')" onmouseout="mouseOffSubItem('3')">
               <i class="fa-solid fa-chart-line"></i> กิจกรรม</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/projects"  id="nav_item">
-              <i class="fa-solid fa-code"></i> โปรเจค</a>
+            <a class="nav-link animate__animated" href="/projects" id="nav_sub_item_4" onmouseover="mouseOnSubItem('4')" onmouseout="mouseOffSubItem('4')">
+              <i class="fa-solid fa-code"></i> โปรเจค/ผลงาน</a>
           </li>
         </ul>
 
         <ul class="navbar-nav d-flex flex-row">
           <!-- left Icons -->
           <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="https://github.com/ImJustNon" rel="nofollow" target="_blank">
+            <a class="nav-link animate__animated" href="https://github.com/ImJustNon" rel="nofollow" target="_blank" id="nav_right_item_1" onmouseover="mouseOnRightItem('1')" onmouseout="mouseOffRightItem('1')">
               <i class="fa-brands fa-github"></i>
             </a>
           </li>
           <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="https://www.youtube.com/channel/UCCAlDdKswolIsOERlt0QWbw" rel="nofollow" target="_blank">
+            <a class="nav-link animate__animated" href="https://www.youtube.com/channel/UCCAlDdKswolIsOERlt0QWbw" rel="nofollow" target="_blank" id="nav_right_item_2" onmouseover="mouseOnRightItem('2')" onmouseout="mouseOffRightItem('2')">
               <i class="fa-brands fa-youtube"></i>
             </a>
           </li>
           <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="https://www.facebook.com/imjustnon" rel="nofollow" target="_blank">
+            <a class="nav-link animate__animated" href="https://www.facebook.com/imjustnon" rel="nofollow" target="_blank" id="nav_right_item_3" onmouseover="mouseOnRightItem('3')" onmouseout="mouseOffRightItem('3')">
               <i class="fa-brands fa-facebook"></i>
             </a>
           </li>
           <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="https://twitter.com/NoNnYhA55" rel="nofollow" target="_blank">
+            <a class="nav-link animate__animated" href="https://twitter.com/NoNnYhA55" rel="nofollow" target="_blank" id="nav_right_item_4" onmouseover="mouseOnRightItem('4')" onmouseout="mouseOffRightItem('4')">
               <i class="fa-brands fa-twitter"></i>
             </a>
           </li>
           <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="https://non-want-aungpao.cyclic.app/" rel="nofollow" target="_blank">
+            <a class="nav-link animate__animated" href="https://non-want-aungpao.cyclic.app/" rel="nofollow" target="_blank" id="nav_right_item_5" onmouseover="mouseOnRightItem('5')" onmouseout="mouseOffRightItem('5')">
               <i class="fa-solid fa-wallet"></i>
             </a>
           </li>
@@ -71,10 +71,25 @@
 </nav>
 
 <script>
-  document.getElementById("nav_item").addEventListener("mouseover", function(e) {
-    document.getElementById("nav_item").classList.add("animate__fadeIn");
-  });
-  document.getElementById("nav_item").addEventListener("mouseout", function(e) {
-    document.getElementById("nav_item").classList.remove("animate__fadeIn");
-  });
+  function mouseOnItem(number){
+    document.getElementById("nav_item_" + String(number)).classList.add("animate__headShake");
+  }
+  function mouseOffItem(number){
+    document.getElementById("nav_item_" + String(number)).classList.remove("animate__headShake");
+  }
+
+
+  function mouseOnSubItem(number){
+    document.getElementById("nav_sub_item_" + String(number)).classList.add("animate__tada");
+  }
+  function mouseOffSubItem(number){
+    document.getElementById("nav_sub_item_" + String(number)).classList.remove("animate__tada");
+  }
+
+  function mouseOnRightItem(number){
+    document.getElementById("nav_right_item_" + String(number)).classList.add("animate__rotateIn");
+  }
+  function mouseOffRightItem(number){
+    document.getElementById("nav_right_item_" + String(number)).classList.remove("animate__rotateIn");
+  }
 </script>

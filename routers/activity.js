@@ -7,7 +7,7 @@ const urlEncoded = bodyParser.urlencoded({
 });
 
 const config = require("../configs/config.js");
-const { activity } = require("../configs/data/activity.js");
+const { voc_cert } = require("../configs/data/activity.js");
 
 router.get('/activity', urlEncoded, async(req, res) =>{
     res.render("index", {
@@ -16,7 +16,7 @@ router.get('/activity', urlEncoded, async(req, res) =>{
         platform: req.useragent,
         error: null,
         data: {
-            activity: activity,
+            voc_cert: voc_cert,
         },
     });
 });
