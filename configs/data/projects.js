@@ -175,6 +175,24 @@ module.exports = {
             ],
             button: [],
         },
+        {
+            img: `assets/images/projects/image-gallery.jpg`,
+            url: `#!`,
+            title: [
+                `Image Gallery Project`,
+            ],
+            description: [
+                `เว็ปฝากรูปเพื่อความสะดวกในการส่งให้ผู้อื่น`,
+                `หรือการนำไปใช้ต่างๆ`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/image-gallery-project`,
+                    color: `btn-dark`,
+                },
+            ],
+        },
     ],
     // เครื่องมือที่ใช้
     tools: [
