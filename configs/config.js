@@ -13,7 +13,7 @@ module.exports = {
     },
     app: {
         address: "127.0.0.1",
-        port: 9999,
+        port: env.parsed.PORT || 8080,
     },
     birthDate: "09/04/2006", //    MM/DD/YYYY format
 }
