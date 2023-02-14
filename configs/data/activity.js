@@ -52,5 +52,16 @@ module.exports = {
                 `ชั้น : ปวช.1`,
             ],
         },
+        {
+            img: `assets/images/activity/arduino_teaching_assistant-crop.jpg`,
+            url: `#!`,
+            title: [
+                `เป็นพี่เลี้ยงช่วยสอน Arduino`,
+                `ให้กับน้องๆที่มาอบรม`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+        },
     ],
 }
