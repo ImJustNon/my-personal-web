@@ -4,7 +4,7 @@ const env = require('dotenv').config()
 module.exports = {
     database: {
         mongoDB: {
-            URI: env.parsed.mongo_uri || "",
+            URI: "",
             options: {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
