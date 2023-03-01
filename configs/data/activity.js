@@ -1,4 +1,9 @@
 module.exports = {
+    banner: [
+        {
+            img: ``,
+        }
+    ],
     voc_cert: [
         {
             img: `assets/images/activity/Picture2-crop.jpg`,
@@ -58,6 +63,16 @@ module.exports = {
             title: [
                 `เป็นพี่เลี้ยงช่วยสอน Arduino`,
                 `ให้กับน้องๆที่มาอบรม`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+        },
+        {
+            img: `assets/images/activity/pjbl1-2-crop-crop.jpg`,
+            url: `#!`,
+            title: [
+                `รับรางวัลชนะเลิศโปรเจค PJBL ระดับปี 1`,
             ],
             description: [
                 `ชั้น : ปวช.1`,

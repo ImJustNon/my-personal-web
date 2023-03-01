@@ -1,10 +1,10 @@
-const env = require('dotenv').config()
+require('dotenv').config()
 
 
 module.exports = {
     database: {
         mongoDB: {
-            URI: "",
+            URI: process.env.MONGO_URI || "",
             options: {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
@@ -13,7 +13,7 @@ module.exports = {
     },
     app: {
         address: "127.0.0.1",
-        port: 8080,
+        port: process.env.PORT ||8080,
     },
     birthDate: "09/04/2006", //    MM/DD/YYYY format
 }

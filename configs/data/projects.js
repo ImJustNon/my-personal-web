@@ -193,6 +193,29 @@ module.exports = {
                 },
             ],
         },
+        {
+            img: `assets/images/projects/sbtvc-dormitory-access-system-crop.png`,
+            url: `#!`,
+            title: [
+                `ระบบการขอเข้า-ออกหอพักออนไลน์`,
+                `พร้อมหน้าจัดการ (Admin Panel)`,
+            ],
+            description: [
+                `โปรเจค PJBL ปี 1`,
+            ],
+            button: [
+                {
+                    name: ` Main`,
+                    url: `https://github.com/ImJustNon/sbtvc-dormitory-system-website`,
+                    color: `btn-dark`,
+                },
+                {
+                    name: ` Admin Panel`,
+                    url: `https://github.com/ImJustNon/sbtvc-dormitory-system-admin`,
+                    color: `btn-dark`,
+                },
+            ],
+        },
     ],
     // เครื่องมือที่ใช้
     tools: [
