@@ -125,7 +125,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture12.png`,
-            url: ``,
+            url: `#!`,
             title: [
                 `การแข่งขันประดิษฐ์ร่มพยุงไข่`,
                 `ระดับมัธยมศึกษาตอนต้น ประจำปี 2562`,
@@ -137,5 +137,18 @@ module.exports = {
         },
     ],
     //ปวช.1
-    voc_cert: [],
+    voc_cert: [
+        {
+            img: `assets/images/portfolio/rover_scout.jpg`,
+            url: `#!`,
+            title: [
+                `เข้าร่วมงานชุมนุมลูกเสือ`,
+                `เนตรนารีวิสามัญอาชีวศึกษา`,
+                `ภาคตะวันออกเเละกรุงเทพมหานคร ครั้งที่ 8`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+        },
+    ],
 }
