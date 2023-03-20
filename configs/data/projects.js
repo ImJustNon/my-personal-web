@@ -146,7 +146,7 @@ module.exports = {
             ],
         },
         {
-            img: `assets/images/projects/give_me_aungpao.jpg`,
+            img: `assets/images/projects/give_me_aungpao_web.jpg`,
             url: `#!`,
             title: [
                 `🧧 เว็ปรับอั่งเปาของผมเอง 🧧`,
@@ -164,7 +164,7 @@ module.exports = {
             ],
         },
         {
-            img: `assets/images/projects/my_portfolio.jpg`,
+            img: `assets/images/projects/my_personal_portfolio.jpg`,
             url: `#!`,
             title: [
                 `📊 เว็ปไซต์ส่วนตัวของผมเอง 📊`,
@@ -212,6 +212,23 @@ module.exports = {
                 {
                     name: ` Admin Panel`,
                     url: `https://github.com/ImJustNon/sbtvc-dormitory-system-admin`,
+                    color: `btn-dark`,
+                },
+            ],
+        },
+        {
+            img: `assets/images/projects/dear_debtor_v2-crop.jpg`,
+            url: `#!`,
+            title: [
+                `Dear Debtor V2`,
+            ],
+            description: [
+                `🤑 เว็ปบันทึกเหล่าลูกหนี้ที่รักของผมเอง 🤑`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/dear-debtor-v2`,
                     color: `btn-dark`,
                 },
             ],
