@@ -91,4 +91,7 @@ module.exports = {
             ],
         },
     ],
+    voc_cert_2: [
+        
+    ],
 }

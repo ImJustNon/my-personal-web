@@ -150,5 +150,29 @@ module.exports = {
                 `ชั้น : ปวช.1`,
             ],
         },
+        {
+            img: `assets/images/portfolio/christmas_quizzes.jpg`,
+            url: `#!`,
+            title: [
+                `เข้าร่วมการเเข่งขันตอบคำถามภาษาอังกฤษ`,
+                `หัวข้อ วันคริสต์มาส`,
+            ],
+            description: [
+                `ได้รับรางวัลระดับเหรีญทองรองชนะเลิญอันดับสอง`,
+                `ชั้น : ปวช.1`,
+            ],
+        },
+        {
+            img: `assets/images/portfolio/robot.jpg`,
+            url: `#!`,
+            title: [
+                `เข้าร่วมการอบรมการจำลองการทำงาน`,
+                `หุ่นยนต์อุตสาหกรรม`,
+                `[ Robotics Simulation ]`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+        },
     ],
 }
