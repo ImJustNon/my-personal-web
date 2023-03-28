@@ -4,19 +4,18 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const bodyParser = require('body-parser');
-const urlencoded = bodyParser.urlencoded({
-    limit: '50mb',
-    extended: true,
-});
 const config = require("./configs/config.js");
 const mongoose = require('mongoose');
 const chalk = require('chalk');
 const logger = require('morgan');
 const useragent = require('express-useragent');
- 
+
 
 const app = express();
-
+const urlencoded = bodyParser.urlencoded({
+    limit: '50mb',
+    extended: true,
+});
 
 app.use(useragent.express());
 
@@ -62,11 +61,28 @@ app.use((err, req, res, next) =>{
 
 
 
-// database setup
+// database setup old code
+/*
 fs.readdirSync("./database").forEach(async folders => {
     fs.readdirSync(`./database/${folders}`).forEach(async files => {
         require(`./database/${folders}/${files}`).connect();
         console.log(chalk.bold.yellowBright('[Database] ') + chalk.bold.whiteBright(`Loaded : `) + chalk.bold.greenBright(`${folders}/${files}`));
+    });
+}); 
+*/
+
+fs.readdir(path.join(__dirname, "/database"), (err, folders) =>{
+    folders.forEach((folder) =>{
+        fs.readdir(path.join(__dirname, `/database/${folder}`), (err, files) =>{
+            const jsFile = files.filter(el => path.extname(el) === '.js');
+            try{
+                require(`./database/${folder}/${jsFile}`).connect();
+                console.log(chalk.bold.yellowBright('[Database] ') + chalk.bold.whiteBright(`Loaded : `) + chalk.bold.greenBright(`${folder}/${jsFile}`));
+            }
+            catch(e){
+                console.log(chalk.bold.yellowBright('[Database] ') + chalk.bold.whiteBright(`Cant load : `) + chalk.bold.redBright(`${folder}/${jsFile} ERROR: ${e}`));
+            }
+        });
     });
 });
 

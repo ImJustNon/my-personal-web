@@ -3,7 +3,7 @@ module.exports = {
     middle_School: [
         {
             img: `assets/images/portfolio/Picture1.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture1.png`,
             title: [
                 `Math With Python by Hamster Hub`,
             ],
@@ -14,7 +14,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture2.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture2.png`,
             title: [
                 `Samsung Innovation Campus`,
             ],
@@ -25,7 +25,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture3.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture3.png`,
             title: [
                 `เข้าร่วมอบรมกับ`,
                 `สถาบันการจัดการปัญญาภิวัฒน์`
@@ -37,7 +37,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture4.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture4.png`,
             title: [
                 `การแข่งขันโครงงานวิทยาศาสตร์ประเภท`,
                 `สิ่งประดิษฐ์ในงานการแข่งขันทักษะวิชาการและการประกวดสิ่งประดิษฐ์โรงเรียนเอกชน`,
@@ -50,7 +50,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture5.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture5.png`,
             title: [
                 `เข้าร่วมงานมหิดลวิชาการ เปิดบ้านมหิดล ประจำปี 2563`
             ],
@@ -61,7 +61,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture6.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture6.png`,
             title: [
                 `อบรมออนไลน์กับ สำนักงาน สวทช.NSTDA`,
                 `หัวข้อ Creative thinking`
@@ -73,7 +73,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture8.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture8.png`,
             title: [
                 `เข้าร่วมโครงการ มหาวิทยาลัยเด็ก ครั้งที่ 11`,
                 `ที่มหาวิทยาลัยพระจอมเกล้าธนบุรี`,
@@ -86,7 +86,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture9.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture9.png`,
             title: [
                 `เข้าร่วมโครงการ มหาวิทยาลัยเด็ก ครั้งที่ 11`,
                 `ที่มหาวิทยาลัยพระจอมเกล้าธนบุรี`,
@@ -99,7 +99,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture10.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture10.png`,
             title: [
                 `เข้าร่วมแข่งขันโครงงานวิทยาศาสตร์ประเภท`,
                 `สิ่งประดิษฐ์ในงานการแข่งขันทักษะวิชาการและ`,
@@ -112,7 +112,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture11.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture11.png`,
             title: [
                 `เข้าร่วมงานศิลปะหัตถกรรมนักเรียน`,
                 `ครั้งที่ 69 ระดับเขตพื้นที่การศึกษา`,
@@ -125,7 +125,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/Picture12.png`,
-            url: `#!`,
+            url: `assets/images/portfolio/Picture12.png`,
             title: [
                 `การแข่งขันประดิษฐ์ร่มพยุงไข่`,
                 `ระดับมัธยมศึกษาตอนต้น ประจำปี 2562`,
@@ -140,7 +140,7 @@ module.exports = {
     voc_cert: [
         {
             img: `assets/images/portfolio/rover_scout.jpg`,
-            url: `#!`,
+            url: `assets/images/portfolio/rover_scout.jpg`,
             title: [
                 `เข้าร่วมงานชุมนุมลูกเสือ`,
                 `เนตรนารีวิสามัญอาชีวศึกษา`,
@@ -152,7 +152,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/christmas_quizzes.jpg`,
-            url: `#!`,
+            url: `assets/images/portfolio/christmas_quizzes.jpg`,
             title: [
                 `เข้าร่วมการเเข่งขันตอบคำถามภาษาอังกฤษ`,
                 `หัวข้อ วันคริสต์มาส`,
@@ -164,7 +164,7 @@ module.exports = {
         },
         {
             img: `assets/images/portfolio/robot.jpg`,
-            url: `#!`,
+            url: `assets/images/portfolio/robot.jpg`,
             title: [
                 `เข้าร่วมการอบรมการจำลองการทำงาน`,
                 `หุ่นยนต์อุตสาหกรรม`,

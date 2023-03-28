@@ -1,6 +1,8 @@
-<div id="my_big_face" style="justify-content: center;">
-    <img class="animate__animated animate__heartBeat" src="assets/images/my_face.jpg" style="width: 150rem;border-radius: 10px;"/>
-</div>
+<!--
+    <div id="my_big_face" style="justify-content: center;">
+        <img class="animate__animated animate__heartBeat" src="assets/images/my_face.jpg" style="width: 150rem;border-radius: 10px;"/>
+    </div>
+-->
 
 <main class="mt-5" >
     <div class="container">
@@ -10,7 +12,7 @@
         <div class="row">
             <div class="col-md-6 gx-5 mb-4">
             <div class="bg-image hover-overlay animate__animated animate__zoomIn" style="display: flex;justify-content: center;">
-                <img id="profile_img" src="assets/images/najimi.jpg" class="img-fluid" style="width: 45%;border-radius: 50%;"/>
+                <img id="profile_img" src="assets/images/najimi.jpg" class="img-fluid animate__animated" style="width: 45%;border-radius: 50%;"/>
             </div>
             </div>
 
@@ -143,24 +145,80 @@
 
 
 <script>
-    // profile easter egg
-    document.getElementById("my_big_face").style.display = "none";
-    let faceClickCount = 0;
-    let lastImage = 0;
-    document.getElementById("profile_img").addEventListener("click", function(e){
-        document.getElementById("profile_img").src = "assets/images/my_face.jpg";
-        setTimeout(function(){
-            document.getElementById("profile_img").src = "assets/images/najimi.jpg";
-        }, 100);
+    setTimeout(function(){
+        let imagesArray = ["assets/images/najimi.jpg", "assets/images/my_face.jpg", "assets/images/old_favicon.png"];
 
-        if(faceClickCount == 30){
-            document.getElementById("my_big_face").style.display = "flex";
+        let profileImageElement = document.getElementById("profile_img");
+        const profileImageConfig = {
+            animation: {
+                in: "animate__rollIn",
+                out: "animate__rollOut",
+            },
         }
-        if(faceClickCount == 40){
-            document.getElementById("my_big_face").style.display = "none";
-            faceClickCount = 0;
+        
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
         }
-        faceClickCount++;
-    });
+        function AnimateOut(){
+            let classArray = (profileImageElement.classList.value).trim().split(/ +/g);
+            if(classArray.includes(profileImageConfig.animation.in)){
+                profileImageElement.classList.remove(profileImageConfig.animation.in);
+            }
+            profileImageElement.classList.add(profileImageConfig.animation.out);
+        }
+        function AnimateIn(){
+            let classArray = (profileImageElement.classList.value).trim().split(/ +/g);
+            if(classArray.includes(profileImageConfig.animation.out)){
+                profileImageElement.classList.remove(profileImageConfig.animation.out);
+            }
+            profileImageElement.classList.add(profileImageConfig.animation.in);
+        }
+        function ChangeRandomImage(){
+            let random = Math.floor(Math.random() * (imagesArray.length));
+            profileImageElement.src = imagesArray[random];
+        }
 
+
+        async function Run(){
+            for(let i = 0; i < Infinity; i++){
+                AnimateOut();
+                await sleep(1000);
+                ChangeRandomImage();
+                AnimateIn();
+                await sleep(2500);
+            }
+        }
+        Run();
+        
+            
+        // 
+        
+    }, 1 * 1000);
 </script>
+
+
+
+
+<!--
+    <script>
+        // profile easter egg
+        document.getElementById("my_big_face").style.display = "none";
+        let faceClickCount = 0;
+        let lastImage = 0;
+        document.getElementById("profile_img").addEventListener("click", function(e){
+            document.getElementById("profile_img").src = "assets/images/my_face.jpg";
+            setTimeout(function(){
+                document.getElementById("profile_img").src = "assets/images/najimi.jpg";
+            }, 100);
+
+            if(faceClickCount == 30){
+                document.getElementById("my_big_face").style.display = "flex";
+            }
+            if(faceClickCount == 40){
+                document.getElementById("my_big_face").style.display = "none";
+                faceClickCount = 0;
+            }
+            faceClickCount++;
+        });
+    </script>
+-->

@@ -1,5 +1,4 @@
 
-
 <main class="mt-2" >
     <div id="intro" class="p-5 text-center bg-transparent">
         <h1 class="mb-3 h2 animate__animated animate__zoomIn">เกียรติบัตร</h1>
@@ -23,13 +22,13 @@
                     
                     <div class="col-lg-4 col-md-12 mb-4">
                         <div class="card animate__animated animate__flipInX">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img
-                            src="<%= data.middle_School[i].img %>"
-                            class="img-fluid"
-                            />
-                            <a href="<%= data.middle_School[i].url %>">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">   
+                            <a href="<%= data.middle_School[i].url %>" data-lightbox="middle_School">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                <img
+                                src="<%= data.middle_School[i].img %>"
+                                class="img-fluid"
+                                />
                             </a>
                         </div>
                         <div class="card-body">
@@ -59,12 +58,12 @@
                     <div class="col-lg-4 col-md-12 mb-4">
                         <div class="card animate__animated animate__flipInX">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img
-                            src="<%= data.voc_cert[i].img %>"
-                            class="img-fluid"
-                            />
-                            <a href="<%= data.voc_cert[i].url %>">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            <a href="<%= data.voc_cert[i].url %>" data-lightbox="voc_cert">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                <img
+                                src="<%= data.voc_cert[i].img %>"
+                                class="img-fluid"
+                                />
                             </a>
                         </div>
                         <div class="card-body">

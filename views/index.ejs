@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="libs/aos/dist/aos.css">
     <!-- Lightbox2 -->
     <link rel="stylesheet" href="libs/lightbox2/dist/css/lightbox.min.css">
-
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="libs/fancybox/dist/fancybox/fancybox.css">
+    
     <!-- สั่งโหลดตาม หน้าที่เข้ามา -->
     <% if(title == "HOME"){ %>
       <title>[ I_Non ] - | Home |</title>
@@ -64,6 +66,8 @@
 <div id="particles-js"></div>
 <!-- particle bg -->
 
+
+<!--Main Navigation-->
 <header>
   <!-- Navbar -->
   <% if(platform.isMobile){ %>
@@ -93,10 +97,6 @@
 <!--Main layout-->
 
 
-
-
-
-
 <!-- Footer -->
 <%- include("./partials/footer.ejs") %>
 <!-- Footer end -->
@@ -105,18 +105,32 @@
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- AOS -->
 <script type="text/javascript" src="libs/aos/dist/aos.js"></script>
+<!-- AOS Config -->
 <script>
   AOS.init({
     duration: 1000,
     once: true,
   });
+  console.log("[Debug] AOS config loaded");
 </script>
-
 <!-- particle scripts -->
 <script src="js/libs/particle.js"></script>
 <script src="js/libs/app-particle.js"></script>
 <!-- particle scripts end -->
 <!-- Lightbox2 -->
 <script src="libs/lightbox2/dist/js/lightbox.min.js"></script>
+<!-- Lightbox2 Config -->
+<script>
+  lightbox.option({
+    'resizeDuration': 300,
+    'wrapAround': true,
+    'disableScrolling': true,
+    'fadeDuration': 200,
+    'positionFromTop': 250
+  });
+  console.log("[Debug] Lightbox2 config loaded");
+</script>
+<!-- Fancybox -->
+<script src="libs/fancybox/dist/fancybox/fancybox.umd.js"></script>
 </body>
 </html>
