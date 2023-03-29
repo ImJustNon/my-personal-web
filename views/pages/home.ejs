@@ -148,41 +148,51 @@
     setTimeout(function(){
         let profileImageElement = document.getElementById("profile_img");
         const profileImageConfig = {
-            animation: {
-                in: "animate__rollIn",
-                out: "animate__rollOut",
-            },
+            animation: [
+                {
+                    in: "animate__rollIn",
+                    out: "animate__rollOut",
+                },
+            ],
         }
-        
+
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
         }
-        function AnimateOut(){
+        function AnimateOut(num){
             let classArray = (profileImageElement.classList.value).trim().split(/ +/g);
-            if(classArray.includes(profileImageConfig.animation.in)){
-                profileImageElement.classList.remove(profileImageConfig.animation.in);
+            if(classArray.includes(profileImageConfig.animation[num].in)){
+                profileImageElement.classList.remove(profileImageConfig.animation[num].in);
             }
-            profileImageElement.classList.add(profileImageConfig.animation.out);
+            profileImageElement.classList.add(profileImageConfig.animation[num].out);
         }
-        function AnimateIn(){
+        function AnimateIn(num){
             let classArray = (profileImageElement.classList.value).trim().split(/ +/g);
-            if(classArray.includes(profileImageConfig.animation.out)){
-                profileImageElement.classList.remove(profileImageConfig.animation.out);
+            if(classArray.includes(profileImageConfig.animation[num].out)){
+                profileImageElement.classList.remove(profileImageConfig.animation[num].out);
             }
-            profileImageElement.classList.add(profileImageConfig.animation.in);
+            profileImageElement.classList.add(profileImageConfig.animation[num].in);
         }
-        function ChangeRandomImage(){
-            let imagesArray = ["assets/images/najimi.jpg", "assets/images/my_face.jpg", "assets/images/old_favicon.png"];
+        function ChangeAndRandomImage(){
+            let imagesArray = [
+                "assets/images/profile_images/najimi.jpg",
+                "assets/images/profile_images/my_face_1.jpg",
+                "assets/images/profile_images/my_face_2.jpg",
+                "assets/images/profile_images/my_face_3.jpg",
+                "assets/images/profile_images/my_face_4.jpg",
+                "assets/images/profile_images/my_face_5.jpg",
+                "assets/images/profile_images/my_face_6.jpg",
+            ];
             let random = Math.floor(Math.random() * (imagesArray.length));
             profileImageElement.src = imagesArray[random];
         }
         async function Run(){
             for(let i = 0; i < Infinity; i++){
-                AnimateOut();
+                AnimateOut(0);
                 await sleep(1000);
-                ChangeRandomImage();
+                ChangeAndRandomImage();
                 await sleep(500);
-                AnimateIn();
+                AnimateIn(0);
                 await sleep(2500);
             }
         }

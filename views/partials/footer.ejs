@@ -1,5 +1,32 @@
 <footer data-aos="fade-up" class="text-lg-start" style="background-color: rgba(0, 0, 0, 0.2);">
-    <hr class="m-0" />
+  <hr class="md-1">
+
+  <div style="max-width: 35rem; margin: auto; font-size: 1rem;">
+    <div class="row justify-content-center text-center" >
+      <div id="footer_nav_item_1" onmouseover="MouseOverFooterNav('1')" onmouseout="MouseOutFooterNav('1')" class="col-lg-3 col-md-12 animate__animated">
+        <a class="text-dark" href="/home" style="font-size: 1.2rem;"><i class="fa-solid fa-house"></i> Home <i class="fa-solid fa-house"></i></a>
+      </div>
+    </div>
+
+    <%if(!platform.isMobile){%> <p></p> <%}%>
+
+    <div class="row justify-content-center text-center" >
+      <div id="footer_nav_item_2" onmouseover="MouseOverFooterNav('2')" onmouseout="MouseOutFooterNav('2')" class="col-lg-3 col-md-12 animate__animated">
+        <a class="text-dark" href="/profile">|&nbsp; Profile &nbsp;|</a>
+      </div>
+      <div id="footer_nav_item_3" onmouseover="MouseOverFooterNav('3')" onmouseout="MouseOutFooterNav('3')" class="col-lg-3 col-md-12 animate__animated">
+        <a class="text-dark" href="/certificate">|&nbsp; Certificate &nbsp;|</a>
+      </div>
+      <div id="footer_nav_item_4" onmouseover="MouseOverFooterNav('4')" onmouseout="MouseOutFooterNav('4')" class="col-lg-3 col-md-12 animate__animated">
+        <a class="text-dark" href="/activity">|&nbsp; Activity &nbsp;|</a>
+      </div>
+      <div id="footer_nav_item_5" onmouseover="MouseOverFooterNav('5')" onmouseout="MouseOutFooterNav('5')" class="col-lg-3 col-md-12 animate__animated">
+        <a class="text-dark" href="/projects">|&nbsp; Project &nbsp;|</a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="mt-4">
 
     <div class="text-center py-4 align-items-center">
       <p>👇 สามารถติดตามผมได้ที่ลิ้งค์ด้านล่างนี่เลย 👇</p>
@@ -60,3 +87,14 @@
     </div>
     <!-- Copyright -->
 </footer>
+
+
+
+<script>
+  function MouseOverFooterNav(id){
+    document.getElementById("footer_nav_item_" + String(id)).classList.add("animate__headShake");
+  }
+  function MouseOutFooterNav(id){
+    document.getElementById("footer_nav_item_" + String(id)).classList.remove("animate__headShake");
+  }
+</script>
