@@ -22,7 +22,7 @@
                 <div class="col-lg-4 col-md-12 mb-4">
                     <div class="card animate__animated animate__flipInX">
 						<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-							<a href="<%= data.m3[i].url %>" data-fancybox="m3">
+							<a href="<%= data.m3[i].url %>" data-fancybox="m3" data-caption="<%= (data.m3[i].title).join(" ") %>">
 								<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 								<img src="<%= data.m3[i].img %>" class="img-fluid" />
 							</a>
@@ -60,7 +60,7 @@
 					<div class="col-lg-4 col-md-12 mb-4">
 						<div class="card animate__animated animate__flipInX">
 							<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-								<a href="<%= data.voc_cert[i].url %>" data-fancybox="voc_cert">
+								<a href="<%= data.voc_cert[i].url %>" data-fancybox="voc_cert" data-caption="<%= (data.voc_cert[i].title).join(" ") %>">
 									<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 									<img src="<%= data.voc_cert[i].img %>" class="img-fluid" />
 								</a>
@@ -98,7 +98,7 @@
 					<div class="col-lg-4 col-md-12 mb-4">
 						<div class="card animate__animated animate__flipInX">
 							<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-								<a href="<%= data.voc_cert_2[i].url %>" data-fancybox="voc_cert_2">
+								<a href="<%= data.voc_cert_2[i].url %>" data-fancybox="voc_cert_2" data-caption="<%= (data.voc_cert_2[i].title).join(" ") %>">
 									<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 									<img src="<%= data.voc_cert_2[i].img %>" class="img-fluid" />
 								</a>
@@ -132,7 +132,7 @@
 
 				<% for(let i = 0; i < data.tools.length; i++){ %>
 					<div class="m-2 d-inline">
-						<a href="<%= data.tools[i].url %>">
+						<a href="<%= data.tools[i].url %>" target="_blank">
 							<img class="animate__animated animate__zoomIn" src="<%= data.tools[i].img %>" width="5%" alt="<%= data.tools[i].title %>">
 						</a>
 					</div>

@@ -93,7 +93,7 @@
                     <div class="col-lg-4 col-md-12 mb-4">
                         <div class="card animate__animated animate__flipInX">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <a href="<%= data.voc_cert[i].url %>" data-fancybox="voc_cert">
+                            <a href="<%= data.voc_cert[i].url %>" data-fancybox="voc_cert" data-caption="<%= (data.voc_cert[i].title).join(" ") %>">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                                 <img
                                     src="<%= data.voc_cert[i].img %>"
@@ -118,7 +118,7 @@
 
             </div>
 
-            <!----------------------------------------- Voc_cert --------------------------------------->
+            <!----------------------------------------- Voc_cert2 --------------------------------------->
             <hr class="my-5" />
             <h4 class="mb-5 animate__animated animate__fadeInDown"><strong><i class="fa-solid fa-briefcase"></i> ปวช. 2 <i class="fa-solid fa-briefcase"></i></strong></h4>
             <div class="row">
@@ -129,7 +129,7 @@
                     <div class="col-lg-4 col-md-12 mb-4">
                         <div class="card animate__animated animate__flipInX">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <a href="<%= data.voc_cert_2[i].url %>" data-fancybox="voc_cert_2">
+                            <a href="<%= data.voc_cert_2[i].url %>" data-fancybox="voc_cert_2" data-caption="<%= (data.voc_cert_2[i].title).join(" ") %>">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                                 <img
                                     src="<%= data.voc_cert_2[i].img %>"
