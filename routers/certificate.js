@@ -7,7 +7,7 @@ const urlEncoded = bodyParser.urlencoded({
 });
 
 const config = require("../configs/config.js");
-const { middle_School, voc_cert } = require("../configs/data/certificate.js");
+const { middle_School, voc_cert, voc_cert_2 } = require("../configs/data/certificate.js");
 
 router.get('/certificate', urlEncoded, async(req, res) =>{
     res.render("index", {
@@ -18,6 +18,7 @@ router.get('/certificate', urlEncoded, async(req, res) =>{
         data: {
             middle_School: middle_School,
             voc_cert: voc_cert,
+            voc_cert_2: voc_cert_2,
         },
     });
 });

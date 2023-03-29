@@ -175,4 +175,8 @@ module.exports = {
             ],
         },
     ],
+    // ปวช2
+    voc_cert_2: [
+        
+    ],
 }

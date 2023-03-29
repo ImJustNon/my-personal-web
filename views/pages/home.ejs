@@ -37,29 +37,29 @@
             <h4 class="mb-5 animate__animated animate__fadeInDown"><strong>😆 มาทำความรู้จักกันเถอะ 😆</strong></h4>
 
             <div class="row">
-                <div class="col-lg-3 col-md-12 mb-3">
-                <div class="card animate__animated animate__flipInX">
-                    <div class="card-body">
-                    <h5 class="card-title">ชื่อจริง</h5>
-                    <p class="card-text">
-                        คณกร ไทยประโคน
-                    </p>
+                <div class="col-lg-3 col-md-12 mb-3 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
+                    <div class="card animate__animated animate__flipInX">
+                        <div class="card-body">
+                        <h5 class="card-title">ชื่อจริง</h5>
+                        <p class="card-text">
+                            คณกร ไทยประโคน
+                        </p>
+                        </div>
                     </div>
                 </div>
-                </div>
 
-                <div class="col-lg-3 col-md-12 mb-3">
-                <div class="card animate__animated animate__flipInX">
-                    <div class="card-body">
-                    <h5 class="card-title">ชื่อเล่น</h5>
-                    <p class="card-text">
-                        นนท์ , นน , ณณฑ์ 🤣
-                    </p>
+                <div class="col-lg-3 col-md-12 mb-3 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
+                    <div class="card animate__animated animate__flipInX">
+                        <div class="card-body">
+                        <h5 class="card-title">ชื่อเล่น</h5>
+                        <p class="card-text">
+                            นนท์ , นน , ณณฑ์ 🤣
+                        </p>
+                        </div>
                     </div>
                 </div>
-                </div>
 
-                <div class="col-lg-3 col-md-12 mb-3">
+                <div class="col-lg-3 col-md-12 mb-3 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
                     <div class="card animate__animated animate__flipInX">
                     <div class="card-body">
                         <h5 class="card-title">วันเกิด</h5>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-12 mb-3">
+                <div class="col-lg-3 col-md-12 mb-3 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
                     <div class="card animate__animated animate__flipInX">
                     <div class="card-body">
                         <h5 class="card-title">อาศัยอยู่ที่</h5>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-12 mb-3">
+                <div class="col-lg-3 col-md-12 mb-3 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
                     <div class="card animate__animated animate__flipInX">
                     <div class="card-body">
                         <h5 class="card-title">สถานะ</h5>
@@ -92,18 +92,18 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-12 mb-3">
+                <div class="col-lg-3 col-md-12 mb-3 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
                     <div class="card animate__animated animate__flipInX">
                     <div class="card-body">
                         <h5 class="card-title">กำลังศึกษาอยู่ที่</h5>
                         <p class="card-text">
-                        วิทยาลัยอาชีวศึกษาเทคโนโลยี<br>ฐานวิทยาศาสตร์ (ชลบุรี)
+                        วอท. ชลบุรี
                         </p>
                     </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-12 mb-3">
+                <div class="col-lg-3 col-md-12 mb-3 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
                     <div class="card animate__animated animate__flipInX">
                     <div class="card-body">
                         <h5 class="card-title">สิ่งที่ชอบ / สนใจ</h5>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-12 mb-3">
+                <div class="col-lg-3 col-md-12 mb-3 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
                     <div class="card animate__animated animate__flipInX">
                     <div class="card-body">
                         <h5 class="card-title">อาหารที่ชอบ</h5>
@@ -146,8 +146,6 @@
 
 <script>
     setTimeout(function(){
-        let imagesArray = ["assets/images/najimi.jpg", "assets/images/my_face.jpg", "assets/images/old_favicon.png"];
-
         let profileImageElement = document.getElementById("profile_img");
         const profileImageConfig = {
             animation: {
@@ -174,11 +172,10 @@
             profileImageElement.classList.add(profileImageConfig.animation.in);
         }
         function ChangeRandomImage(){
+            let imagesArray = ["assets/images/najimi.jpg", "assets/images/my_face.jpg", "assets/images/old_favicon.png"];
             let random = Math.floor(Math.random() * (imagesArray.length));
             profileImageElement.src = imagesArray[random];
         }
-
-
         async function Run(){
             for(let i = 0; i < Infinity; i++){
                 AnimateOut();
@@ -190,10 +187,6 @@
             }
         }
         Run();
-        
-            
-        // 
-        
     }, 1 * 1000);
 </script>
 

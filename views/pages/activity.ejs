@@ -93,12 +93,12 @@
                     <div class="col-lg-4 col-md-12 mb-4">
                         <div class="card animate__animated animate__flipInX">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img
-                            src="<%= data.voc_cert[i].img %>"
-                            class="img-fluid"
-                            />
-                            <a href="<%= data.voc_cert[i].url %>">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            <a href="<%= data.voc_cert[i].url %>" data-fancybox="voc_cert">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                <img
+                                    src="<%= data.voc_cert[i].img %>"
+                                    class="img-fluid"
+                                />
                             </a>
                         </div>
                         <div class="card-body">
@@ -129,12 +129,12 @@
                     <div class="col-lg-4 col-md-12 mb-4">
                         <div class="card animate__animated animate__flipInX">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img
-                            src="<%= data.voc_cert_2[i].img %>"
-                            class="img-fluid"
-                            />
-                            <a href="<%= data.voc_cert_2[i].url %>">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            <a href="<%= data.voc_cert_2[i].url %>" data-fancybox="voc_cert_2">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                <img
+                                    src="<%= data.voc_cert_2[i].img %>"
+                                    class="img-fluid"
+                                />
                             </a>
                         </div>
                         <div class="card-body">

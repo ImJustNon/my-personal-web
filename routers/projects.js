@@ -7,7 +7,7 @@ const urlEncoded = bodyParser.urlencoded({
 });
 
 const config = require("../configs/config.js");
-const { m3, voc_cert, tools } = require("../configs/data/projects.js");
+const { m3, voc_cert, voc_cert_2, tools } = require("../configs/data/projects.js");
 
 router.get('/projects', urlEncoded, async(req, res) =>{
     res.render("index", {
@@ -18,6 +18,7 @@ router.get('/projects', urlEncoded, async(req, res) =>{
         data: {
             m3: m3,
             voc_cert: voc_cert,
+            voc_cert_2: voc_cert_2,
             tools: tools,
         },
     });

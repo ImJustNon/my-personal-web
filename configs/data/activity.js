@@ -7,7 +7,7 @@ module.exports = {
     voc_cert: [
         {
             img: `assets/images/activity/Picture2-crop.jpg`,
-            url: `#!`,
+            url: `assets/images/activity/Picture2-crop.jpg`,
             title: [
                 `เข้าร่วมการอบรมออกเเบบหุ่นยนต์`,
                 `(GW Advance Engineering)`,
@@ -18,7 +18,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/Picture3.jpg`,
-            url: `#!`,
+            url: `assets/images/activity/Picture3.jpg`,
             title: [
                 `เข้าร่วมการเเข่งขันตอบคำถามวิชาการ`,
             ],
@@ -29,7 +29,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/Picture1.jpg`,
-            url: `#!`,
+            url: `assets/images/activity/Picture1.jpg`,
             title: [
                 `เข้าร่วมการอบรมการดูเเลรักษาคอมพิวเตอร์ด้วยตัวเอง`,
             ],
@@ -39,7 +39,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/Picture11.jpg`,
-            url: `#!`,
+            url: `assets/images/activity/Picture11.jpg`,
             title: [
                 `เข้าร่วมการอบรมการเขียนแผนธุรกิจ`,
             ],
@@ -49,7 +49,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/Picture9.jpg`,
-            url: `#!`,
+            url: `assets/images/activity/Picture9.jpg`,
             title: [
                 `เข้าร่วมการอบรมภาษาญีปุ่น`,
             ],
@@ -59,7 +59,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/arduino_teaching_assistant-crop.jpg`,
-            url: `#!`,
+            url: `assets/images/activity/arduino_teaching_assistant-crop.jpg`,
             title: [
                 `เป็นพี่เลี้ยงช่วยสอน Arduino`,
                 `ให้กับน้องๆที่มาอบรม`,
@@ -70,7 +70,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/pjbl1-2-crop-crop.jpg`,
-            url: `#!`,
+            url: `assets/images/activity/pjbl1-2-crop-crop.jpg`,
             title: [
                 `รับรางวัลชนะเลิศโปรเจค PJBL ระดับปี 1`,
             ],
@@ -80,7 +80,7 @@ module.exports = {
         },
         {
             img: `assets/images/activity/rover_scout-crop.jpg`,
-            url: `#!`,
+            url: `assets/images/activity/rover_scout-crop.jpg`,
             title: [
                 `เข้าร่วมงานชุมนุมลูกเสือ`,
                 `เนตรนารีวิสามัญอาชีวศึกษา`,
@@ -91,6 +91,7 @@ module.exports = {
             ],
         },
     ],
+    // ปวช2
     voc_cert_2: [
         
     ],

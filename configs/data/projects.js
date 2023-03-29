@@ -3,7 +3,7 @@ module.exports = {
     m3: [
         {
             img: `assets/images/projects/kwan_bot-crop.jpg`,
-            url: `#!`,
+            url: `assets/images/projects/kwan_bot-crop.jpg`,
             title: [
                 `✨ Kwan 💕#0111`,
             ],
@@ -22,7 +22,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/Music-bot-with-request-channel-bot-2.jpg`,
-            url: `#!`,
+            url: `assets/images/projects/Music-bot-with-request-channel-bot-2.jpg`,
             title: [
                 `Music-bot-with-request-channel`,
             ],
@@ -40,7 +40,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/aiko_bot-crop.jpg`,
-            url: `#!`,
+            url: `assets/images/projects/aiko_bot-crop.jpg`,
             title: [
                 `A i K o #6265`,
             ],
@@ -58,7 +58,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/miku_bot-crop.jpg`,
-            url: `#!`,
+            url: `assets/images/projects/miku_bot-crop.jpg`,
             title: [
                 `✨ M i K U 💙#1031`,
             ],
@@ -81,7 +81,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/activity_bot-crop.png`,
-            url: `#!`,
+            url: `assets/images/projects/activity_bot-crop.png`,
             title: [
                 `Discord-Activity-Bot`,
             ],
@@ -103,7 +103,7 @@ module.exports = {
     voc_cert: [
         {
             img: `assets/images/projects/upload_api.jpg`,
-            url: `#!`,
+            url: `assets/images/projects/upload_api.jpg`,
             title: [
                 `Image Upload API`,
             ],
@@ -127,7 +127,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/useless_api-crop.png`,
-            url: `#!`,
+            url: `assets/images/projects/useless_api-crop.png`,
             title: [
                 `Useless API`,
                 `(ก็ไม่ได้ไรประโยชน์ซ่ะที่เดียวอ่ะน่ะ)`,
@@ -147,7 +147,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/give_me_aungpao_web.jpg`,
-            url: `#!`,
+            url: `assets/images/projects/give_me_aungpao_web.jpg`,
             title: [
                 `🧧 เว็ปรับอั่งเปาของผมเอง 🧧`,
             ],
@@ -165,7 +165,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/my_personal_portfolio.jpg`,
-            url: `#!`,
+            url: `assets/images/projects/my_personal_portfolio.jpg`,
             title: [
                 `📊 เว็ปไซต์ส่วนตัวของผมเอง 📊`,
             ],
@@ -177,7 +177,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/image-gallery.jpg`,
-            url: `#!`,
+            url: `assets/images/projects/image-gallery.jpg`,
             title: [
                 `Image Gallery Project`,
             ],
@@ -195,7 +195,7 @@ module.exports = {
         },
         {
             img: `assets/images/projects/sbtvc-dormitory-access-system-crop.png`,
-            url: `#!`,
+            url: `assets/images/projects/sbtvc-dormitory-access-system-crop.png`,
             title: [
                 `ระบบการขอเข้า-ออกหอพักออนไลน์`,
                 `พร้อมหน้าจัดการ (Admin Panel)`,
@@ -217,8 +217,8 @@ module.exports = {
             ],
         },
         {
-            img: `assets/images/projects/dear_debtor_v2-crop.jpg`,
-            url: `#!`,
+            img: `assets/images/projects/dear_debtor_v2.jpg`,
+            url: `assets/images/projects/dear_debtor_v2.jpg`,
             title: [
                 `Dear Debtor V2`,
             ],
@@ -233,6 +233,10 @@ module.exports = {
                 },
             ],
         },
+    ],
+    // ปวช2
+    voc_cert_2: [
+
     ],
     // เครื่องมือที่ใช้
     tools: [
