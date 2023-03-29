@@ -15,4 +15,18 @@
 3) `yarn install`
 4) `yarn start` หรือ `yarn dev` สำหรับ Nodemon
 
-้<h1>🎃  LOL  🎃</h1>
+<h2>⚙ ENV config ⚙</h2>
+
+```env
+    MONGO_URI = ""
+    PORT = "8080"
+
+    MYSQL_HOST = ""
+    MYSQL_USER = ""
+    MYSQL_PASSWORD = ""
+    MYSQL_DATABASE = ""
+    MYSQL_SSL = "false"
+```
+
+
+<h1>🎃  LOL  🎃</h1>
