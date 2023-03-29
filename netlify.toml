@@ -1,0 +1,7 @@
+[build]
+  command = "yarn"
+  functions = "functions"
+
+[dev]
+  command = "yarn start"
+  port = 8080
