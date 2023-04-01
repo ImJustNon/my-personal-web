@@ -18,7 +18,6 @@
 <h2>⚙ ENV config ⚙</h2>
 
 ```env
-    MONGO_URI = ""
     PORT = "8080"
 
     MYSQL_HOST = ""
