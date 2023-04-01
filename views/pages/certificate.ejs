@@ -1,8 +1,8 @@
 
 <main class="mt-2" >
     <div id="intro" class="p-5 text-center bg-transparent">
-        <h1 class="mb-3 h2 animate__animated animate__zoomIn">เกียรติบัตร</h1>
-        <p class="mb-3 animate__animated animate__fadeInUp">😅 น่าจะพอมีเอามาลงอยู่บ้างเเหละ 555+ 😅</p>
+        <h1 class="mb-3 h2" data-aos="zoom-in">เกียรติบัตร</h1>
+        <p class="mb-3" data-aos="fade-up">😅 น่าจะพอมีเอามาลงอยู่บ้างเเหละ 555+ 😅</p>
     </div>
 
     <br>
@@ -13,7 +13,7 @@
         <section class="text-center">
             <!--------------------------------------------------------------- มัธยมต้น  -------------------------------------------------------->
             <hr class="my-0">
-            <h4 class="my-5 animate__animated animate__fadeInDown"><strong><i class="fa-solid fa-graduation-cap"></i> มัธยมต้น <i class="fa-solid fa-graduation-cap"></i></strong></h4>
+            <h4 class="my-5" data-aos="fade-down"><strong><i class="fa-solid fa-graduation-cap"></i> มัธยมต้น <i class="fa-solid fa-graduation-cap"></i></strong></h4>
   
             <div class="row">  
 
@@ -21,7 +21,7 @@
                 <% for(let i = 0; i < data.middle_School.length; i++){ %>
                     
                     <div class="col-lg-4 col-md-12 mb-4">
-                        <div class="card animate__animated animate__flipInX">
+                        <div class="card" data-aos="zoom-in">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">   
                             <a href="<%= data.middle_School[i].url %>" data-fancybox="middle_School" data-caption="<%= (data.middle_School[i].title).join(" ") %>">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
@@ -50,13 +50,13 @@
 
             <!--------------------------------------------------------------- ปวช 1  -------------------------------------------------------->
             <hr class="my-5">
-            <h4 class="my-5 animate__animated animate__fadeInDown"><strong><i class="fa-solid fa-graduation-cap"></i> ปวช. 1 <i class="fa-solid fa-graduation-cap"></i></strong></h4>
+            <h4 class="my-5" data-aos="fade-down"><strong><i class="fa-solid fa-graduation-cap"></i> ปวช. 1 <i class="fa-solid fa-graduation-cap"></i></strong></h4>
 
             <div class="row">
                 <!-- Loop รา้ง Element ทั้งหมดตามที ส่งมา -->
                 <% for(let i = 0; i < data.voc_cert.length; i++){ %>
                     <div class="col-lg-4 col-md-12 mb-4">
-                        <div class="card animate__animated animate__flipInX">
+                        <div class="card" data-aos="zoom-in">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <a href="<%= data.voc_cert[i].url %>" data-fancybox="voc_cert" data-caption="<%= (data.voc_cert[i].title).join(" ") %>">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
@@ -83,13 +83,13 @@
 
             <!--------------------------------------------------------------- ปวช 2  -------------------------------------------------------->
             <hr class="my-5">
-            <h4 class="my-5 animate__animated animate__fadeInDown"><strong><i class="fa-solid fa-graduation-cap"></i> ปวช. 2 <i class="fa-solid fa-graduation-cap"></i></strong></h4>
+            <h4 class="my-5" data-aos="fade-down"><strong><i class="fa-solid fa-graduation-cap"></i> ปวช. 2 <i class="fa-solid fa-graduation-cap"></i></strong></h4>
 
             <div class="row">
                 <!-- Loop รา้ง Element ทั้งหมดตามที ส่งมา -->
                 <% for(let i = 0; i < data.voc_cert_2.length; i++){ %>
                     <div class="col-lg-4 col-md-12 mb-4">
-                        <div class="card animate__animated animate__flipInX">
+                        <div class="card" data-aos="zoom-in">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <a href="<%= data.voc_cert_2[i].url %>" data-fancybox="voc_cert_2" data-caption="<%= (data.voc_cert_2[i].title).join(" ") %>">
                                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
