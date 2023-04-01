@@ -153,8 +153,29 @@
                     in: "animate__rollIn",
                     out: "animate__rollOut",
                 },
+                {
+                    in: "animate__bounceInDown",
+                    out: "animate__bounceOutDown",
+                },
+                {
+                    in: "animate__backInDown",
+                    out: "animate__backOutDown",
+                },
+                {
+                    in: "animate__backInLeft",
+                    out: "animate__backOutRight",
+                },
+                {
+                    in: "animate__flipInX",
+                    out: "animate__flipOutX",
+                }, 
+                {
+                    in: "animate__zoomInDown",
+                    out: "animate__zoomOutDown",
+                }
             ],
         }
+        let randomProfileImageAnimation = Math.floor(Math.random() * (profileImageConfig.animation.length));
 
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
@@ -185,17 +206,17 @@
             let random = Math.floor(Math.random() * (imagesArray.length));
             profileImageElement.src = imagesArray[random];
         }
-        async function Run(){
+        async function Run(randomNum){
             for(let i = 0; i < Infinity; i++){
-                AnimateOut(0);
+                AnimateOut(randomNum);
                 await sleep(1000);
                 ChangeAndRandomImage();
                 await sleep(500);
-                AnimateIn(0);
+                AnimateIn(randomNum);
                 await sleep(2500);
             }
         }
-        Run();
+        Run(randomProfileImageAnimation);
     }, 1 * 1000);
 </script>
 
