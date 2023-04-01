@@ -6,7 +6,6 @@
 <h2>📸 Previews</h2>
 
 <img src="./public/assets/images/README_PRE1.JPG">
-<img src="./public/assets/images/README_PRE3.JPG">
 
 <h2>🛠 Install</h2>
 
