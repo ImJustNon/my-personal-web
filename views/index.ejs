@@ -135,6 +135,22 @@
 <!-- Fancybox Config -->
 <script>
   Fancybox.bind("[data-fancybox]", {
+    Toolbar: {
+      display: {
+        left: [
+        ],
+        middle: [
+          "infobar",
+        ],
+        right: [
+          "rotateCW",
+          "iterateZoom",
+          "slideshow",
+          "thumbs", 
+          "close",
+        ],
+      },
+    },
   });
   console.log("[Debug] Fancybox config loaded");
 </script>

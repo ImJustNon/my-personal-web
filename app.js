@@ -5,7 +5,6 @@ const path = require('path');
 const fs = require('fs');
 const bodyParser = require('body-parser');
 const config = require("./configs/config.js");
-const mongoose = require('mongoose');
 const chalk = require('chalk');
 const logger = require('morgan');
 const useragent = require('express-useragent');
