@@ -1,0 +1,94 @@
+<!-- MDB -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- AOS -->
+<script type="text/javascript" src="libs/aos/dist/aos.js"></script>
+<!-- AOS Config -->
+<script>
+  AOS.init({
+    duration: 500,
+    once: false,
+  });
+  console.log("[Debug] AOS config loaded");
+</script>
+<!-- <script src="js/libs/particle.js"></script> -->
+<!-- <script src="js/libs/app-particle.js"></script> -->
+<!-- particles scripts -->
+<script src="libs/particles.js/libs/particles.js"></script>
+<!-- particles setup -->
+<script src="libs/particles.js/app-particle.js"></script>
+<!-- particle scripts end -->
+<!-- Lightbox2 script -->
+<script src="libs/lightbox2/dist/js/lightbox.min.js"></script>
+<!-- Lightbox2 Config -->
+<script>
+  lightbox.option({
+    'resizeDuration': 300,
+    'wrapAround': true,
+    'disableScrolling': true,
+    'fadeDuration': 200,
+    'positionFromTop': 150
+  });
+  console.log("[Debug] Lightbox2 config loaded");
+</script>
+<!-- Fancybox script -->
+<script src="libs/fancybox/dist/fancybox/fancybox.umd.js"></script>
+<!-- Fancybox Config -->
+<script>
+  Fancybox.bind("[data-fancybox]", {
+    Toolbar: {
+      display: {
+        left: [
+        ],
+        middle: [
+          "infobar",
+        ],
+        right: [
+          "rotateCW",
+          "iterateZoom",
+          "slideshow",
+          "thumbs", 
+          "close",
+        ],
+      },
+    },
+  });
+  console.log("[Debug] Fancybox config loaded");
+</script>
+<!-- tilt.js script -->
+<script src="libs/tilt.js/dest/tilt.jquery.js"></script>
+<!-- tilt.js setup -->
+<script>
+  const tilt = $('.js-tilt').tilt();
+  tilt.on('change', function (e, transforms) {
+    console.log('[Debug] ' + transforms);
+  });
+  tilt.on('tilt.mouseLeave', function (e) {
+    console.log('[Debug] ' + e);
+  });
+  tilt.on('tilt.mouseEnter', function (e) {
+    console.log('[Debug] ' + e);
+  });
+  console.log("[Debug] Tilt.js setup loaded");
+</script>
+<!-- Socket.io script -->
+<script src="libs/socket.io-client/dist/socket.io.min.js"></script>
+<!-- Socket.io setup -->
+<script>
+  const socket = io("ws://localhost:3000", {
+    transports: ['polling'],
+    cors: {
+      origin: 'http://127.0.0.1:8080',
+      methods: ['GET', 'POST'],
+    },
+  });
+  socket.on("connect", () => {
+    console.log("[Debug] Socket.io connected ID: " + socket.id);
+  });
+  socket.on("disconnect", () => {
+    console.log("[Debug] Socket.io connected ID: " + socket.id);
+  });
+</script>
+<!-- Axios script -->
+<script src="libs/axios/dist/axios.min.js"></script>
+<!-- OwlCarousel2 script -->
+<script src="libs/owlcarousel2/dist/owl.carousel.min.js"></script>
