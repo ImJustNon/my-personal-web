@@ -1,5 +1,5 @@
 [build]
-  command = "yarn"
+  command = "yarn install"
   functions = "functions"
 
 [dev]
