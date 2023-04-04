@@ -7,7 +7,7 @@ const config = require("./configs/config.js");
 const chalk = require('chalk');
 const logger = require('morgan');
 const useragent = require('express-useragent');
-
+const cors = require('cors');
 
 const app = express();
 const urlencoded = bodyParser.urlencoded({
@@ -15,14 +15,11 @@ const urlencoded = bodyParser.urlencoded({
     extended: true,
 });
 
+app.use(cors());
 app.use(useragent.express());
-
-
 app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'ejs');
-
 app.use(logger("common"));
-
 app.use(express.static(path.join(__dirname,'./public')));
 app.use(express.static(path.join(__dirname,'./node_modules')));
 app.use(express.json({
