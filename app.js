@@ -34,7 +34,7 @@ fs.readdirSync("./routers").forEach(async files => {
         console.log(chalk.bold.greenBright('[Router] ') + chalk.bold.whiteBright(`Loaded : `) + chalk.bold.greenBright(files));
     }
     catch (e){
-        console.log(chalk.bold.greenBright('[Router] ') + chalk.bold.whiteBright(`Fail to Load : `) + chalk.bold.redBright(files));
+        console.log(chalk.bold.greenBright('[Router] ') + chalk.bold.whiteBright(`Fail to Load : `) + chalk.bold.redBright(files + " ERROR: " + e));
     }
 });
 

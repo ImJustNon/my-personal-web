@@ -10,312 +10,70 @@
     <div class="container">
         <!--Section: Content-->
         <section class="text-center">
+            <!----------------------------------------------------------------- เกี่ยวกับผม ----------------------------------------------------------------->
             <div class="row">
-
                 <hr class="my-2">
                 <h5 data-aos="fade-down" class="my-5"><strong><i class="fa-solid fa-user"></i> เกี่ยวกับตัวผมครับ <i class="fa-solid fa-user"></i></strong></h5>
 
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25"> 
-                    <div data-aos="flip-down" class="card">
-                        <div class="card-body">
-                        <h5 class="card-title">ชื่อจริง</h5>
-                        <p class="card-text">
-                            นาย คณกร ไทยประโคน
-                        </p>
+                <% for(let i = 0; i < data.myself.length; i++){ %>
+                    <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25"> 
+                        <div data-aos="flip-down" class="card">
+                            <div class="card-body">
+                                <% for(let ii = 0; ii < data.myself[i].title.length; ii++){ %>
+                                    <h5 class="card-title"><%= data.myself[i].title[ii] %></h5>
+                                <% } %>
+                                <% for(let ii = 0; ii < data.myself[i].description.length; ii++){ %>
+                                    <p class="card-text m-0"><%= data.myself[i].description[ii] %></p>
+                                <% } %>
+                            </div>
                         </div>
                     </div>
-                </div>
+                <% } %>
 
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                        <div class="card-body">
-                        <h5 class="card-title">ชื่อเล่น</h5>
-                        <p class="card-text">
-                            นนท์ , นน , ณณฑ์ 🤣
-                        </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">วันเกิด</h5>
-                        <p class="card-text">
-                            วันจันทร์ที่ 4 เดือนกันยายน พ.ศ.2549
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">อายุ</h5>
-                        <p class="card-text">
-                            <span id="my_age"></span> ขวบ
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">สัญชาติไทย</h5>
-                        <p class="card-text">
-                            ไทย
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">เชื้อชาติ</h5>
-                        <p class="card-text">
-                            ไทย
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">สีที่ชอบ</h5>
-                        <p class="card-text">
-                            สีเขียว
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">อาหารที่ชอบ</h5>
-                        <p class="card-text">
-                            ทุกอย่างที่กินได้ ยกเว้น 🥦
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">สัตว์ที่ชอบ</h5>
-                        <p class="card-text">
-                            สุนัข
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">สัตว์ที่ไม่ชอบ</h5>
-                        <p class="card-text">
-                        สัตว์ที่มีพิษ เเละ เเมลง
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">คติประจำใจ</h5>
-                        <p class="card-text">
-                            If it works don't touch it
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">มีพี่น้อง 1 คน</h5>
-                        <p class="card-text">
-                            ชื่อ ด.ช.ภัทรพล ไทยประโคน
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">งานอดิเรก</h5>
-                        <p class="card-text">
-                            ดูการ์ตูน เล่นเกม อ่านการ์ตูน
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">เบอร์โทรศัพท์</h5>
-                        <p class="card-text">
-                            +66 86-409-2162 , +66 93-652-5578
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Line-ID</h5>
-                        <p class="card-text">
-                            non.kanakorn
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Facebook</h5>
-                        <p class="card-text">
-                            Kanakorn Thaiprakhon
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">E-Mail</h5>
-                        <p class="card-text">
-                            non.kanakorn@gmail.com
-                            i_Non.Kanakorn006@hotmail.com
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">ความสามารถพิเศษ</h5>
-                        <p class="card-text">
-                            สามารถใช้และแก้ปัญหาคอมพิวเตอร์ได้ เขียนโปรแกรมภาษา JavaScript ได้
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">ความสนใจ</h5>
-                        <p class="card-text">
-                            สนใจเรื่อง Web Application เเละ Backend web development
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">ที่อยู่ปัจจุบัน</h5>
-                        <p class="card-text">
-                            สมุทรปราการ ประเทศไทย
-                        </p>
-                    </div>
-                    </div>
-                </div>
             </div>
             <!----------------------------------------------------------------- เกี่ยวกับบิดา ----------------------------------------------------------------->
             <div class="row">
                 <h5 data-aos="fade-down" class="mb-3"><strong><i class="fa-solid fa-user"></i> เกี่ยวกับบิดา <i class="fa-solid fa-user"></i></strong></h5>
                 
-                <div class="col-lg col-md-4 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">ชื่อบิดา</h5>
-                        <p class="card-text">
-                            ไม่บอก 😝
-                        </p>
+                <% for(let i = 0; i < data.dad.length; i++){ %>
+                    <div class="col-lg col-md-4 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
+                        <div data-aos="flip-down" class="card">
+                            <div class="card-body">
+                                <% for(let ii = 0; ii < data.dad[i].title.length; ii++){ %>
+                                    <h5 class="card-title"><%= data.dad[i].title[ii] %></h5>
+                                <% } %>
+                                <% for(let ii = 0; ii < data.dad[i].description.length; ii++){ %>
+                                    <p class="card-text"><%= data.dad[i].description[ii] %></p>
+                                <% } %>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                </div>
+                <% } %>
 
-                <div class="col-lg col-md-4 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">อาชีพ</h5>
-                        <p class="card-text">
-                            ไม่บอก 😝
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg col-md-4 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">เบอร์โทรศัพท์</h5>
-                        <p class="card-text">
-                            ไม่บอก 😝
-                        </p>
-                    </div>
-                    </div>
-                </div>
             </div>
 
 
             <!----------------------------------------------------------------- เกี่ยวกับมารดา ----------------------------------------------------------------->
             <div class="row">
-
                 <h5 data-aos="fade-down" class="mb-3"><strong><i class="fa-solid fa-user"></i> เกี่ยวกับมารดา <i class="fa-solid fa-user"></i></strong></h5>
                 
-                <div class="col-lg col-md-4 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">ชื่อมารดา</h5>
-                        <p class="card-text">
-                            ไม่บอก 😝
-                        </p>
+                <% for(let i = 0; i < data.mom.length; i++){ %>
+                    <div class="col-lg col-md-4 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
+                        <div data-aos="flip-down" class="card">
+                            <div class="card-body">
+                                <% for(let ii = 0; ii < data.mom[i].title.length; ii++){ %>
+                                    <h5 class="card-title"><%= data.mom[i].title[ii] %></h5>
+                                <% } %>
+                                <% for(let ii = 0; ii < data.mom[i].description.length; ii++){ %>
+                                    <p class="card-text"><%= data.mom[i].description[ii] %></p>
+                                <% } %>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                </div>
+                <% } %>
 
-                <div class="col-lg col-md-4 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">อาชีพ</h5>
-                        <p class="card-text">
-                            ไม่บอก 😝
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg col-md-4 mb-5 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="flip-down" class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">เบอร์โทรศัพท์</h5>
-                        <p class="card-text">
-                            ไม่บอก 😝
-                        </p>
-                    </div>
-                    </div>
-                </div>
             </div>
 
-            <br>
-            <br>
 
             <!----------------------------------------------------------------- เกี่ยวกับประวัติการศึกษา ----------------------------------------------------------------->
             <hr class="my-5" />
@@ -323,43 +81,28 @@
 
             <div class="row justify-content-around">
 
-                <div class="col-lg-4 mb-4 js-tilt"  data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="fade-right" class="card">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img
-                        src="assets/images/portfolio/ssm.jpg"
-                        class="img-fluid"
-                        />
-                        <a href="https://www.ssm.ac.th/" target="_blank">
-                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
+                <% for(let i = 0; i < data.school.length; i++){ %>
+                    <div class="col-lg-4 mb-4 js-tilt"  data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
+                        <div data-aos="<%= data.school[i].aosAnimation %>" class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="<%= data.school[i].img %>" class="img-fluid"/>
+                            <a href="<%= data.school[i].url %>" target="_blank">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <% for(let ii = 0; ii < data.school[i].title.length; ii++){ %>
+                                <h5 class="card-title m-0"><%= data.school[i].title[ii] %></h5>
+                            <% } %>
+                            <% for(let ii = 0; ii < data.school[i].description.length; ii++){ %>
+                                <p class="card-text m-1"><%= data.school[i].description[ii] %></p>
+                            <% } %>
+                            <a target="_blank" href="<%= data.school[i].button.facebook %>" class="my-1 btn btn-primary"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                            <a target="_blank" href="<%= data.school[i].button.website %>" class="my-1 btn btn-info"><i class="fa-solid fa-globe"></i> Website</a>
+                        </div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">จบการศึกษาระดับ มัธยมศึกษาปีที่3 <br> โรงเรียนเซนต์เเมรี่ (สมุทรปราการ)</h5>
-                        <a target="_blank" href="https://web.facebook.com/SaintmarySM/" class="my-1 btn btn-primary"><i class="fa-brands fa-facebook"></i> Facebook</a>
-                        <a target="_blank" href="https://www.ssm.ac.th/" class="my-1 btn btn-info"><i class="fa-solid fa-globe"></i> Website</a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 js-tilt" data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
-                    <div data-aos="fade-left" class="card">
-                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img
-                        src="assets/images/portfolio/sbtvc.jpg"
-                        class="img-fluid"
-                        />
-                        <a href="http://sbtvc.ac.th/gcms/index.php" target="_blank">
-                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">กำลังศึกษาระดับ ปวช. <br> วิทยาลัยอาชีวศึกษาเทคโนโลยีฐานวิทยาศาสตร์ (ชลบุรี)</h5>
-                        <a target="_blank" href="https://web.facebook.com/sbtvc/" class="my-1 btn btn-primary"><i class="fa-brands fa-facebook"></i> Facebook</a>
-                        <a target="_blank" href="http://sbtvc.ac.th/gcms/index.php" class="my-1 btn btn-info"><i class="fa-solid fa-globe"></i> Website</a>
-                    </div>
-                    </div>
-                </div>
+                <% } %>
 
             </div>
 

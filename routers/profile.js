@@ -7,6 +7,8 @@ const urlEncoded = bodyParser.urlencoded({
 });
 
 const config = require("../configs/config.js");
+const { myself, mom, dad, school } = require("../configs/data/personal_info.js");
+
 
 router.get('/profile', urlEncoded, async(req, res) =>{
     res.render("index", {
@@ -16,6 +18,10 @@ router.get('/profile', urlEncoded, async(req, res) =>{
         error: null,
         data: {
             birthDate: config.birthDate,
+            myself: myself,
+            mom: mom,
+            dad: dad,
+            school: school,
         },
     });
 });
