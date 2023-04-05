@@ -84,22 +84,22 @@
                 <% for(let i = 0; i < data.school.length; i++){ %>
                     <div class="col-lg-4 mb-4 js-tilt"  data-tilt-perspective="2000" data-tilt-scale="1.1" data-tilt-speed="400" data-tilt-max="25">
                         <div data-aos="<%= data.school[i].aosAnimation %>" class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="<%= data.school[i].img %>" class="img-fluid"/>
-                            <a href="<%= data.school[i].url %>" target="_blank">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <% for(let ii = 0; ii < data.school[i].title.length; ii++){ %>
-                                <h5 class="card-title m-0"><%= data.school[i].title[ii] %></h5>
-                            <% } %>
-                            <% for(let ii = 0; ii < data.school[i].description.length; ii++){ %>
-                                <p class="card-text m-1"><%= data.school[i].description[ii] %></p>
-                            <% } %>
-                            <a target="_blank" href="<%= data.school[i].button.facebook %>" class="my-1 btn btn-primary"><i class="fa-brands fa-facebook"></i> Facebook</a>
-                            <a target="_blank" href="<%= data.school[i].button.website %>" class="my-1 btn btn-info"><i class="fa-solid fa-globe"></i> Website</a>
-                        </div>
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="<%= data.school[i].img %>" class="img-fluid"/>
+                                <a href="<%= data.school[i].url %>" target="_blank">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <% for(let ii = 0; ii < data.school[i].title.length; ii++){ %>
+                                    <h5 class="card-title m-0"><%= data.school[i].title[ii] %></h5>
+                                <% } %>
+                                <% for(let ii = 0; ii < data.school[i].description.length; ii++){ %>
+                                    <p class="card-text m-1"><%= data.school[i].description[ii] %></p>
+                                <% } %>
+                                <a target="_blank" href="<%= data.school[i].button.facebook %>" class="my-1 btn btn-primary"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                                <a target="_blank" href="<%= data.school[i].button.website %>" class="my-1 btn btn-info"><i class="fa-solid fa-globe"></i> Website</a>
+                            </div>
                         </div>
                     </div>
                 <% } %>
