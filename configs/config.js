@@ -24,7 +24,7 @@ module.exports = {
         address: "127.0.0.1",
         port: process.env.PORT || 8080,
         api: {
-            secretKey: "nondeklnw",
+            secretKey: "idontknow",
         },
     },
     birthDate: "09/04/2006", //    MM/DD/YYYY format
