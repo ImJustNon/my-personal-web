@@ -26,6 +26,10 @@
     <!-- OwlCarousel2 CSS -->
     <link rel="stylesheet" href="libs/owlcarousel2/dist/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="libs/owlcarousel2/dist/assets/owl.theme.default.min.css"/>
+    <!-- notyf CSS -->
+    <link rel="stylesheet" href="libs/notyf/notyf.min.css">
+    <!-- vanilla toasts CSS -->
+    <link rel="stylesheet" href="libs/vanillatoasts/vanillatoasts.css">
 
 
     <!-- สั่งโหลดตาม หน้าที่เข้ามา -->
@@ -109,5 +113,23 @@
 <!-- Footer -->
 <%- include("./partials/footer.ejs") %>
 <!-- Footer end -->
+
+
+<!-- tilt.js script -->
+<script src="libs/tilt.js/dest/tilt.jquery.js"></script>
+<!-- tilt.js setup -->
+<script>
+  const tilt = $('.js-tilt').tilt();
+  tilt.on('change', function (e, transforms) {
+    console.log('[Debug] ' + transforms);
+  });
+  tilt.on('tilt.mouseLeave', function (e) {
+    console.log('[Debug] ' + e);
+  });
+  tilt.on('tilt.mouseEnter', function (e) {
+    console.log('[Debug] ' + e);
+  });
+  console.log("[Debug] Tilt.js setup loaded");
+</script>
 </body>
 </html>

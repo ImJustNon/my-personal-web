@@ -1,5 +1,7 @@
 <!-- MDB -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Axios script -->
+<script src="libs/axios/dist/axios.min.js"></script>
 <!-- AOS -->
 <script type="text/javascript" src="libs/aos/dist/aos.js"></script>
 <!-- AOS Config -->
@@ -54,22 +56,7 @@
   });
   console.log("[Debug] Fancybox config loaded");
 </script>
-<!-- tilt.js script -->
-<script src="libs/tilt.js/dest/tilt.jquery.js"></script>
-<!-- tilt.js setup -->
-<script>
-  const tilt = $('.js-tilt').tilt();
-  tilt.on('change', function (e, transforms) {
-    console.log('[Debug] ' + transforms);
-  });
-  tilt.on('tilt.mouseLeave', function (e) {
-    console.log('[Debug] ' + e);
-  });
-  tilt.on('tilt.mouseEnter', function (e) {
-    console.log('[Debug] ' + e);
-  });
-  console.log("[Debug] Tilt.js setup loaded");
-</script>
+
 <!-- Socket.io script -->
 <script src="libs/socket.io-client/dist/socket.io.min.js"></script>
 <!-- Socket.io setup -->
@@ -88,7 +75,21 @@
     console.log("[Debug] Socket.io connected ID: " + socket.id);
   });
 </script>
-<!-- Axios script -->
-<script src="libs/axios/dist/axios.min.js"></script>
 <!-- OwlCarousel2 script -->
 <script src="libs/owlcarousel2/dist/owl.carousel.min.js"></script>
+<!-- notyf script -->
+<script src="libs/notyf/notyf.min.js"></script>
+<!-- notyf setup -->
+<script>
+  var notyf = new Notyf({
+    duration: 5000,
+    ripple: false,
+    position: {
+      x: "right",
+      y: "bottom",
+    },
+    dismissible: true,
+  });
+</script>
+<!-- vanilla toasts script -->
+<script src="libs/vanillatoasts/vanillatoasts.js"></script>

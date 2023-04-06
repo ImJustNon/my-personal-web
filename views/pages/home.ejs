@@ -204,7 +204,9 @@
                 "assets/images/profile_images/my_face_6.jpg",
             ];
             let random = Math.floor(Math.random() * (imagesArray.length));
-            profileImageElement.src = imagesArray[random];
+            let selectImage = imagesArray[random];
+            profileImageElement.src = selectImage;
+            console.log(`[Debug] selectImage : ${selectImage}`);
         }
         async function Run(randomNum){
             for(let i = 0; i < Infinity; i++){
