@@ -10,7 +10,8 @@
     "dev": "nodemon ./server.js",
     "start": "node ./server.js",
     "build": "yarn install && yarn start",
-    "flydeploy": "flyctl deploy"
+    "flydeploy": "flyctl deploy",
+    "socket-server": "node ./socket.io-server/socket-io.js"
   },
   "dependencies": {
     "better-sqlite3": "^8.2.0",

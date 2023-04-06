@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
     <!-- Global Css File -->
     <link rel="stylesheet" href="css/index.css"/>
     <!-- MDB -->
@@ -70,6 +71,11 @@
 </head>
 <body>
 
+<!-- Preload -->
+<%- include("./partials/preload.ejs") %>
+<!-- Preload -->
+
+
 <!-- particle bg -->
 <div id="particles-js"></div>
 <!-- particle bg -->
@@ -131,5 +137,9 @@
   });
   console.log("[Debug] Tilt.js setup loaded");
 </script>
+
+<!-- Preload fadeOut script -->
+<script> $(".preloader").fadeOut(); </script>
+<!-- Preload fadeOut script -->
 </body>
 </html>
