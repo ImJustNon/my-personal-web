@@ -1,7 +1,5 @@
 <!-- MDB -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
-<!-- Axios script -->
-<script src="libs/axios/dist/axios.min.js"></script>
 <!-- AOS -->
 <script type="text/javascript" src="libs/aos/dist/aos.js"></script>
 <!-- AOS Config -->
@@ -56,23 +54,20 @@
   });
   console.log("[Debug] Fancybox config loaded");
 </script>
-
+<!-- Axios script -->
+<script src="libs/axios/dist/axios.min.js"></script>
 <!-- Socket.io script -->
 <script src="libs/socket.io-client/dist/socket.io.min.js"></script>
 <!-- Socket.io setup -->
 <script>
-  const socket = io("ws://localhost:3000", {
-    transports: ['polling'],
-    cors: {
-      origin: 'http://127.0.0.1:8080',
-      methods: ['GET', 'POST'],
-    },
+  const socket = io('http://127.0.0.1:3000', {
+    transports: ['websocket']
   });
   socket.on("connect", () => {
-    console.log("[Debug] Socket.io connected ID: " + socket.id);
+    console.log("[Debug] Socket.io connected ID : " + socket.id);
   });
   socket.on("disconnect", () => {
-    console.log("[Debug] Socket.io connected ID: " + socket.id);
+    console.log("[Debug] Socket.io disconnected ID : " + socket.id);
   });
 </script>
 <!-- OwlCarousel2 script -->
@@ -93,3 +88,22 @@
 </script>
 <!-- vanilla toasts script -->
 <script src="libs/vanillatoasts/vanillatoasts.js"></script>
+
+
+
+<!-- add visitor count -->
+<script>
+  axios.get('/api/visitor-count/add')
+  .then(function(response){
+    let data = response.data;
+    if(data.status == "SUCCESS"){
+      console.log("[Debug] Added visitor count : " + data.data.count);
+    }
+    else {
+      console.log("[FAIL] Fail to add visitor count [1]");
+    }
+  })
+  .catch(function(error){
+    console.log("[FAIL] Fail to add visitor count [2]");
+  });
+</script>

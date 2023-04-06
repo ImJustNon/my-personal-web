@@ -8,11 +8,64 @@ const urlEncoded = bodyParser.urlencoded({
 });
 
 const config = require("../configs/config.js");
+const { connection } = require("../database/mysql/db.js");
+
 let certficate = require("../configs/data/certificate.js");
 let activity = require("../configs/data/activity.js");
 let projects = require("../configs/data/projects.js");
 
-
+// ================================================================== Visitor count ==================================================================
+router.get("/api/visitor-count/:option", async(req, res) =>{
+    const { option } = req.params ?? {};
+    if(!option){ 
+        return res.json({
+            status: "FAIL",
+            error: "no option specified",
+        });
+    }
+    connection.execute('SELECT count from visitor_count WHERE id=?', ['6212'], async(err, results, fields) =>{
+        if(err){
+            return res.json({
+                status: "FAIL",
+                error: "Mysql error [1]",
+            });
+        }
+        if(option === "check"){
+            return res.json({
+                status: "SUCCESS",
+                error: null,
+                data: {
+                    count: await results[0].count, 
+                }
+            });
+        }
+        else if(option === "add"){
+            let currentCount = await results[0].count;
+            let addCount = parseInt(currentCount) + 1;
+            connection.execute('UPDATE visitor_count SET count=? WHERE id=?', [String(addCount), '6212'], (err, results, fields) =>{
+                if(err){
+                    return res.json({
+                        status: "FAIL",
+                        error: "Mysql error [2]",
+                    });
+                }
+                res.json({
+                    status: "SUCCESS",
+                    error: null,
+                    data: {
+                        count: addCount,
+                    }
+                });    
+            });
+        }
+        else{
+            return res.json({
+                status: "FAIL",
+                error: "this option not available",
+            });
+        }
+    });
+});
 
 // ================================================================== Certificate ==================================================================
 router.get('/api/get/certificate', urlEncoded, async(req, res) =>{
