@@ -26,5 +26,23 @@
     MYSQL_SSL = "false"
 ```
 
+<h2>⚙ Visitor counter config ⚙</h2>
+<h3>Database</h3>
+
+- ตั้งค่า Database
+
+```asciidoc
+    table     ::     visitor_count
+
+    column1   ::     id (VARCHAR(255))
+    column2   ::     count (VARCHAR(255))
+```
+
+- ตั้งค่า Default value 
+  
+```asciidoc
+    id    ::    6212
+    count ::    1 หรือ เท่าไรก็ได้ LOL    
+```
 
 <h1>🎃  LOL  🎃</h1>

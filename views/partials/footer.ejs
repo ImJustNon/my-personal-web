@@ -81,9 +81,22 @@
     </div>
 
     <!-- Copyright -->
-    <div class="has-text-left p-3 text-lg-start" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright:
-      <a class="text-dark" href="https://github.com/ImJustNon">💕 I_NonKanakorn 💕</a>
+    <div class="p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <div class="row justify-content-around text-center">
+        <div class="col-lg">
+          © 2023 Copyright :
+          <a class="text-dark" href="https://github.com/ImJustNon"> 💕 I_NonKanakorn 💕</a>
+        </div>
+        <div class="col-lg">
+          &nbsp;
+        </div>
+        <div class="col-lg">
+          &nbsp;
+        </div>
+        <div class="col-lg text-dark">
+            ขอบคุณสำหรับ <span id="visitor-counter" class="fw-bold">0</span> การเยี่ยมชมน่ะค้าบบบ
+        </div>
+      </div>
     </div>
     <!-- Copyright -->
 </footer>
@@ -96,5 +109,33 @@
   }
   function MouseOutFooterNav(id){
     document.getElementById("footer_nav_item_" + String(id)).classList.remove("animate__headShake");
+  }
+</script>
+
+<script>
+  let counterElement = document.getElementById("visitor-counter");
+  axios.get('/api/visitor-count/check').then(response =>{
+    if(response.data.status == "SUCCESS"){
+      UpdateCounter(parseInt(response.data.data.count));
+      console.log(`[Debug] Get count data success : ${response.data.data.count}`);
+    }
+    else {
+      console.log(`[Fail] Can't get visitor count ERROR: ${response.data.error}`);
+      counterElement.innerHTML = "null"
+    }
+    
+  }).catch(err =>{
+    console.log(`[Fail] Can't get visitor count ERROR: ${err}`);
+    counterElement.innerHTML = "null";
+  });
+
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+  async function UpdateCounter(value){
+    for(let i = 1; i <= value; i++){
+      counterElement.innerHTML = i;
+      await sleep(10);
+    }
   }
 </script>
