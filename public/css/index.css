@@ -43,7 +43,7 @@ html,body{
     top: 0px;
     position: fixed;
     z-index: 2500;
-    background: #bdbdbd;
+    background-image: radial-gradient(ellipse, rgba(250, 250, 250, 1) 0%, rgba(165, 168, 172, 1) 100%);
 }
 .preloader .center{
     margin: 0;
