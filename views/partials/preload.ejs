@@ -2,7 +2,7 @@
 <div class="preloader">
     <div class="center">
         <img class="rotate" src="assets/images/my_face.jpg" alt="myFace">
-        <br>
+        <br><br>
         <h2 id="loading">⏳ โหลดแป๊บบ</h2>
     </div>
 </div>
@@ -28,8 +28,13 @@
                 loadingElement.innerHTML = "เสร็จเเล้ว 👍";
                 break;
             }
-            loadingElement.innerHTML += "◾";
-            await sleep(100);
+            loadingElement.innerHTML = "⏳ โหลดแป๊บบ";
+            for(let ii = 0; ii <= 3; ii++){
+                if(loaded) break;
+                await sleep(100);
+                loadingElement.innerHTML += "◾";
+            };
+            await sleep(10);
         }
     }
     loadingText();
