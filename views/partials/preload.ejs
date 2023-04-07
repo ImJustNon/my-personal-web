@@ -1,16 +1,37 @@
 <!-- Preload -->
 <div class="preloader">
-    <div class="lds-ripple">
-        <div class="lds-pos"></div>
-        <div class="lds-pos"></div>
+    <div class="center">
+        <img class="rotate" src="assets/images/my_face.jpg" alt="myFace">
+        <br>
+        <h2 id="loading">⏳ โหลดแป๊บบ</h2>
     </div>
 </div>
 <!-- Preload -->
 
 <!-- Preload fadeOut script -->
 <script>
+    let loaded = false
     window.onload = function () {
         $(".preloader").fadeOut(); 
+        loaded = true;
     }
+</script>
+
+<script>
+    let loadingElement = document.getElementById("loading");
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    async function loadingText(){
+        for(let i = 0; i < Infinity; i++){
+            if(loaded){
+                loadingElement.innerHTML = "เสร็จเเล้ว 👍";
+                break;
+            }
+            loadingElement.innerHTML += "◾";
+            await sleep(100);
+        }
+    }
+    loadingText();
 </script>
 <!-- Preload fadeOut script -->
