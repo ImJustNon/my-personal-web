@@ -6,6 +6,13 @@ const cors = require('cors');
 
 app.use(cors());
 
+app.get("/", (req, res) =>{
+  return res.json({
+    status: "ONLINE",
+    error: null,
+  });
+});
+
 io.on('connection', (socket) => {
   console.log('[Alert] ✅ client connected ID : ' + socket.id);
 

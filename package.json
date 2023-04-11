@@ -11,7 +11,7 @@
     "start": "node ./server.js",
     "build": "yarn install && yarn start",
     "flydeploy": "flyctl deploy",
-    "socket-server": "node ./socket.io-server/socket-io.js"
+    "socket.io-server": "node ./socket.io-server/server.js"
   },
   "dependencies": {
     "better-sqlite3": "^8.2.0",
