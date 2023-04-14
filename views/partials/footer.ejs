@@ -84,7 +84,7 @@
     <div class="p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       <div class="row justify-content-around text-center">
         <div class="col-lg">
-          © 2023 Copyright :
+          © <span id="c_year"></span> Copyright :
           <a class="text-dark" href="https://github.com/ImJustNon"> 💕 I_NonKanakorn 💕</a>
         </div>
         <div class="col-lg">
@@ -102,7 +102,7 @@
 </footer>
 
 
-
+<!-- footer nav animation -->
 <script>
   function MouseOverFooterNav(id){
     document.getElementById("footer_nav_item_" + String(id)).classList.add("animate__headShake");
@@ -112,6 +112,7 @@
   }
 </script>
 
+<!-- footer visitor counter -->
 <script>
   let counterElement = document.getElementById("visitor-counter");
   axios.get('/api/visitor-count/check').then(response =>{
@@ -138,4 +139,9 @@
       await sleep(10);
     }
   }
+</script>
+
+<!-- footer year updater -->
+<script>
+  document.getElementById("c_year").innerHTML = new Date().getFullYear();
 </script>
