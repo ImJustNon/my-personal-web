@@ -236,7 +236,24 @@ module.exports = {
     ],
     // ปวช2
     voc_cert_2: [
-
+        {
+            img: `assets/images/projects/bio_page.jpg`,
+            url: `assets/images/projects/bio_page.jpg`,
+            title: [
+                `✨ NonLnwza Bio Page`,
+            ],
+            description: [
+                `หน้าโปรไฟล์ย่อ ของผมเอง`,
+                `Vite + React`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/my-bio-page`,
+                    color: `btn-dark`,
+                },
+            ],
+        },
     ],
     // เครื่องมือที่ใช้
     tools: [
