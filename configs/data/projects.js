@@ -173,7 +173,13 @@ module.exports = {
                 `มีข้อมูลต่างๆของผมเช่น`,
                 `ประวัติส่วนตัว | เกียรติบัตร | กิจกรรมที่เข้าร่วม | โปรเจค`,
             ],
-            button: [],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/my-personal-web`,
+                    color: `btn-dark`,
+                },
+            ],
         },
         {
             img: `assets/images/projects/image-gallery.jpg`,
