@@ -139,8 +139,8 @@ module.exports = {
     //ปวช.1
     voc_cert: [
         {
-            img: `assets/images/portfolio/rover_scout.jpg`,
-            url: `assets/images/portfolio/rover_scout.jpg`,
+            img: `assets/images/portfolio/rover_scout-crop.jpg`,
+            url: `assets/images/portfolio/rover_scout-crop.jpg`,
             title: [
                 `เข้าร่วมงานชุมนุมลูกเสือ`,
                 `เนตรนารีวิสามัญอาชีวศึกษา`,
@@ -151,8 +151,8 @@ module.exports = {
             ],
         },
         {
-            img: `assets/images/portfolio/christmas_quizzes.jpg`,
-            url: `assets/images/portfolio/christmas_quizzes.jpg`,
+            img: `assets/images/portfolio/christmas_quizzes-crop.jpg`,
+            url: `assets/images/portfolio/christmas_quizzes-crop.jpg`,
             title: [
                 `เข้าร่วมการเเข่งขันตอบคำถามภาษาอังกฤษ`,
                 `หัวข้อ วันคริสต์มาส`,
@@ -163,8 +163,8 @@ module.exports = {
             ],
         },
         {
-            img: `assets/images/portfolio/robot.jpg`,
-            url: `assets/images/portfolio/robot.jpg`,
+            img: `assets/images/portfolio/robot-crop.jpg`,
+            url: `assets/images/portfolio/robot-crop.jpg`,
             title: [
                 `เข้าร่วมการอบรมการจำลองการทำงาน`,
                 `หุ่นยนต์อุตสาหกรรม`,
@@ -186,8 +186,8 @@ module.exports = {
             ],
         },
         {
-            img: `assets/images/portfolio/business_plan.jpg`,
-            url: `assets/images/portfolio/business_plan.jpg`,
+            img: `assets/images/portfolio/business_plan-crop.jpg`,
+            url: `assets/images/portfolio/business_plan-crop.jpg`,
             title: [
                 `เข้าร่วมการอบรมการเขียนแผนธุรกิจ`,
                 `การเงิน การบัญชี`,
