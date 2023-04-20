@@ -174,6 +174,28 @@ module.exports = {
                 `ชั้น : ปวช.1`,
             ],
         },
+        {
+            img: `assets/images/portfolio/kosea-crop.jpg`,
+            url: `assets/images/portfolio/kosea-crop.jpg`,
+            title: [
+                `เข้าร่วมโครงการ`,
+                `KOSEA Creative STEAM Camp`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+        },
+        {
+            img: `assets/images/portfolio/business_plan.jpg`,
+            url: `assets/images/portfolio/business_plan.jpg`,
+            title: [
+                `เข้าร่วมการอบรมการเขียนแผนธุรกิจ`,
+                `การเงิน การบัญชี`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+        },
     ],
     // ปวช2
     voc_cert_2: [
