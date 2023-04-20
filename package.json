@@ -24,6 +24,8 @@
     "http-errors": "^2.0.0",
     "morgan": "^1.10.0",
     "mysql2": "^3.2.0",
+    "netlify-cli": "^14.2.1",
+    "netlify-lambda": "^2.0.16",
     "nodemon": "^2.0.20",
     "path": "^0.12.7",
     "socket.io": "^4.6.1"

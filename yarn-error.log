@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Im_Ju\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add asdadasdsadasdasdsadsaddaasdgslegrghsfusiu
+  C:\Program Files\nodejs\node.exe C:\Users\Im_Ju\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add netlify-cli netlify-lamda
 
 PATH: 
   C:\Program Files\PowerShell\7;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ffmpeg\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\Im_Ju\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\php-8.1.11-nts-Win32-vs16-x64;C:\ProgramData\ComposerSetup\bin;C:\Users\Im_Ju\AppData\Roaming\Python\Python310\Scripts;C:\lua-5.4.2_Win64_bin;C:\nuget\bin;C:\cmder;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\15\bin;C:\Program Files\PostgreSQL\15\pgAdmin 4\bin;C:\mysql\mysql-8.0.31-winx64\bin;C:\Apache24\Apache24\bin;C:\ProgramData\chocolatey\bin;C:\tools\dart-sdk\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\PostgreSQL\13\bin;C:\ngrok;C:\Program Files\GitHub CLI\;C:\apache-cassandra-3.11.14\bin;C:\Program Files\PowerShell\7\;C:\Users\Im_Ju\scoop\shims;C:\Users\Im_Ju\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Im_Ju\AppData\Local\Programs\Python\Python310\;C:\Ruby31-x64\bin;C:\Users\Im_Ju\AppData\Local\Microsoft\WindowsApps;C:\Users\Im_Ju\AppData\Roaming\npm;C:\Users\Im_Ju\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;;C:\Users\Im_Ju\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Im_Ju\AppData\Roaming\Composer\vendor\bin;C:\Users\Im_Ju\.deno\bin;C:\tools\dart-sdk\bin;C:\Users\Im_Ju\AppData\Roaming\Pub\Cache\bin;C:\Program Files\JetBrains\WebStorm 2022.2.3\bin;;C:\Users\Im_Ju\.fly\bin
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/asdadasdsadasdasdsadsaddaasdgslegrghsfusiu: Not found
+  Error: https://registry.yarnpkg.com/netlify-lamda: Not found
       at params.callback [as _callback] (C:\Users\Im_Ju\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
       at self.callback (C:\Users\Im_Ju\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
       at Request.emit (node:events:513:28)
@@ -37,14 +37,13 @@ npm manifest:
     "license": "MIT",
     "scripts": {
       "dev": "nodemon ./server.js",
-      "start": "node ./server.js",
-      "build": "yarn install && yarn start",
-      "deploy": "flyctl deploy"
+      "start": "node ./server.js"
     },
     "dependencies": {
       "better-sqlite3": "^8.2.0",
       "body-parser": "^1.20.1",
       "chalk": "~4.1.2",
+      "cors": "^2.8.5",
       "dotenv": "^16.0.3",
       "ejs": "^3.1.8",
       "express": "^4.18.2",
@@ -317,7 +316,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
     integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
   
-  cors@~2.8.5:
+  cors@^2.8.5, cors@~2.8.5:
     version "2.8.5"
     resolved "https://registry.yarnpkg.com/cors/-/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
     integrity sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
