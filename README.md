@@ -17,13 +17,13 @@
 <h2>⚙ ENV config ⚙</h2>
 
 ```env
-    PORT = "8080"
+    PORT = 8080
 
-    MYSQL_HOST = ""
-    MYSQL_USER = ""
-    MYSQL_PASSWORD = ""
-    MYSQL_DATABASE = ""
-    MYSQL_SSL = "false"
+    MYSQL_HOST = 
+    MYSQL_USER = 
+    MYSQL_PASSWORD = 
+    MYSQL_DATABASE = 
+    MYSQL_SSL = false
 ```
 
 <h2>⚙ Visitor counter config ⚙</h2>
@@ -42,7 +42,7 @@
   
 ```asciidoc
     id    ::    6212
-    count ::    1 หรือ เท่าไรก็ได้ LOL    
+    count ::    1 หรือ 1 ล้านนนนนนนนนนนนนนนนนนนนนนนนนน! ก็ได้ LOL    
 ```
 
 <h1>🎃  LOL  🎃</h1>
