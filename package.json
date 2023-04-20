@@ -8,10 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon ./server.js",
-    "start": "node ./server.js",
-    "build": "yarn install && yarn start",
-    "flydeploy": "flyctl deploy",
-    "socket.io-server": "node ./socket.io-server/server.js"
+    "start": "node ./server.js"
   },
   "dependencies": {
     "better-sqlite3": "^8.2.0",
