@@ -131,17 +131,13 @@
 
         <section class="text-center">
             <h4 class="mb-5 animate__animated animate__fadeInDown"><i class="fa-solid fa-chart-line"></i> กิจกรรมบางส่วน <i class="fa-solid fa-chart-line"></i></h4>
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="3" data-aos="zoom-in-up" >
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/rover_scout.jpg" alt="swiper-slider-certificate" /></swiper-slide>
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/pjbl1-2-crop.jpg" alt="swiper-slider-certificate" /></swiper-slide>
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/arduino_teaching_assistant-crop.jpg" alt="swiper-slider-certificate" /></swiper-slide>
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/Picture1.jpg" alt="swiper-slider-certificate" /></swiper-slide>
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/Picture2.jpg" alt="swiper-slider-certificate" /></swiper-slide>
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/Picture3.jpg" alt="swiper-slider-certificate" /></swiper-slide>
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/Picture4.jpg" alt="swiper-slider-certificate" /></swiper-slide>
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/Picture5.jpg" alt="swiper-slider-certificate" /></swiper-slide>
-                <swiper-slide><img src="https://me.nonlnwza.xyz/assets/images/activity/Picture6.jpg" alt="swiper-slider-certificate" /></swiper-slide>
+            
+            <swiper-container pagination="true" pagination-clickable="true" space-between="30" slides-per-view="3" autoplay-delay="2500" autoplay-disable-on-interaction="false" data-aos="zoom-in-up" >
+                <% for(let i = 0; i < data.activity_slideshow.length; i++){ %>
+                    <swiper-slide><img src="<%= data.activity_slideshow[i].img %>" alt="swiper-slider-certificate-<%= i %>" /></swiper-slide>
+                <% } %>
             </swiper-container>
+        
         </section>
 
         <hr class="my-5" />
@@ -151,18 +147,21 @@
 
 <!-- Age Calculator -->
 <script>
-    let dob = new Date("<%= data.birthDate %>");
-    let month_diff = Date.now() - dob.getTime();
-    let age_dt = new Date(month_diff); 
-    let year = age_dt.getUTCFullYear();
-    let age = Math.abs(year - 1970);
-    document.getElementById("my_age").innerHTML = age;
+    (function(){
+        let dob = new Date("<%= data.birthDate %>");
+        let month_diff = Date.now() - dob.getTime();
+        let age_dt = new Date(month_diff); 
+        let year = age_dt.getUTCFullYear();
+        let age = Math.abs(year - 1970);
+        document.getElementById("my_age").innerHTML = age;
+    })();
 </script>
 
 
 <script>
     setTimeout(function(){
         let profileImageElement = document.getElementById("profile_img");
+        
         const profileImageConfig = {
             animation: [
                 {
@@ -191,6 +190,7 @@
                 }
             ],
         }
+
         let randomProfileImageAnimation = Math.floor(Math.random() * (profileImageConfig.animation.length));
 
         function sleep(ms) {
@@ -236,6 +236,7 @@
         }
         Run(randomProfileImageAnimation);
     }, 1 * 1000);
+
 </script>
 
 
