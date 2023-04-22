@@ -21,10 +21,11 @@ module.exports = {
         }
     },
     app: {
-        address: "127.0.0.1",
+        address: process.env.ADDRESS || "http://127.0.0.1",
         port: process.env.PORT || 8080,
         api: {
-            secretKey: "idontknow",
+            address: process.env.API_ADDRESS || "http://127.0.0.1:8080",
+            secretKey: process.env.API_SECRETKEY || "",
         },
     },
     birthDate: "09/04/2006", //    MM/DD/YYYY format

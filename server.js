@@ -29,7 +29,7 @@ io.on('connection', (socket) => {
 server.listen(server_port);
 
 server.on("listening", async() =>{
-    console.log(chalk.bold.cyanBright("[APP] ") + chalk.bold.whiteBright(`Localhost : http://${config.app.address}:${config.app.port}`));
+    console.log(chalk.bold.cyanBright("[APP] ") + chalk.bold.whiteBright(`Localhost : ${config.app.address}:${config.app.port}`));
     console.log(chalk.bold.cyanBright("[APP] ") + chalk.bold.whiteBright(`Listening on port : `) + chalk.bold.yellowBright(String(config.app.port)));
 });
 

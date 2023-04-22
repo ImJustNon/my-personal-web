@@ -1,3 +1,5 @@
+const config = require("../config.js");
+
 module.exports = {
     // ม3
     m3: [
@@ -19,6 +21,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/kwan_bot-crop.jpg`,
+            },
         },
         {
             img: `assets/images/projects/Music-bot-with-request-channel-bot-2.jpg`,
@@ -37,6 +42,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/Music-bot-with-request-channel-bot-2.jpg`,
+            },
         },
         {
             img: `assets/images/projects/aiko_bot-crop.jpg`,
@@ -55,6 +63,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/aiko_bot-crop.jpg`,
+            },
         },
         {
             img: `assets/images/projects/miku_bot-crop.jpg`,
@@ -78,6 +89,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/miku_bot-crop.jpg`,
+            },
         },
         {
             img: `assets/images/projects/activity_bot-crop.png`,
@@ -96,6 +110,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/activity_bot-crop.png`,
+            },
         },
     ],
 
@@ -124,6 +141,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/upload_api.jpg`,
+            },
         },
         {
             img: `assets/images/projects/useless_api-crop.png`,
@@ -144,6 +164,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/useless_api-crop.png`,
+            },
         },
         {
             img: `assets/images/projects/give_me_aungpao_web.jpg`,
@@ -162,6 +185,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/give_me_aungpao_web.jpg`,
+            },
         },
         {
             img: `assets/images/projects/my_personal_portfolio.jpg`,
@@ -180,6 +206,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/my_personal_portfolio.jpg`,
+            },
         },
         {
             img: `assets/images/projects/image-gallery.jpg`,
@@ -198,6 +227,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/image-gallery.jpg`,
+            },
         },
         {
             img: `assets/images/projects/sbtvc-dormitory-access-system-crop.png`,
@@ -221,6 +253,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/sbtvc-dormitory-access-system-crop.png`,
+            },
         },
         {
             img: `assets/images/projects/dear_debtor_v2.jpg`,
@@ -238,6 +273,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/dear_debtor_v2.jpg`,
+            },
         },
     ],
     // ปวช2
@@ -259,6 +297,9 @@ module.exports = {
                     color: `btn-dark`,
                 },
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/bio_page.jpg`,
+            },
         },
     ],
     // เครื่องมือที่ใช้
@@ -267,96 +308,153 @@ module.exports = {
             title: 'Bootstrap 5',
             img: `assets/images/projects/tools/bootstrap.svg`,
             url: `https://getbootstrap.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/bootstrap.svg`,
+            },
         },
         {
             title: 'Bulma',
             img: `assets/images/projects/tools/bulma.svg`,
             url: `https://bulma.io/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/bulma.svg`,
+            },
         },
         {
             title: 'CSS3',
             img: `assets/images/projects/tools/css3.svg`,
             url: `https://www.w3schools.com/css/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/css3.svg`,
+            },
         },
         {
             title: 'Express',
             img: `assets/images/projects/tools/express.svg`,
             url: `https://expressjs.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/express.svg`,
+            },
         },
         {
             title: 'HTML5',
             img: `assets/images/projects/tools/html5.svg`,
             url: `https://www.w3schools.com/html/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/html5.svg`,
+            },
         },
         {
             title: 'MongoDB',
             img: `assets/images/projects/tools/mongodb.svg`,
             url: `https://www.mongodb.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/mongodb.svg`,
+            },
         },
         {
             title: 'MySQL',
             img: `assets/images/projects/tools/mysql.svg`,
             url: `https://www.mysql.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/mysql.svg`,
+            },
         },
         {
             title: 'Nginx',
             img: `assets/images/projects/tools/nginx.svg`,
             url: `https://www.nginx.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/nginx.svg`,
+            },
         },
         {
             title: 'Nodejs',
             img: `assets/images/projects/tools/nodejs.svg`,
             url: `https://nodejs.org/en`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/nodejs.svg`,
+            },
         },
         {
             title: 'PostgresQL',
             img: `assets/images/projects/tools/postgresql.svg`,
             url: `https://www.postgresql.org/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/postgresql.svg`,
+            },
         },
         {
             title: 'EJS',
             img: `assets/images/projects/tools/ejs.svg`,
             url: `https://ejs.co/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/ejs.svg`,
+            },
         },
         {
             title: 'Github',
             img: `assets/images/projects/tools/github.svg`,
             url: `https://github.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/github.svg`,
+            },
         },
         {
             title: 'JSON',
             img: `assets/images/projects/tools/json.png`,
             url: `https://www.json.org/json-en.html`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/json.png`,
+            },
         },
         {
             title: 'NPM',
             img: `assets/images/projects/tools/npm.svg`,
             url: `https://www.npmjs.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/npm.svg`,
+            },
         },
         {
             title: 'SQL',
             img: `assets/images/projects/tools/sql.svg`,
             url: `https://www.w3schools.com/sql/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/sql.svg`,
+            },
         },
         {
             title: 'Visual Studio Code',
             img: `assets/images/projects/tools/vscode.svg`,
             url: `https://code.visualstudio.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/vscode.svg`,
+            },
         },
         {
             title: 'Xampp',
             img: `assets/images/projects/tools/xampp.svg`,
             url: `https://www.apachefriends.org/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/xampp.svg`,
+            },
         },
         {
             title: 'Yarn',
             img: `assets/images/projects/tools/yarn.svg`,
             url: `https://yarnpkg.com/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/yarn.svg`,
+            },
         },
         {
             title: 'JavaScript',
             img: `assets/images/projects/tools/javascript.svg`,
             url: `https://www.w3schools.com/js/`,
+            api: {
+                img: `${config.app.api.address}/assets/images/projects/tools/javascript.svg`,
+            },
         },
     ],
 }

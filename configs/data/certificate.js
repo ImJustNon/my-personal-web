@@ -1,3 +1,5 @@
+const config = require("../config.js");
+
 module.exports = {
     // ม.ต้น
     middle_School: [
@@ -11,6 +13,9 @@ module.exports = {
                 `วันที่ 31/07/64 , 01/08/64 , 07-08/08/64`,
                 `ชั้น : มัธยมศึกษาปีที่ 3`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture1.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture2.png`,
@@ -22,6 +27,9 @@ module.exports = {
                 `วันที่ 18/05/63 , 26/06/63`,
                 `ชั้น : มัธยมศึกษาปีที่ 2`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture2.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture3.png`,
@@ -34,6 +42,9 @@ module.exports = {
                 `วันที่ 13/06/64`,
                 `ชั้น : มัธยมศึกษาปีที่ 3`
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture3.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture4.png`,
@@ -47,6 +58,9 @@ module.exports = {
                 `ได้รับรางวัลระดับเหรีญทองรองชนะเลิญอันดับสอง`,
                 `ชั้น : มัธยมศึกษาปีที่ 2`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture4.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture5.png`,
@@ -58,6 +72,9 @@ module.exports = {
                 `สาขา : วิศวะคอมพิวเตอร์ และวิศวะไฟฟ้าชั้น ม.3`,
                 `ชั้น : มัธยมศึกษาปีที่ 3`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture5.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture6.png`,
@@ -70,6 +87,9 @@ module.exports = {
                 `วันที่ 29/06/63 - 30/06/63`,
                 `ชั้น : มัธยมศึกษาปีที่ 2`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture6.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture8.png`,
@@ -83,6 +103,9 @@ module.exports = {
                 `วันที่ 22/02/63`,
                 `ชั้น : มัธยมศึกษาปีที่ 2`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture8.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture9.png`,
@@ -96,6 +119,9 @@ module.exports = {
                 `วันที่ 22/02/63`,
                 `ชั้น : มัธยมศึกษาปีที่ 2`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture9.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture10.png`,
@@ -109,6 +135,9 @@ module.exports = {
             description: [
                 `ชั้น : มัธยมศึกษาปีที่ 2`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture10.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture11.png`,
@@ -122,6 +151,9 @@ module.exports = {
                 `ได้รับรางวัลระดับเหรีญทองรองชนะเลิญอันดับที่ 1`,
                 `ชั้น : มัธยมศึกษาปีที่ 2`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture11.png`,
+            },
         },
         {
             img: `assets/images/portfolio/Picture12.png`,
@@ -134,6 +166,9 @@ module.exports = {
                 `ได้รับรางวัลระดับเหรีญทองรองชนะเลิญอันดับที่ 1`,
                 `ชั้น : มัธยมศึกษาปีที่ 2`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/Picture12.png`,
+            },
         },
     ],
     //ปวช.1
@@ -149,6 +184,9 @@ module.exports = {
             description: [
                 `ชั้น : ปวช.1`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/rover_scout-crop.jpg`,
+            },
         },
         {
             img: `assets/images/portfolio/christmas_quizzes-crop.jpg`,
@@ -161,6 +199,9 @@ module.exports = {
                 `ได้รับรางวัลระดับเหรีญทองรองชนะเลิญอันดับสอง`,
                 `ชั้น : ปวช.1`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/christmas_quizzes-crop.jpg`,
+            },
         },
         {
             img: `assets/images/portfolio/robot-crop.jpg`,
@@ -173,6 +214,9 @@ module.exports = {
             description: [
                 `ชั้น : ปวช.1`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/robot-crop.jpg`,
+            },
         },
         {
             img: `assets/images/portfolio/kosea-crop.jpg`,
@@ -184,6 +228,9 @@ module.exports = {
             description: [
                 `ชั้น : ปวช.1`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/kosea-crop.jpg`,
+            },
         },
         {
             img: `assets/images/portfolio/business_plan-crop.jpg`,
@@ -195,6 +242,9 @@ module.exports = {
             description: [
                 `ชั้น : ปวช.1`,
             ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/business_plan-crop.jpg`,
+            },
         },
     ],
     // ปวช2

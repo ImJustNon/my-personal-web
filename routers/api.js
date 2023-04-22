@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
+const fs = require("fs");
+const path = require("path");
 const bodyParser = require('body-parser');
 const urlEncoded = bodyParser.urlencoded({
     limit: '50mb',
@@ -13,6 +15,8 @@ const { connection } = require("../database/mysql/db.js");
 let certficate = require("../configs/data/certificate.js");
 let activity = require("../configs/data/activity.js");
 let projects = require("../configs/data/projects.js");
+
+
 
 // ================================================================== Visitor count ==================================================================
 router.get("/api/visitor-count/:option", async(req, res) =>{

@@ -6,6 +6,7 @@
    height: 50vh;
  }
 
+ /* Banner image config */ 
  .carousel-item:nth-child(1) {
    background-image: url('../assets/images/activity/pjbl1-2.jpg');
    background-repeat: no-repeat;

@@ -33,6 +33,11 @@ html,body{
 }
 
 
+/* Navbar */
+.navbar .nav-link {
+    color: #000000 !important;
+}
+
 
 /*******************
     Preloader
