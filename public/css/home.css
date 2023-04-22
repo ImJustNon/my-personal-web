@@ -1,1 +1,23 @@
 /* Home css file */
+swiper-container {
+    width: 100%;
+    height: 100%;
+    --swiper-pagination-color: #ffffff;
+    --swiper-navigation-color: #ffffff;
+}
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
