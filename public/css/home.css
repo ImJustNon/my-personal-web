@@ -21,3 +21,7 @@ swiper-slide img {
     object-fit: cover;
     border-radius: 5px;
 }
+
+@media (max-width: 900px) {
+    
+}
