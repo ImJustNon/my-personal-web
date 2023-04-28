@@ -132,7 +132,7 @@
         <section class="text-center">
             <h4 class="mb-5 animate__animated animate__fadeInDown"><i class="fa-solid fa-chart-line"></i> กิจกรรมบางส่วน <i class="fa-solid fa-chart-line"></i></h4>
             
-            <swiper-container pagination="true" pagination-clickable="true" space-between="30" slides-per-view="3" autoplay-delay="2500" autoplay-disable-on-interaction="false" data-aos="zoom-in-up" >
+            <swiper-container role="button" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="3" autoplay-delay="2500" autoplay-disable-on-interaction="false" data-aos="zoom-in-up"  >
                 <% for(let i = 0; i < data.activity_slideshow.length; i++){ %>
                     <swiper-slide><img src="<%= data.activity_slideshow[i].img %>" alt="swiper-slider-certificate-<%= i %>" /></swiper-slide>
                 <% } %>
