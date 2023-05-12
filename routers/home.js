@@ -7,7 +7,7 @@ const urlEncoded = bodyParser.urlencoded({
 });
 
 const config = require("../configs/config.js");
-const { activity_slideshow } = require("../configs/data/home.js");
+const { activity_slideshow, introduction } = require("../configs/data/home.js");
 
 router.get('/home', urlEncoded, async(req, res) =>{
     res.render("index", {
@@ -17,6 +17,7 @@ router.get('/home', urlEncoded, async(req, res) =>{
         error: null,
         data: {
             birthDate: config.birthDate,
+            introduction: introduction,
             activity_slideshow: activity_slideshow,
         },
     });
