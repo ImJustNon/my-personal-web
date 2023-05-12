@@ -8,7 +8,7 @@
     duration: 500,
     once: false,
   });
-  console.log("[Debug] AOS config loaded");
+  console.log("[AOS] AOS config loaded");
 </script>
 <!-- <script src="js/libs/particle.js"></script> -->
 <!-- <script src="js/libs/app-particle.js"></script> -->
@@ -28,7 +28,7 @@
     'fadeDuration': 200,
     'positionFromTop': 150
   });
-  console.log("[Debug] Lightbox2 config loaded");
+  console.log("[Lightbox2] Lightbox2 config loaded");
 </script>
 <!-- Fancybox script -->
 <script src="libs/fancybox/dist/fancybox/fancybox.umd.js"></script>
@@ -52,7 +52,7 @@
       },
     },
   });
-  console.log("[Debug] Fancybox config loaded");
+  console.log("[Fancybox] Fancybox config loaded");
 </script>
 <!-- Axios script -->
 <script src="libs/axios/dist/axios.min.js"></script>
@@ -64,10 +64,10 @@
     transports: ['websocket']
   });
   socket.on("connect", () => {
-    console.log("[Debug] Socket.io connected ID : " + socket.id);
+    console.log("[Socket.io] Socket.io connected ID : " + socket.id);
   });
   socket.on("disconnect", () => {
-    console.log("[Debug] Socket.io disconnected ID : " + socket.id);
+    console.log("[Socket.io] Socket.io disconnected ID : " + socket.id);
   });
 </script>
 <!-- OwlCarousel2 script -->
@@ -77,8 +77,8 @@
 <!-- notyf setup -->
 <script>
   var notyf = new Notyf({
-    duration: 5000,
-    ripple: false,
+    duration: 2000,
+    ripple: true,
     position: {
       x: "right",
       y: "bottom",
@@ -97,17 +97,23 @@
 
 <!-- add visitor count -->
 <script>
-  axios.get('/api/visitor-count/add')
-  .then(function(response){
+  axios.get('/api/visitor-count/ad').then(function(response){
     let data = response.data;
     if(data.status == "SUCCESS"){
-      console.log("[Debug] Added visitor count : " + data.data.count);
+      console.log("[Visitor-count] Added visitor count : " + data.data.count);
     }
     else {
-      console.log("[FAIL] Fail to add visitor count [1]");
+      console.log("[Visitor-count] Fail to add visitor count");
     }
-  })
-  .catch(function(error){
-    console.log("[FAIL] Fail to add visitor count [2]");
+  }).catch(function(error){
+    console.log("[Visitor-count] Can't fetch from this url (visitor-count)");
+  });
+</script>
+
+
+<!-- DDOS detector -->
+<script>
+  axios.get('/api/DDOS/detector').catch(function(error){
+    console.log("[Detector] Can't fetch data from this url (Detector)");
   });
 </script>

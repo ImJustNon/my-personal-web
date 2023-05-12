@@ -10,6 +10,7 @@ const urlEncoded = bodyParser.urlencoded({
 });
 
 const config = require("../configs/config.js");
+const { findip } = require("../utils/findip.js");
 const { connection } = require("../database/mysql/db.js");
 
 let certficate = require("../configs/data/certificate.js");
@@ -213,6 +214,11 @@ router.get('/api/get/projects', urlEncoded, async(req, res) =>{
             data: projects.tools,
         });
     }
+});
+
+router.get("/api/DDOS/detector", async(req, res) =>{
+    const clientIp = await findip(req);
+    return res.send("<h1 style='font-size:350px;'>ขี้เกียจทำโว้ย</h1>  นี่ IP มึงอ่ะ : " + clientIp);
 });
 
 
