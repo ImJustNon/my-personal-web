@@ -126,8 +126,6 @@
             ],
         }
 
-        let randomProfileImageAnimation = Math.floor(Math.random() * (profileImageConfig.animation.length));
-
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
         }
@@ -164,7 +162,7 @@
             profileImageElement.src = selectImage;
             console.log(`[Debug] selectImage : ${selectImage}`);
         }
-        async function Run(randomNum){
+        (async function(randomNum){
             for(let i = 0; i < Infinity; i++){
                 AnimateOut(randomNum);
                 await sleep(1000);
@@ -173,8 +171,7 @@
                 AnimateIn(randomNum);
                 await sleep(2500);
             }
-        }
-        Run(randomProfileImageAnimation);
+        })(Math.floor(Math.random() * (profileImageConfig.animation.length)));
     }, 1 * 1000);
 
 </script>
