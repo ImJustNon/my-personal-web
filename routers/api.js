@@ -216,10 +216,6 @@ router.get('/api/get/projects', urlEncoded, async(req, res) =>{
     }
 });
 
-router.get("/api/DDOS/detector", async(req, res) =>{
-    const clientIp = await findip(req);
-    return res.send("<h1 style='font-size:350px;'>ขี้เกียจทำโว้ย</h1>  นี่ IP มึงอ่ะ : " + clientIp);
-});
 
 
 module.exports = router;
