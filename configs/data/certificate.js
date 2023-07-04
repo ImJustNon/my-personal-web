@@ -170,6 +170,36 @@ module.exports = {
                 img: `${config.app.api.address}/assets/images/portfolio/Picture12.png`,
             },
         },
+        {
+            img: `assets/images/portfolio/ssm_christmas.jpg`,
+            url: `assets/images/portfolio/ssm_christmas.jpg`,
+            title: [
+                `เข้าร่วมกิจกรรม วันคริสต์มาส `,
+                `ณ รร.เซนต์เเมรี่`,
+            ],
+            description: [
+                `ได้รับรางวัลระดับเหรีญทองรองชนะเลิญอันดับที่ 1`,
+                `ชั้น : มัธยมศึกษาปีที่ 1`,
+            ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/ssm_christmas.jpg`,
+            },
+        },
+        {
+            img: `assets/images/portfolio/ssm_halloween.jpg`,
+            url: `assets/images/portfolio/ssm_halloween.jpg`,
+            title: [
+                `เข้าร่วมกิจกรรม วันฮาโลวีน `,
+                `ณ รร.เซนต์เเมรี่`,
+            ],
+            description: [
+                `ได้รับรางวัลระดับเหรีญทองรองชนะเลิญอันดับที่ 1`,
+                `ชั้น : มัธยมศึกษาปีที่ 1`,
+            ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/ssm_halloween.jpg`,
+            },
+        },
     ],
     //ปวช.1
     voc_cert: [
@@ -244,6 +274,32 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/portfolio/business_plan-crop.jpg`,
+            },
+        },
+        {
+            img: `assets/images/portfolio/kmitl_expo_2023.jpg`,
+            url: `assets/images/portfolio/kmitl_expo_2023.jpg`,
+            title: [
+                `เข้าร่วมงานเปิดบ้าน KMITL 2023`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/kmitl_expo_2023.jpg`,
+            },
+        },
+        {
+            img: `assets/images/portfolio/sbtvc_english_camp.jpg`,
+            url: `assets/images/portfolio/sbtvc_english_camp.jpg`,
+            title: [
+                `เข้าร่วมงาน English Camp`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/sbtvc_english_camp.jpg`,
             },
         },
     ],

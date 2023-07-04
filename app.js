@@ -19,7 +19,7 @@ app.use(cors());
 app.use(useragent.express());
 app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'ejs');
-app.use(logger("dev"));
+app.use(logger("combined"));
 app.use(express.static(path.join(__dirname,'./public')));
 app.use(express.static(path.join(__dirname,'./node_modules')));
 app.use(express.json({
