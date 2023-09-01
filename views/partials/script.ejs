@@ -60,9 +60,7 @@
 <script src="libs/socket.io-client/dist/socket.io.min.js"></script>
 <!-- Socket.io setup -->
 <script>
-  const socket = io({
-    transports: ['websocket']
-  });
+  const socket = io();
   socket.on("connect", () => {
     console.log("[Socket.io] Socket.io connected ID : " + socket.id);
   });
