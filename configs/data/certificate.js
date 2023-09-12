@@ -302,6 +302,19 @@ module.exports = {
                 img: `${config.app.api.address}/assets/images/portfolio/sbtvc_english_camp.jpg`,
             },
         },
+        {
+            img: `assets/images/portfolio/pjbl1.jpg`,
+            url: `assets/images/portfolio/pjbl1.jpg`,
+            title: [
+                `ชนะการประกวดโปรเจค PjBL ระดับ ปวช. 1`,
+            ],
+            description: [
+                `ชั้น : ปวช.1`,
+            ],
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/sbtvc_english_camp.jpg`,
+            },
+        },
     ],
     // ปวช2
     voc_cert_2: [
