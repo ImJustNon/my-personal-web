@@ -8,19 +8,19 @@
 
  /* Banner image config */ 
  .carousel-item:nth-child(1) {
+  background-image: url('https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange_2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+ .carousel-item:nth-child(2) {
    background-image: url('../assets/images/activity/pjbl1-2.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
  }
- .carousel-item:nth-child(2) {
-   background-image: url('../assets/images/activity/rover_scout_banner.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
- }
  .carousel-item:nth-child(3) {
-   background-image: url('../assets/images/activity/Picture6.jpg');
+   background-image: url('../assets/images/activity/rover_scout_banner.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;

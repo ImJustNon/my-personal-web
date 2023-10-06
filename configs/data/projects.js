@@ -301,6 +301,111 @@ module.exports = {
                 img: `${config.app.api.address}/assets/images/projects/bio_page.jpg`,
             },
         },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/profile_page.png`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/profile_page.png`,
+            title: [
+                `✨ NonLnwza Profile Page`,
+            ],
+            description: [
+                `หน้าโปรไฟล์ย่อ Version 2 ของผมเอง`,
+                `React`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/my-bio-page`,
+                    color: `btn-dark`,
+                },
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/profile_page.png`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_main_1.png`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_main_1.png`,
+            title: [
+                `ระบบการขอเข้า-ออกหอพักออนไลน์`, 
+                `( ดูดีกว่า V.1 เเบบ 300% 👁👄👁 )`,
+            ],
+            description: [
+                `โปรเจค PJBL2 ปี 2`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/SBTVC_DAS_Frontend`,
+                    color: `btn-dark`,
+                },
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_main_1.png`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_main_2.png`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_main_2.png`,
+            title: [
+                `ระบบการขอเข้า-ออกหอพักออนไลน์`, 
+                `( หน้าส่งเเบบฟอร์มออนไลน์ )`,
+            ],
+            description: [
+                `โปรเจค PJBL2 ปี 2`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/SBTVC_DAS_Frontend`,
+                    color: `btn-dark`,
+                },
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_main_2.png`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_admin.png`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_admin.png`,
+            title: [
+                `ระบบการขอเข้า-ออกหอพักออนไลน์`, 
+                `( หน้าจัดการสำหรับผู้ดูเเล (Admin) )`,
+            ],
+            description: [
+                `โปรเจค PJBL2 ปี 2`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/SBTVC_DAS_Frontend_Admin`,
+                    color: `btn-dark`,
+                },
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl2_admin.png`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl_api.PNG`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl_api.PNG`,
+            title: [
+                `ระบบการขอเข้า-ออกหอพักออนไลน์`, 
+                `( ระบบหลังบ้าน (API) )`,
+            ],
+            description: [
+                `โปรเจค PJBL2 ปี 2`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/SBTVC_DAS_ServerSide`,
+                    color: `btn-dark`,
+                },
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl_api.PNG`,
+            },
+        },
     ],
     // เครื่องมือที่ใช้
     tools: [

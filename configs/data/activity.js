@@ -3,6 +3,16 @@ const config = require("../config.js");
 module.exports = {
     banner: [
         {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange_2.jpg`,
+            title: `ได้ทุนไปเรียนเเลกเปลี่ยนที่ Singapore`,
+            description: `ณ Institute of Technical Education (ITE) College Central`,
+            active: true,
+            position: 'top',
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange_2.jpg`,
+            },
+        },
+        {
             img: `assets/images/activity/pjbl1-2.jpg`,
             title: `ได้รับรางวัลชนะเลิศโปรเจค PJBL ระดับปี 1`,
             description: `ชั้น : ปวช.1`,
@@ -146,6 +156,20 @@ module.exports = {
     ],
     // ปวช2
     voc_cert_2: [
-        
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+            title: [
+                `โครงการนักเรียนเเลกเปลี่ยน`,
+                `THAI - SIGAPORE ไปศึกษาต่อที่`,
+                `Institute of Technical Education (ITE) College Central`
+            ],
+            description: [
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+            },
+        },
     ],
 }
