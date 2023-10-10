@@ -406,6 +406,26 @@ module.exports = {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/pjbl_api.PNG`,
             },
         },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/better_letmeknowsbtvc.png`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/better_letmeknowsbtvc.png`,
+            title: [
+                `(Better) Let ME Know SBTVC 😆`,
+            ],
+            description: [
+                `ระบบเยี่ยมชมออนไลน์ SBTVC`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/Better-Let-ME-Know-SBTVC`,
+                    color: `btn-dark`,
+                },
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/better_letmeknowsbtvc.png`,
+            },
+        },
     ],
     // เครื่องมือที่ใช้
     tools: [
