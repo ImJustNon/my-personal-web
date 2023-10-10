@@ -309,7 +309,7 @@ module.exports = {
             ],
             description: [
                 `หน้าโปรไฟล์ย่อ Version 2 ของผมเอง`,
-                `React`,
+                `React + TailwindCSS`,
             ],
             button: [
                 {
@@ -414,7 +414,7 @@ module.exports = {
             ],
             description: [
                 `ระบบเยี่ยมชมออนไลน์ SBTVC`,
-                `React`,
+                `React + TailwindCSS`,
             ],
             button: [
                 {
@@ -425,6 +425,27 @@ module.exports = {
             ],
             api: {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/better_letmeknowsbtvc.png`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/bio-v2.png`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/bio-v2.png`,
+            title: [
+                `✨ NonLnwza Bio Page V.2`,
+            ],
+            description: [
+                `Just webpage for show about my short information`,
+                `AngularJS + TailwindCSS`,
+            ],
+            button: [
+                {
+                    name: ` Github`,
+                    url: `https://github.com/ImJustNon/Better-Let-ME-Know-SBTVC`,
+                    color: `btn-dark`,
+                },
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/bio-v2.png`,
             },
         },
     ],
