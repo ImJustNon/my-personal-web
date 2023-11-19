@@ -69,6 +69,18 @@ module.exports = {
     ],
     activity_slideshow: [
         {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange_2.jpg`,
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange_2.jpg`,
+            },
+        },
+        {
             img: `assets/images/activity/rover_scout.jpg`,
             api: {
                 img: `${config.app.api.address}/assets/images/activity/rover_scout.jpg`,

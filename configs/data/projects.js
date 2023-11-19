@@ -448,6 +448,32 @@ module.exports = {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/bio-v2.png`,
             },
         },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/short_url.png`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/short_url.png`,
+            title: [
+                `WIISS (Why Is It So Short) Project`,
+            ],
+            description: [
+                `Web app for change your super longgg link to super short link :)`,
+                `React + TailwindCSS`,
+            ],
+            button: [
+                {
+                    name: ` Frontend`,
+                    url: `https://github.com/ImJustNon/shorturl_frontend`,
+                    color: `btn-dark`,
+                },
+                {
+                    name: ` Backend`,
+                    url: `https://github.com/ImJustNon/shorturl_backend`,
+                    color: `btn-dark`,
+                },
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/projects/short_url.png`,
+            },
+        },
     ],
     // เครื่องมือที่ใช้
     tools: [

@@ -318,6 +318,19 @@ module.exports = {
     ],
     // ปวช2
     voc_cert_2: [
-        
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_1.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_1.jpg`,
+            title: [
+                `รางวัลชนะเลิศ`,
+                `การประกวดผลงาน STEM ระดับ ปวช.`,
+            ],
+            description: [
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_1.jpg`,
+            },
+        },
     ],
 }
