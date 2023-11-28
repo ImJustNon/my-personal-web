@@ -324,12 +324,28 @@ module.exports = {
             title: [
                 `รางวัลชนะเลิศ`,
                 `การประกวดผลงาน STEM ระดับ ปวช.`,
+                `ระดับอาชีวศึกษาจังหวัดชลบุรี`,
             ],
             description: [
                 `ชั้น : ปวช.2`,
             ],
             api: {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_1.jpg`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_2.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_2.jpg`,
+            title: [
+                `รางวัลชนะเลิศ`,
+                `การประกวดผลงาน STEM ระดับ ปวช.`,
+                `ระดับภาค ภาคตะวันออกเเละกรุงเทพมหานคร`,
+            ],
+            description: [
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_2.jpg`,
             },
         },
     ],

@@ -165,10 +165,26 @@ module.exports = {
                 `Institute of Technical Education (ITE) College Central`
             ],
             description: [
+                `ประเทศสิงคโปร์`,
                 `ชั้น : ปวช.2`,
             ],
             api: {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
+            title: [
+                `ได้รับรางวัลชนะเลิศการประกวด STEM ศึกษา`,
+                `ระดับ ปวช. (ภาคตะวันออก)`,
+            ],
+            description: [
+                `ณ วิทยาลัยการอาชีพกบินทร์บุรี (จ.ปราจีนบุรี)`,
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
             },
         },
     ],
