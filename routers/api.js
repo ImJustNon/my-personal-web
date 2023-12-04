@@ -17,7 +17,7 @@ let certficate = require("../configs/data/certificate.js");
 let activity = require("../configs/data/activity.js");
 let projects = require("../configs/data/projects.js");
 let personalInfo = require("../configs/data/personal_info");
-
+const axios = require("axios");
 
 // ================================================================== Visitor count ==================================================================
 router.get("/api/visitor-count/:option", async(req, res) =>{
@@ -71,6 +71,7 @@ router.get("/api/visitor-count/:option", async(req, res) =>{
         }
     });
 });
+ 
 // ================================================================== Personal Information ==================================================================
 router.get('/api/get/personal-info', urlEncoded, async(req, res) =>{
     const { key, filter } = req.query ?? {};
