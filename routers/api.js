@@ -16,7 +16,7 @@ const { connection } = require("../database/mysql/db.js");
 let certficate = require("../configs/data/certificate.js");
 let activity = require("../configs/data/activity.js");
 let projects = require("../configs/data/projects.js");
-
+let personalInfo = require("../configs/data/personal_info");
 
 
 // ================================================================== Visitor count ==================================================================
@@ -71,6 +71,59 @@ router.get("/api/visitor-count/:option", async(req, res) =>{
         }
     });
 });
+// ================================================================== Personal Information ==================================================================
+router.get('/api/get/personal-info', urlEncoded, async(req, res) =>{
+    const { key, filter } = req.query ?? {};
+    if(!key){
+        return res.json({
+            status: "FAIL",
+            error: "?key not found",
+        });
+    }
+    if(key !== config.app.api.secretKey){
+        return res.json({
+            status: "FAIL",
+            error: "key invalid",
+        });
+    }
+
+    if(!filter){
+        return res.json({
+            status: "SUCCESS",
+            error: null,
+            data: personalInfo,
+        });
+    }
+    else if(filter.toLowerCase() === "myself"){
+        return res.json({
+            status: "SUCCESS",
+            error: null,
+            data: personalInfo.myself,
+        });
+    }
+    else if(filter.toLowerCase() === "dad"){
+        return res.json({
+            status: "SUCCESS",
+            error: null,
+            data: personalInfo.dad,
+        });
+    }
+    else if(filter.toLowerCase() === "mom"){
+        return res.json({
+            status: "SUCCESS",
+            error: null,
+            data: personalInfo.mom,
+        });
+    }
+    else if(filter.toLowerCase() === "school"){
+        return res.json({
+            status: "SUCCESS",
+            error: null,
+            data: personalInfo.school,
+        });
+    }
+
+}); 
 
 // ================================================================== Certificate ==================================================================
 router.get('/api/get/certificate', urlEncoded, async(req, res) =>{
