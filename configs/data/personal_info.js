@@ -235,6 +235,9 @@ module.exports = {
                 website: `https://www.ssm.ac.th/`,
             },
             aosAnimation: `fade-right`,
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/ssm.jpg`
+            },
         },
         {
             img: `assets/images/portfolio/sbtvc.jpg`,
@@ -249,6 +252,9 @@ module.exports = {
                 website: `http://sbtvc.ac.th/gcms/index.php`,
             },
             aosAnimation: `fade-left`,
+            api: {
+                img: `${config.app.api.address}/assets/images/portfolio/sbtvc.jpg`
+            },
         },
     ],
 }
