@@ -45,6 +45,7 @@ module.exports = {
     ],
     voc_cert: [
         {
+            name: "robot_design",
             img: `assets/images/activity/Picture2-crop.jpg`,
             url: `assets/images/activity/Picture2-crop.jpg`,
             title: [
@@ -59,6 +60,7 @@ module.exports = {
             },
         },
         {
+            name: "technical_quizz",
             img: `assets/images/activity/Picture3.jpg`,
             url: `assets/images/activity/Picture3.jpg`,
             title: [
@@ -73,6 +75,7 @@ module.exports = {
             },
         },
         {
+            name: "computer_maintenance_program",
             img: `assets/images/activity/Picture1.jpg`,
             url: `assets/images/activity/Picture1.jpg`,
             title: [
@@ -86,6 +89,7 @@ module.exports = {
             },
         },
         {
+            name: "business_plan",
             img: `assets/images/activity/Picture11.jpg`,
             url: `assets/images/activity/Picture11.jpg`,
             title: [
@@ -99,6 +103,7 @@ module.exports = {
             },
         },
         {
+            name: "japanese_training",
             img: `assets/images/activity/Picture9.jpg`,
             url: `assets/images/activity/Picture9.jpg`,
             title: [
@@ -112,6 +117,7 @@ module.exports = {
             },
         },
         {
+            name: "teach_arduino",
             img: `assets/images/activity/arduino_teaching_assistant-crop.jpg`,
             url: `assets/images/activity/arduino_teaching_assistant-crop.jpg`,
             title: [
@@ -126,6 +132,7 @@ module.exports = {
             },
         },
         {
+            name: "pjbl_1",
             img: `assets/images/activity/pjbl1-2-crop-crop.jpg`,
             url: `assets/images/activity/pjbl1-2-crop-crop.jpg`,
             title: [
@@ -139,6 +146,7 @@ module.exports = {
             },
         },
         {
+            name: "rover_scout",
             img: `assets/images/activity/rover_scout-crop.jpg`,
             url: `assets/images/activity/rover_scout-crop.jpg`,
             title: [
@@ -157,6 +165,7 @@ module.exports = {
     // ปวช2
     voc_cert_2: [
         {
+            name: "singapore_exchange",
             img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
             url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
             title: [
@@ -173,6 +182,7 @@ module.exports = {
             },
         },
         {
+            name: "stem_vovationalcertificate",
             img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
             url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
             title: [
