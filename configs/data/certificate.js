@@ -319,8 +319,8 @@ module.exports = {
     // ปวช2
     voc_cert_2: [
         {
-            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/kmitl_openhouse_2023_tcasfair.jpg`,
-            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/kmitl_openhouse_2023_tcasfair.jpg`,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_kmitl_openhouse_2023_tcasfair.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_kmitl_openhouse_2023_tcasfair.jpg`,
             title: [
                 `เข้าร่วมงาน KMITL OPEN HOUSE`,
                 `@TCAS-Fair 2023`,
@@ -329,12 +329,12 @@ module.exports = {
                 `ชั้น : ปวช.2`,
             ],
             api: {
-                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/kmitl_openhouse_2023_tcasfair.jpg`,
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_kmitl_openhouse_2023_tcasfair.jpg`,
             },
         },
         {
-            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/kmitl_openhouse_cprograming.jpg`,
-            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/kmitl_openhouse_cprograming.jpg`,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_kmitl_openhouse_cprograming.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_kmitl_openhouse_cprograming.jpg`,
             title: [
                 `เข้าร่วมงาน K-Engineering World Tour and Workshop 2023`,
                 `การอบรม C Programming Language`
@@ -343,12 +343,12 @@ module.exports = {
                 `ชั้น : ปวช.2`,
             ],
             api: {
-                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/kmitl_openhouse_cprograming.jpg`,
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_kmitl_openhouse_cprograming.jpg`,
             },
         },
         {
-            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/singapore_exchange_ite.jpg`,
-            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/singapore_exchange_ite.jpg`,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_singapore_exchange_ite.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_singapore_exchange_ite.jpg`,
             title: [
                 `โครงการนักเรียนเเลกเปลี่ยน`,
                 `THAI - SIGAPORE ไปศึกษาที่`,
@@ -359,12 +359,12 @@ module.exports = {
                 `ชั้น : ปวช.2`,
             ],
             api: {
-                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/singapore_exchange_ite.jpg`,
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_singapore_exchange_ite.jpg`,
             },
         },
         {
-            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/singapore_exchange_sbtvc.jpg`,
-            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/singapore_exchange_sbtvc.jpg`,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_singapore_exchange_sbtvc.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_singapore_exchange_sbtvc.jpg`,
             title: [
                 `โครงการนักเรียนเเลกเปลี่ยน`,
                 `THAI - SIGAPORE ไปศึกษาที่`,
@@ -375,12 +375,12 @@ module.exports = {
                 `ชั้น : ปวช.2`,
             ],
             api: {
-                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/singapore_exchange_sbtvc.jpg`,
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_singapore_exchange_sbtvc.jpg`,
             },
         },
         {
-            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/solidworks_practice.jpg`,
-            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/solidworks_practice.jpg`,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_solidworks_practice.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_solidworks_practice.jpg`,
             title: [
                 `เข้าร่วมกิจกรรม : การฝึกอบรมส่งเสริม`,
                 `พัฒนาสมรรถนะผู้เรียนด้านการออกเเบบ`,
@@ -391,12 +391,12 @@ module.exports = {
                 `ชั้น : ปวช.2`,
             ],
             api: {
-                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/solidworks_practice.jpg`,
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_solidworks_practice.jpg`,
             },
         },
         {
-            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_certificate_1.jpg`,
-            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_certificate_1.jpg`,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_stem_certificate_1.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_stem_certificate_1.jpg`,
             title: [
                 `รางวัลชนะเลิศ`,
                 `การประกวดผลงาน STEM ระดับ ปวช.`,
@@ -406,7 +406,7 @@ module.exports = {
                 `ชั้น : ปวช.2`,
             ],
             api: {
-                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_certificate_1.jpg`,
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/compressed_stem_certificate_1.jpg`,
             },
         },
         {
