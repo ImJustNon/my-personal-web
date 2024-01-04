@@ -45,7 +45,7 @@ module.exports = {
     ],
     voc_cert: [
         {
-            name: "robot_design",
+            id: 1,
             img: `assets/images/activity/Picture2-crop.jpg`,
             url: `assets/images/activity/Picture2-crop.jpg`,
             title: [
@@ -57,10 +57,19 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/activity/Picture2-crop.jpg`,
+                v2: {
+                    name: "robot_design",
+                    photos: [
+                        "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/Picture2-crop.jpg"
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
         {
-            name: "technical_quizz",
+            id: 2,
             img: `assets/images/activity/Picture3.jpg`,
             url: `assets/images/activity/Picture3.jpg`,
             title: [
@@ -72,10 +81,19 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/activity/Picture3.jpg`,
+                v2: {
+                    name: "technical_quizz",
+                    photos: [
+                        "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/Picture3.jpg"
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
         {
-            name: "computer_maintenance_program",
+            id: 3,
             img: `assets/images/activity/Picture1.jpg`,
             url: `assets/images/activity/Picture1.jpg`,
             title: [
@@ -86,10 +104,19 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/activity/Picture1.jpg`,
+                v2: {
+                    name: "computer_maintenance_program",
+                    photos: [
+                        "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/Picture1.jpg"
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
         {
-            name: "business_plan",
+            id: 4,
             img: `assets/images/activity/Picture11.jpg`,
             url: `assets/images/activity/Picture11.jpg`,
             title: [
@@ -100,10 +127,19 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/activity/Picture11.jpg`,
+                v2: {
+                    name: "business_plan",
+                    photos: [
+                        "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/Picture11.jpg"
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
         {
-            name: "japanese_training",
+            id: 5,
             img: `assets/images/activity/Picture9.jpg`,
             url: `assets/images/activity/Picture9.jpg`,
             title: [
@@ -114,10 +150,19 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/activity/Picture9.jpg`,
+                v2: {
+                    name: "japanese_training",
+                    photos: [
+                        "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/Picture9.jpg"
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
         {
-            name: "teach_arduino",
+            id: 6,
             img: `assets/images/activity/arduino_teaching_assistant-crop.jpg`,
             url: `assets/images/activity/arduino_teaching_assistant-crop.jpg`,
             title: [
@@ -129,10 +174,19 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/activity/arduino_teaching_assistant-crop.jpg`,
+                v2: {
+                    name: "teach_arduino",
+                    photos: [
+                        "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/arduino_teaching_assistant-crop.jpg"
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
         {
-            name: "pjbl_1",
+            id: 7,
             img: `assets/images/activity/pjbl1-2-crop-crop.jpg`,
             url: `assets/images/activity/pjbl1-2-crop-crop.jpg`,
             title: [
@@ -143,10 +197,19 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/activity/pjbl1-2-crop-crop.jpg`,
+                v2: {
+                    name: "pjbl_1",
+                    photos: [
+                        "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/pjbl1-2-crop-crop.jpg",
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
         {
-            name: "rover_scout",
+            id: 8,
             img: `assets/images/activity/rover_scout-crop.jpg`,
             url: `assets/images/activity/rover_scout-crop.jpg`,
             title: [
@@ -159,13 +222,22 @@ module.exports = {
             ],
             api: {
                 img: `${config.app.api.address}/assets/images/activity/rover_scout-crop.jpg`,
+                v2: {
+                    name: "rover_scout",
+                    photos: [
+                        "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/rover_scout-crop.jpg",
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
     ],
     // ปวช2
     voc_cert_2: [
         {
-            name: "singapore_exchange",
+            id: 9,
             img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
             url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
             title: [
@@ -179,10 +251,19 @@ module.exports = {
             ],
             api: {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+                v2: {
+                    name: "singapore_exchange",
+                    photos: [
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
         {
-            name: "stem_vovationalcertificate",
+            id: 10,
             img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
             url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
             title: [
@@ -195,6 +276,15 @@ module.exports = {
             ],
             api: {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
+                v2: {
+                    name: "stem_vovationalcertificate",
+                    photos: [
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
+                    ],
+                    details: [
+                        
+                    ],
+                }
             },
         },
     ],

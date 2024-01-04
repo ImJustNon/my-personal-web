@@ -217,7 +217,7 @@ router.get('/api/get/activity', urlEncoded, async(req, res) =>{
 
 // ================================================================== Activity Details ==================================================================
 
-router.get('/api/get/activity/details', urlEncoded, async(req, res) =>{
+router.get('/api/v2/get/activity/details', urlEncoded, async(req, res) =>{
     const { key, query } = req.query ?? {};
 
     if(!key){
@@ -242,7 +242,7 @@ router.get('/api/get/activity/details', urlEncoded, async(req, res) =>{
     }
 
     const concatedActivitesArray = [].concat(activity.voc_cert, activity.voc_cert_2);
-    const filteredData = concatedActivitesArray.filter(d => d.name === query);
+    const filteredData = concatedActivitesArray.filter(d => d.api.v2.name === query);
     
     return res.json({
         status: "SUCCESS",
