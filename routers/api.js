@@ -215,6 +215,42 @@ router.get('/api/get/activity', urlEncoded, async(req, res) =>{
     }
 });
 
+// ================================================================== Activity Details ==================================================================
+
+router.get('/api/get/activity/details', urlEncoded, async(req, res) =>{
+    const { key, query } = req.query ?? {};
+
+    if(!key){
+        return res.json({
+            status: "FAIL",
+            error: "?key not found",
+        });
+    }
+
+    if(key !== config.app.api.secretKey){
+        return res.json({
+            status: "FAIL",
+            error: "key invalid",
+        });
+    }
+
+    if(!query){
+        return res.json({
+            status: "FAIL",
+            error: `Cannot find the query in uri`,
+        });
+    }
+
+    const concatedActivitesArray = [].concat(activity.voc_cert, activity.voc_cert_2);
+    const filteredData = concatedActivitesArray.filter(d => d.name === query);
+    
+    return res.json({
+        status: "SUCCESS",
+        error: null,
+        data: filteredData,
+    });
+});
+
 // ================================================================== Project ==================================================================
 router.get('/api/get/projects', urlEncoded, async(req, res) =>{
     const { key, filter } = req.query ?? {};
