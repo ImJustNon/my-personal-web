@@ -312,7 +312,7 @@ module.exports = {
                 `ชั้น : ปวช.1`,
             ],
             api: {
-                img: `${config.app.api.address}/assets/images/portfolio/sbtvc_english_camp.jpg`,
+                img: `${config.app.api.address}/assets/images/portfolio/pjbl1.jpg`,
             },
         },
     ],
