@@ -439,5 +439,20 @@ module.exports = {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_2.jpg`,
             },
         },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_certificate_3.png`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_certificate_3.png`,
+            title: [
+                `รางวัลชนะเลิศ`,
+                `การประกวดผลงาน STEM ระดับ ปวช.`,
+                `ระดับชาติ ประจำปี 2566`,
+            ],
+            description: [
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_certificate_3.png`,
+            },
+        },
     ],
 }
