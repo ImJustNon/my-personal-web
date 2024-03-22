@@ -287,5 +287,55 @@ module.exports = {
                 }
             },
         },
+        {
+            id: 11,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_na.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_na.jpg`,
+            title: [
+                `ได้รับรางวัลชนะเลิศการประกวด STEM ศึกษา`,
+                `ระดับ ปวช. (ชาติ)`,
+            ],
+            description: [
+                `ณ วิทยาลัยเทคนิคสุพรรณบุรี (จ.สุพรรณบุรี)`,
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_na.jpg`,
+                v2: {
+                    name: "stem_vovationalcertificate_na",
+                    photos: [
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_na.jpg`,
+                    ],
+                    details: [
+                        
+                    ],
+                }
+            },
+        },
+        {
+            id: 11,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/hackathon.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/hackathon.jpg`,
+            title: [
+                `ได้เข้าร่วมการเเข่งขัน AIOT Hackathon 2024`,
+                `ระดับ ปวช.`,
+            ],
+            description: [
+                `ณ สำนักงานใหญ่ EECi (จ.ระยอง)`,
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/hackathon.jpg`,
+                v2: {
+                    name: "hackathon",
+                    photos: [
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/hackathon.jpg`,
+                    ],
+                    details: [
+                        
+                    ],
+                }
+            },
+        },
     ],
 }
