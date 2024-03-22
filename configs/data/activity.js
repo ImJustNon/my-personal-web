@@ -279,10 +279,37 @@ module.exports = {
                 v2: {
                     name: "stem_vovationalcertificate",
                     photos: [
-                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_2.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/14322_0.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/14346_0.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/14347_0.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/14354_0.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/405254647_383430214038955_4119664207799629315_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/405257803_383430127372297_2219115841501877930_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/405257884_383431694038807_2134391742801538844_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/405458237_383430260705617_7540019078915211206_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/405475903_383431730705470_1827349674469712764_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/405478387_383431557372154_1518142345647477613_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/406401373_383431747372135_4020823004484537635_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/S__26927146_0.jpg`,
                     ],
                     details: [
-                        
+                        `รางวัล ชนะเลิศ มาตรฐานเหรียญทอง
+                        การประกวดผลงานสะเต็มศึกษา 
+                        (STEM Education)
+                        ระดับภาค ภาคตะวันออกและกรุงเทพมหานคร การแข่งขันทักษะวิชาชีพ และทักษะพื้นฐาน งานประชุมวิชาการองค์การนักวิชาชีพในอนาคตแห่งประเทศไทย ปีการศึกษา 2566 ในวันที่ 27-28 พฤศจิกายน 2566`,
+                        `สมาชิกทีม`,
+                        `1.นายคณกร ไทยประโคน, 
+                        2.นายก้องภพ มีเจริญ, 
+                        3.นางสาวพรนภัส มานะบุตร, 
+                        4.นางสาวประภาภรณ์ ภูผาลี, 
+                        5.นายพุฒิกร พัสดุสาร`,
+                        `ครูผู้ควบคุมทีม`,
+                        `1.นายกิตติธร หนูวงศ์ 
+                        2.นางสาวชัชฎาภรณ์ คงงาม 
+                        3.นางสาวจุฑามาศ แสงทอง 
+                        4.นายจักรกริช แก้ววิจิตร 
+                        5.นางชาลิณี ตางาม`
                     ],
                 }
             },
@@ -319,19 +346,15 @@ module.exports = {
                         `รางวัล ชนะเลิศ มาตรฐานเหรียญทอง
                         การประกวดผลงานสะเต็มศึกษา 
                         (STEM Education)
-                        ระดับภาค ภาคตะวันออกและกรุงเทพมหานคร การแข่งขันทักษะวิชาชีพ และทักษะพื้นฐาน งานประชุมวิชาการองค์การนักวิชาชีพในอนาคตแห่งประเทศไทย ปีการศึกษา 2566 ในวันที่ 27-28 พฤศจิกายน 2566`,
+                        งานประชุมวิชาการองค์การนักวิชาชีพในอนาคตแห่งประเทศไทย (อวท.) การแข่งขันทักษะวิชาชีพ และทักษะพื้นฐาน ระดับชาติ ประจำปีการศึกษา 2566 วันที่ 5-9 กุมภาพันธ์ 2567 ณ วิทยาลัยเทคนิคสุพรรณบุรี`,
                         `สมาชิกทีม`,
-                        `1. นายคณกร ไทยประโคน, 
-                        2. นายก้องภพ มีเจริญ, 
-                        3. นางสาวพรนภัส มานะบุตร, 
-                        4. นางสาวประภาภรณ์ ภูผาลี,
-                        5. นายพุฒิกร พัสดุสาร`,
+                        `1.นายคณกร ไทยประโคน, 
+                        2.นายก้องภพ มีเจริญ, 
+                        3.นางสาวพรนภัส มานะบุตร, 
+                        4.นางสาวประภาภรณ์ ภูผาลี,
+                        5.นายพุฒิกร พัสดุสาร`,
                         `ครูผู้ควบคุมทีม`,
-                        `นายกิตติธร  หนูวงศ์
-                        นางสาวชัชฎาภรณ์  คงงาม
-                        นางสาวจุฑามาศ แสงทอง
-                        นายจักรกริช แก้ววิจิตร
-                        นางชาลิณี  ตางาม`
+                        `1.นายกิตติธร หนูวงศ์`
                     ],
                 }
             },
