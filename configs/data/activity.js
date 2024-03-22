@@ -304,10 +304,34 @@ module.exports = {
                 v2: {
                     name: "stem_vovationalcertificate_na",
                     photos: [
-                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_na.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/1707291998641.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/1709135456424.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/1709135456424.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/1709135492850.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/1709135504841.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/1709135507173.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/20240207_082602.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/20240209_113025.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/20240209_113144.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_nation/20240209_113916.jpg`,
                     ],
                     details: [
-                        
+                        `รางวัล ชนะเลิศ มาตรฐานเหรียญทอง
+                        การประกวดผลงานสะเต็มศึกษา 
+                        (STEM Education)
+                        ระดับภาค ภาคตะวันออกและกรุงเทพมหานคร การแข่งขันทักษะวิชาชีพ และทักษะพื้นฐาน งานประชุมวิชาการองค์การนักวิชาชีพในอนาคตแห่งประเทศไทย ปีการศึกษา 2566 ในวันที่ 27-28 พฤศจิกายน 2566`,
+                        `สมาชิกทีม`,
+                        `1. นายคณกร ไทยประโคน, 
+                        2. นายก้องภพ มีเจริญ, 
+                        3. นางสาวพรนภัส มานะบุตร, 
+                        4. นางสาวประภาภรณ์ ภูผาลี,
+                        5. นายพุฒิกร พัสดุสาร`,
+                        `ครูผู้ควบคุมทีม`,
+                        `นายกิตติธร  หนูวงศ์
+                        นางสาวชัชฎาภรณ์  คงงาม
+                        นางสาวจุฑามาศ แสงทอง
+                        นายจักรกริช แก้ววิจิตร
+                        นางชาลิณี  ตางาม`
                     ],
                 }
             },
