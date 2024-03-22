@@ -329,7 +329,17 @@ module.exports = {
                 v2: {
                     name: "hackathon",
                     photos: [
-                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/hackathon.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/429868561_804068758424620_8261061531529023421_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431645538_804774461687383_3050808675876870326_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431649000_804772961687533_3875841074115045521_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431649153_805895021575327_7058158888392083072_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431757385_804774385020724_3255356042682989772_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431765782_804811211683708_5557906759452288583_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431780236_805896154908547_4959247194625144590_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431799396_805894598242036_1672384840459424221_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431805836_805893194908843_1578762928623427596_n.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/1710324116358.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/1710324139078.jpg`,
                     ],
                     details: [
                         
