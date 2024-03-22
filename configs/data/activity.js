@@ -279,7 +279,6 @@ module.exports = {
                 v2: {
                     name: "stem_vovationalcertificate",
                     photos: [
-                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_eastern/stem_2.jpg`,
                         `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_eastern/14322_0.jpg`,
                         `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_eastern/14346_0.jpg`,
                         `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/stem_eastern/14347_0.jpg`,
