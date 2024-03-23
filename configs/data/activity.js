@@ -242,7 +242,7 @@ module.exports = {
             url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
             title: [
                 `โครงการนักเรียนเเลกเปลี่ยน`,
-                `THAI - SIGAPORE ไปศึกษาต่อที่`,
+                `THAI - SIGAPORE ไปศึกษาที่`,
                 `Institute of Technical Education (ITE) College Central`
             ],
             description: [
@@ -254,7 +254,31 @@ module.exports = {
                 v2: {
                     name: "singapore_exchange",
                     photos: [
-                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230917_163407.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/1696071026813.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/1695553370431.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/1695540259545.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/1695476263487.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/1695476259794.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/1695372525165.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/1695109699001.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/1695109691963.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230930_112118.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230930_112117.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230930_102226.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230930_084031.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230928_183757.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230928_122859.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230925_122656.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230924_152627.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230924_152603.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230923_175712.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230923_154323.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230923_151133.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230923_141113.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230923_140426.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230919_141024.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230917_184705.jpg`,
                     ],
                     details: [
                         
