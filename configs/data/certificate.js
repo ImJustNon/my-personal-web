@@ -463,7 +463,7 @@ module.exports = {
             ],
             description: [
                 `Theme : Industrial AIoT Applications for Competitive & Smart Manufacturing`,
-                `ณ ศูนย์เทคโนโลยีอิเล็กทรอนิกส์เเละคอมพิวเตอร์เเห่งชาติ`
+                `ณ ศูนย์เทคโนโลยีอิเล็กทรอนิกส์เเละคอมพิวเตอร์เเห่งชาติ`,
                 `ชั้น : ปวช.2`,
             ],
             api: {
