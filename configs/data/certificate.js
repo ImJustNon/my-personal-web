@@ -454,5 +454,21 @@ module.exports = {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/stem_certificate_3.png`,
             },
         },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/hackathon_cer.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/hackathon_cer.jpg`,
+            title: [
+                `รางวัลเข้าร่วม`,
+                `การเเข่งขัน IoT HACKATHON 2024 สำหรับสถาบันอาชีวศึกษา`,
+            ],
+            description: [
+                `Theme : Industrial AIoT Applications for Competitive & Smart Manufacturing`,
+                `ณ ศูนย์เทคโนโลยีอิเล็กทรอนิกส์เเละคอมพิวเตอร์เเห่งชาติ`
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/hackathon_cer.jpg`,
+            },
+        },
     ],
 }
