@@ -43,6 +43,26 @@ module.exports = {
             },
         }
     ],
+    banners_v2: [
+        {
+            img: "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_3.jpg",
+        },
+        {
+            img: "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/thai-singapore_exchange.jpg",
+        },
+        {
+            img: "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/stem_2.jpg",
+        },
+        {
+            img: "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431805836_805893194908843_1578762928623427596_n.jpg",
+        },
+        {
+            img: "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/hackathon/431780236_805896154908547_4959247194625144590_n.jpg",
+        },
+        {
+            img: "https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/singapore_intership/20230928_183757.jpg",
+        },
+    ],
     voc_cert: [
         {
             id: 1,
