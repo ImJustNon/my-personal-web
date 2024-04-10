@@ -470,5 +470,43 @@ module.exports = {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/hackathon_cer.jpg`,
             },
         },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/optimized_jelly_certificate.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/optimized_jelly_certificate.jpg`,
+            title: [
+                `รางวัลชมเชย ระดับเหรียญเงิน`,
+                `การประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่`,
+                ` ระดับอาชีวศึกษาจังหวัดชลบุรี ประจำปีการศึกษา 2566`,
+                `สิ่งประดิษฐ์ด้านนวัตกรรมและเทคโนโลยีอาหาร`,
+            ],
+            description: [
+                `การพัฒนาผลิตภัณฑ์กัมมี่เยลลี่ฝรั่งเสริมพรีไบโอติก`,
+                `วันที่ 15 ธันวาคม พ.ศ. 2566`,
+                `ณ วิทยาลัยเทคนิคสัตหีบ จังหวัดชลบุรี`,
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/optimized_jelly_certificate.jpg`,
+            },
+        },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/optimized_invention_certificate.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/optimized_invention_certificate.jpg`,
+            title: [
+                `รางวัลชมเชย`,
+                `การประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่`,
+                `ระดับอาชีวศึกษาจังหวัดชลบุรี ประจำปีการศึกษา 2566`,
+                `สิ่งประดิษฐ์ด้านนวัตกรรมและเทคโนโลยีดิจิทัลปัญญาประดิษฐ์`,
+            ],
+            description: [
+                `ระบบการเข้า-ออกหอพัก ของนักศึกษาวิทยาลัยอาชีวศึกษาเทคโนโลยีฐานวิทยาศาสตร์(ชลบุรี)`,
+                `วันที่ 15 ธันวาคม พ.ศ. 2566`,
+                `ณ วิทยาลัยเทคนิคสัตหีบ จังหวัดชลบุรี`,
+                `ชั้น : ปวช.2`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/optimized_invention_certificate.jpg`,
+            },
+        },
     ],
 }
