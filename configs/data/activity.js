@@ -403,11 +403,11 @@ module.exports = {
             },
         },
         {
-            id: 11,
+            id: 12,
             img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/hackathon.jpg`,
             url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/activities/hackathon.jpg`,
             title: [
-                `ได้เข้าร่วมการเเข่งขัน AIOT Hackathon 2024`,
+                `ได้เข้าร่วมการเเข่งขัน AIoT Hackathon 2024`,
                 `ระดับ ปวช.`,
             ],
             description: [
@@ -434,6 +434,35 @@ module.exports = {
                     details: [
                         `เนคเทค สวทช. ภายใต้งบประมาณที่ได้รับการสนับสนุนจากเขตนวัตกรรมระเบียงเศรษฐกิจพิเศษภาคตะวันออก (EECi) ในโครงการพัฒนาทักษะด้าน Industrial IoT แบบเข้มข้นสำหรับบุคลากรระดับอาชีวศึกษา จัดการแข่งขัน IoT Hackathon 2024 ซึ่งในปีนี้จัดขึ้นเป็นปีที่ 4 ในโจทย์ Industrial AIoT Applications for Competitive & Smart Manufacturing ระหว่างวันที่ 11 – 13 มีนาคม 2567 ณ เขตนวัตกรรมระเบียงเศรษฐกิจพิเศษภาคตะวันออก (EECi) วังจันทร์วัลเลย์ จ.ระยอง `,
                         `นายปิยวัฒน์ จอมสถาน หัวหน้าโครงการฯจากทีมระบบไซเบอร์– กายภาพ (CPS) กล่าวว่า เมื่อจบการอบรมทุกหลักสูตรแล้ว ทางโครงการฯ ได้จัดให้มีการแข่งขัน IoT HACKATHON 2024 โดยมีนักศึกษา 41 คน และอาจารย์ 8 คน เข้าร่วมทั้งสิ้น 49 คน จาก 6 วิทยาลัยต้นแบบข้างต้นเข้าร่วม เพื่อให้ผู้อบรมเตรียมความพร้อมสำหรับการฝึกปฏิบัติงาน และได้นำความรู้ที่ได้รับจากการอบรมมาประยุกต์ใช้ในการแข่งขัน ทั้งยังได้นำ Soft Skill มาใช้ในการทำงานร่วมกับผู้อื่น และการนำเสนอผลงาน ผู้เข้าร่วมกิจกรรมจะสามารถนำประสบการณ์ที่ได้รับไปปรับใช้ได้ในการเข้าฝึกปฏิบัติงานได้ ซึ่งผู้เข้าร่วมจะได้ทำการแข่งขันโดยมีโจทย์ OEE, Production Monitoring, Power Management, Maintenance, Warehouse Management, Quality Control, การคำนวณหาค่า ERP, การบำรุงรักษา Motor, การทำระบบ ANDON และการทำ Monitoring Room ครั้งนี้มีการเพิ่มโจทย์เกี่ยวกับ Industrial Edge & AI เข้ามาโดยจะมีการใช้งาน Daysie Platform ผู้เข้าแข่งขันต้องจัดการและวิเคราะห์ชุดข้อมูลของโรงงานจริง และนำมาสร้าง Dashboard และ Analytics Report เพื่อนำเสนอแก่คณะกรรมการผู้ทรงคุณวุฒิ`
+                    ],
+                }
+            },
+        },
+        {
+            id: 13,
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/1.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/1.jpg`,
+            title: [
+                `เข้าฝึกงานในบริษัท เอยูเอ็ม เรียลเอสเตท`
+            ],
+            description: [
+                `ทำตำเเหน่ง ผู้ดูเเลเพจบริษัท`
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/1.jpg`,
+                v2: {
+                    name: "intern",
+                    photos: [
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/1.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/2.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/3.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/4.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/5.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/6.jpg`,
+                        `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/raw/intern/7.jpg`,
+                    ],
+                    details: [
+                        `undefined`
                     ],
                 }
             },

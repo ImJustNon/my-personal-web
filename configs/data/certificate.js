@@ -508,5 +508,19 @@ module.exports = {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/optimized_invention_certificate.jpg`,
             },
         },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/intern_cer.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/intern_cer.jpg`,
+            title: [
+                `หนังสือรับรอง การฝึกงาน/ฝึกประสบการณ์วิชาชีพ`,
+            ],
+            description: [
+                `บริษัท เอยูเอ็ม เรียลเอสเตท จำกัด`,
+                `ทำตำเเหน่ง ผู้ดูเเลเพจบริษัท`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/intern_cer.jpg`,
+            },
+        },
     ],
 }
