@@ -522,5 +522,33 @@ module.exports = {
                 img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/intern_cer.jpg`,
             },
         },
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/english_test_2024.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/english_test_2024.jpg`,
+            title: [
+                `ทดสอบวัดระดับภาษาอังกฤษอยู่ที่ระดับ B1`,
+            ],
+            description: [
+                `ได้เข้าวัดระดับทักษะภาษาอังกฤษของบริษัท Edusoft ซึ่งเป็นบริษัทย่อยของ ETS ที่เป็นบริษัทผู้สร้าง TOELF เเละ TOEIC นั่นเอง`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/english_test_2024.jpg`,
+            },
+        },
     ],
+    voc_cert_3: [
+        {
+            img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/english_test_2024.jpg`,
+            url: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/english_test_2024.jpg`,
+            title: [
+                `ทดสอบวัดระดับภาษาอังกฤษอยู่ที่ระดับ B1`,
+            ],
+            description: [
+                `ได้เข้าวัดระดับทักษะภาษาอังกฤษของบริษัท Edusoft ซึ่งเป็นบริษัทย่อยของ ETS ที่เป็นบริษัทผู้สร้าง TOELF เเละ TOEIC นั่นเอง`,
+            ],
+            api: {
+                img: `https://raw.githubusercontent.com/ImJustNon/portfolio_assets/main/assets/images/certificates/english_test_2024.jpg`,
+            },
+        },
+    ]
 }
